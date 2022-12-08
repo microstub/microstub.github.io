@@ -1,0 +1,52 @@
+
+# The Lunar Journal.
+# Written by Dylan Müller, Copyright 2023.
+
+name: Lunar Journal
+
+description: >-
+        Welcome to the home of the Lunar Journal!<br><br>
+        Journal publications cover various areas in software
+        and electronics engineering with a focus on radio frequency
+        circuit design and reverse engineering.
+    
+bio: Technical journal for engineers, hobbyists and makers hosted by <a class="header-link" href="https://lunar.sh">Lunar RF Labs</a>.
+github_raw: https://raw.githubusercontent.com/lunarjournal/lunarjournal.github.io/main
+
+avatar: /images/logo_space.jpg
+
+links:
+  email: root@lunar.sh
+  github: lunarjournal
+  twitter: dmuller
+  youtube: lunarjournal
+  linkedin: lunarjournal
+  linktree: lunarjournal
+
+url: https://journal.lunar.sh
+baseurl: ""
+
+permalink: /:year/:title.html
+version: v1.2.0
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jemoji
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

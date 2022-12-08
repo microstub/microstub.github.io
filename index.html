@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- The Lunar Journal -->
+<!-- Written by Dylan Müller, Copyright 2023 -->
+
+<div id="main" role="main" class="index">
+
+<div class="posts">
+  {% for post in site.posts %}
+  <article class="post">
+    <header>
+      <div><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span>
+      <div class="excerpt">{{ post.excerpt }}</div>
+    </header>
+  </article>
+  {% endfor %}
+  <hr>
+  <p class="muted">
+      Questions, comments? Please send a plain-text email to <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
+      with a descriptive subject line and we will try get back to you!
+  </p>
+  <div class="revision">
+      SHA-1: <a href="{{ site.github.repository_url }}/tree/{{ site.github.build_revision }}">
+      {{ site.github.build_revision }}
+      </a>
+  </div>
+</div>
+
+<div class="aside-container">
+  <aside>
+    <img src="{{ site.avatar }}">
+    <dl class="text-info">
+      <dt>email</dt>
+      <dd><a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></dd>
+      <dt>youtube</dt>
+      <dd><a href="https://youtube.com/@{{ site.links.youtube }}">@{{ site.links.youtube }}</a></dd>
+      <dt>github</dt>
+      <dd><a href="https://github.com/{{ site.links.github }}">{{ site.links.github }}</a></dd>
+      <dt>linktr.ee</dt>
+      <dd><a href="https://linktr.ee/{{ site.links.linktree }}">{{ site.links.linktree }}</a></dd>
+    </dl>
+    <small class="text-summary">
+      {{ site.description }}
+    </small>
+  </aside>
+</div>
+<h1 class="title">Publications</h1>
+</div>

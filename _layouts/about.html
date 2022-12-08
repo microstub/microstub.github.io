@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<!-- The Lunar Journal -->
+<!-- Written by Dylan Müller, Copyright 2023 -->
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<div id="main" role="main" class="main">
+  <article class="post">
+    <h1 class="title">{{ page.title }}</h1>
+    <div class="entry">
+      {{ content }}
+    </div>
+  </article>
+
+  <hr>
+  <p class="muted">
+    Questions, comments? Please send a plain-text email to <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
+    with a descriptive subject line and we will try get back to you!
+  </p>
+  <div class="reference">
+    Source: <a href="{{ site.github_raw }}/{{ page.path }}">{{ page.path | split: '/' | last}}</a>
+  </div>
+</div>

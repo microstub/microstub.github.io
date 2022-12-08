@@ -1,0 +1,14 @@
+$dark: #0a0b10;
+$black: #000;
+$white: #fff;
+$grey: #f4f4f4;
+$highlight: #e3e6e8;
+
+$serif: sans-serif;
+$inter: Inter;
+
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
