@@ -229,6 +229,7 @@ aside {
   padding: 0px;
   border: 1px solid;
   border-radius: 3px;
+  background: $grey;
   @include mobile {
     padding: 5px;
     display: block;
@@ -532,6 +533,7 @@ table tr td :last-child {
 .contents {
   border: 1px solid;
   border-radius: 3px;
+  background: $grey;
 }
 
 @import "highlights";
