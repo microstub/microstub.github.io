@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  background: #f9f9f9;
+  background: $white;
   font: 15.5px $inter;
   line-height: 1.4;
   color: $black;
@@ -226,7 +226,7 @@ aside {
   align-items: center;
   padding: 0px;
   border: 1px solid;
-  background: $white;
+  background: $grey;
   @include mobile {
     padding: 5px;
     display: block;
