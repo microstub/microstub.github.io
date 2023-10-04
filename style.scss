@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  background: $white;
+  background: #fafafa;
   font: 15.5px $inter;
   line-height: 1.4;
   color: $black;
@@ -229,7 +229,7 @@ aside {
   padding: 0px;
   border: 1px solid;
   border-radius: 3px;
-  background: $grey;
+  background: $white;
   @include mobile {
     padding: 5px;
     display: block;
@@ -533,7 +533,7 @@ table tr td :last-child {
 .contents {
   border: 1px solid;
   border-radius: 3px;
-  background: $grey;
+  background: $white;
 }
 
 @import "highlights";
