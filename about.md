@@ -53,7 +53,7 @@ design of high power radio frequency modules for use in embedded
 systems. It is my attempt at commercialising some of my work in the
 RF domain.
 
-> High power radio modules for embedded systems. <br>
+> High power RF modules for embedded applications. <br>
 [lunar.sh](https://lunar.sh)
 
 # Lab Update
