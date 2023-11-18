@@ -49,7 +49,7 @@ SAQA ID: 66518
 # Lunar RF Labs
 
 `Lunar RF Labs` is a small company I started that specialises in the
-design of high power radio frequency modules for use in embedded
+design of high power radio frequency modems for use in embedded
 systems. It is my attempt at commercialising some of my work in the
 RF domain.
 
