@@ -107,6 +107,10 @@ p {
   line-height: 1.4;
 }
 
+p:has(img) {
+    text-align: center;
+}
+
 a {
   color: $black;
   text-decoration-line: underline;
