@@ -5,12 +5,9 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/lunarjournal
 ---
 
-<div class="brief" markdown="1">
-By default, following the linking stage, GCC generates ELF binaries that contain
-redundant section data that increase executable size.
-</div>
+> By default, following the linking stage, GCC generates ELF binaries that contain
+> redundant section data that increase executable size.
 
-<div class="contents" markdown="1">
 1. [ELF Binaries](#elf-binaries)
 2. [Size Optimisation](#size-optimisation)
 3. [Linux Syscalls](#linux-syscalls)
@@ -18,7 +15,6 @@ redundant section data that increase executable size.
 5. [GCC flags](#gcc-flags)
 6. [SSTRIP](#sstrip)
 7. [Source Code](#source-code)
-</div>
 
 # ELF Binaries
 
