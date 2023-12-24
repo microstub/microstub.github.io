@@ -5,19 +5,15 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/lunarjournal
 ---
 
-<div class="brief" markdown="1">
-Cape Town is no stranger to me. I have lived in various parts of the city for
-over 6 years now.
-[Century City](https://centurycity.co.za/)
-is definately at the top of my list when it comes to quality of life and general
-convenience.
-</div>
+> Cape Town is no stranger to me. I have lived in various parts of the city for
+> over 6 years now.
+> [Century City](https://centurycity.co.za/)
+> is definately at the top of my list when it comes to quality of life and general
+> convenience.
 
-<div class="contents" markdown="1">
 1. [Century City](#century-city)
 2. [New Camera](#new-camera)
 3. [M50 Images](#m50-images)
-</div>
 
 # Century City
 
