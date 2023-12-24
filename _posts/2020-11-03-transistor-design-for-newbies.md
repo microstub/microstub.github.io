@@ -21,7 +21,7 @@ controlled water valve.
 
 ![\[insert image\]](https://lunarjournal.github.io/images/3/valve2.png)
 
-![enter image description here](http://lunarjournal.github.io/images/3/07.png)
+![enter image description here](https://lunarjournal.github.io/images/3/07.png)
 
 Here it is important to reference the water analogy of current and voltage. In
 the water analogy we picture a column of water moving through a pipe.
