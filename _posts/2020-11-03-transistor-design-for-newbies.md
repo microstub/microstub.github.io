@@ -5,17 +5,13 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/lunarjournal
 ---
 
-<div class="brief" markdown="1">
-Transistors are important electronic devices that find use in a wide range of
-applications. Learn how to design circuits with them.
-</div>
+> Transistors are important electronic devices that find use in a wide range of
+> applications. Learn how to design circuits with them.
 
-<div class="contents" markdown="1">
 1. [Principle of operation](#principle-of-operation)
 3. [Transistor as a switch](#transistor-as-a-switch)
 4. [Transistor as an amplifier](#transistor-as-an-amplifier)
 5. [LTSpice](#ltspice)
-</div>
 
 # Principle of Operation
 
