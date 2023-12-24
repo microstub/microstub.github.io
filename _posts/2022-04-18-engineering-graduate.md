@@ -5,17 +5,13 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/lunarjournal
 ---
 
-<div class="brief" markdown="1">
-So that day finally arrived, a day I will never forget. After checking my
-university email sometime in the afternoon I came across an email titled
-'March 2022 Graduation Documents'. I was eagarly awaiting this email.
-</div>
+> So that day finally arrived, a day I will never forget. After checking my
+> university email sometime in the afternoon I came across an email titled
+> 'March 2022 Graduation Documents'. I was eagarly awaiting this email.
 
-<div class="contents" markdown="1">
 1. [Background](#brackground)
 2. [GPA](#gpa)
 3. [Notes](#notes)
-</div>
 
 # Background
 
