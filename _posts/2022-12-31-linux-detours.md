@@ -5,20 +5,16 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/lunarjournal
 ---
 
-<div class="brief" markdown="1">
-Function detouring is a powerful hooking technique that allows for the
-interception of C/C++ functions. `cdl86` aims to be a compact detours library
-for x86_64 Linux.
-</div>
+> Function detouring is a powerful hooking technique that allows for the
+> interception of C/C++ functions. `cdl86` aims to be a compact detours library
+> for x86_64 Linux.
 
-<div class="contents" markdown="1">
 1. [Overview](#overview)
 2. [JMP Patching](#jmp-patching)
 3. [INT3 Patching](#int3-patching)
 4. [Code Injection](#code-injection)
 5. [API](#api)
 6. [Source Code](#source-code)
-</div>
 
 # Overview
 
