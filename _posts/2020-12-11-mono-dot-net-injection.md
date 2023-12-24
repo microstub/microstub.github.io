@@ -5,16 +5,12 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/lunarjournal
 ---
 
-<div class="brief" markdown="1">
-Learning mono library injection through a Robocraft exploit. The method used in
-this publication can be used to modify a wide range of Unity games.
-</div>
+> Learning mono library injection through a Robocraft exploit. The method used in
+> this publication can be used to modify a wide range of Unity games.
 
-<div class="contents" markdown="1">
 1. [Mono Overview](#mono-overview)
 2. [Exploiting Robocraft](#exploiting-robocraft)
 3. [Source Code](#source-code)
-</div>
 
 # Mono Overview
 
