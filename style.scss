@@ -137,6 +137,10 @@ div ol {
   margin-bottom: 0;
 }
 
+div ol:first-of-type {
+  border: 1px solid
+}
+
 ol ul,
 ul ol,
 ul ul,
