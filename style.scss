@@ -107,8 +107,8 @@ p {
   line-height: 1.4;
 }
 
-p:has(img) {
-    text-align: center;
+p:has(img):not(:has(img.emoji)) {
+   text-align: center;
 }
 
 a {
