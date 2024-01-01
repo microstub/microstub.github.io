@@ -51,7 +51,7 @@ design of high power radio frequency modules for use in embedded
 systems. It is my attempt at commercialising some of my work in the
 RF domain.
 
-> High power radio-frequency modules. <br>
+> License free VHF radio-frequency modules. <br>
 [lunar.sh](https://lunar.sh)
 
 # Lab Update
