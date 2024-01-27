@@ -56,11 +56,11 @@ RF domain.
 
 # Lab Update
 
-The R&D Lab (as of 27/01/2024):
+R&D Lab Equipment (as of 27/01/2024):
 
 ```
 DSO: Rigol DS1202Z-E
-Multimeter: Rigol DM3068
+Bench Multimeter: Rigol DM3068
 VNA: Siglent SVA1015X
 Power Supply: Rigol DP832
 Soldering Station: RS PRO 65W 202-4487
