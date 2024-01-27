@@ -56,12 +56,14 @@ RF domain.
 
 # Lab Update
 
-The R&D Lab (as of 12/06/2023):
+The R&D Lab (as of 27/01/2024):
 
 ```
 DSO: Rigol DS1202Z-E
 Multimeter: Rigol DM3068
 VNA: Siglent SVA1015X
+Power Supply: Rigol DP832
+Soldering Station: RS PRO 65W 202-4487
 Spectrum Analyzer: Rigol DSA815-TG
 Function Generator: GW Instek GFG-8215A
 ```
