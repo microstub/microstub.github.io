@@ -51,7 +51,7 @@ design of VHF long range radio-frequency modules for use in embedded
 systems. It is my attempt at commercialising some of my work in the
 RF domain.
 
-> We are Lunar RF Labs, a radio-frequency research laboratory. <br>
+> We are Lunar RF Labs©, a radio-frequency research laboratory. <br>
 [lunar.sh](https://lunar.sh)
 
 # Lab Update
