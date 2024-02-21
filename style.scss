@@ -214,7 +214,7 @@ nav {
     padding: 8px;
     color: $white;
     text-decoration-line: none;
-    background: $black;
+    border: 1px solid $white;
 
     @include mobile {
       margin: 0 5px;
@@ -328,7 +328,7 @@ aside {
 }
 
 .header-link{
-  color: $black;
+  color: $white;
 }
 
 .clearfix:after {
@@ -341,7 +341,7 @@ aside {
 
 .no-decoration {
   text-decoration-line: none;
-  color: $black;
+  color: $white;
   font-family: sans-serif;
 }
 
@@ -362,7 +362,7 @@ aside {
 }
 
 .sticky {
-  background-color: #fff1de;
+  background-color: $black;
   position: sticky;
   border-bottom: 1px solid;
   top: 0;
@@ -413,7 +413,7 @@ aside {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $black;
+  color: $white;
   font-size: 15.5px;
   width: 400px;
   margin-top: 10px;
