@@ -50,7 +50,7 @@ HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
 ```
 
 In order to disable the Z buffer in this example we need access to a valid
-LPDIRECT3DDEVICE9 context within the running process. This is where detours
+`LPDIRECT3DDEVICE9` context within the running process. This is where detours
 comes in handy. Generally, the procedure to hook a specific function is as
 follows:
 
@@ -84,7 +84,7 @@ DetourFunction((void**)&oDrawIndexedPrimitive, &hkhkDrawIndexedPrimitive)
 modifies the instructions at the target function in order to transfer control
 flow to the detour function function.
 
-At this point any calls to `DrawIndexedPrimitive` within the LPDIRECT3DDEVICE9
+At this point any calls to `DrawIndexedPrimitive` within the `LPDIRECT3DDEVICE9`
 class will be rerouted to `hkDrawIndexedPrimitive`. You can see that this is a
 very powerful concept and gives us access to the calees function arguments. As
 demonstrated, it is possible to hook both C and C++ functions.
