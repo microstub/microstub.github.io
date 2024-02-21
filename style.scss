@@ -311,6 +311,15 @@ aside {
   color: $black;
 }
 
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .muted {
   color: $black;
 }
