@@ -435,6 +435,7 @@ aside {
 }
 .posts > .post {
   padding-top: 15px;
+  border-bottom: 1px solid $black;
 }
 
 .posts > .post:first-child {
@@ -514,7 +515,6 @@ table tr td :last-child {
 
 .excerpt {
   margin-top: 5px;
-  border-bottom: 1px solid $black;
 }
 
 .brief {
