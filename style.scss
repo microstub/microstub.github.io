@@ -435,7 +435,6 @@ aside {
 }
 .posts > .post {
   padding-top: 15px;
-  border-bottom: 1px solid $black;
 }
 
 .posts > .post:first-child {
@@ -445,6 +444,7 @@ aside {
 
 .post {
   blockquote {
+    border: 1px solid $black;
     border-left: 5px solid $dark;
     padding: 5px 1rem;
     color: black;
