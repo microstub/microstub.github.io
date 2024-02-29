@@ -163,15 +163,6 @@ b {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
 dl {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -275,6 +266,15 @@ aside {
   margin-left: 0;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .index aside dd {
