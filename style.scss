@@ -9,6 +9,11 @@
 @import "reset";
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import "variables";
+@font-face {
+  font-family: jetbrains-mono;
+  font-display: block;
+  src: url("/assets/JetBrainsMono.ttf"); 
+}
 
 html {
   font-size: 100%;
