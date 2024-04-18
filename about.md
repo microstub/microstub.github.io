@@ -64,9 +64,9 @@ Bench Multimeter: Rigol DM3068
 VNA: Siglent SVA1015X
 Power Supply: Rigol DP832
 Soldering Station: RS PRO 65W 202-4487
+Hot Air Station: RS PRO 700W
 Spectrum Analyzer: Rigol DSA815-TG
 Function Generator: GW Instek GFG-8215A
 ```
 
-<img src="https://lunarjournal.github.io/images/personal/lab01.JPG" />
-<img src="https://lunarjournal.github.io/images/personal/lab00.JPG" />
+<img src="https://lunarjournal.github.io/images/personal/lab_latest.JPG" />
