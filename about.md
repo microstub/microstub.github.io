@@ -46,10 +46,9 @@ SAQA ID: 66518
 
 # Lunar RF Labs
 
-`Lunar RF Labs` is a small company I started that specialises in the
+`Lunar RF Labs` is a small research company that specialises in the
 design of VHF long range radio-frequency modules for use in embedded
-systems. It is my attempt at commercialising some of my work in the
-RF domain.
+systems. 
 
 > We are Lunar RF Labs©, a radio-frequency research laboratory. <br>
 [lunar.sh](https://lunar.sh)
