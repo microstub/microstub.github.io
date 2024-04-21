@@ -18,7 +18,7 @@ other engineers might find helpful or interesting.
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Update](#lab-update)
 
-# Authors
+# Staff
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light"
 data-type="VERTICAL" data-vanity="lunarjournal" data-version="v1"><a class="badge-base__link LI-simple-link"
