@@ -54,7 +54,7 @@ RF domain.
 > We are Lunar RF Labs©, a radio-frequency research laboratory. <br>
 [lunar.sh](https://lunar.sh)
 
-# Lab Update
+# Laboratory Status
 
 Currently the R&D Lab is well equipment for RF development below 500 MHz.
 
