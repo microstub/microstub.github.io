@@ -31,9 +31,6 @@ with a bachelor's degree in electrical and computer engineering.
 
 [[CV](https://lunarjournal.github.io/data/CV.pdf)]
 
-I am a passionate and curious engineer with a love for technology.
-My primary interests are in software and electronics engineering.
-
 <img src="https://lunarjournal.github.io/images/personal/me_bw.jpeg" />
 
 Education:
