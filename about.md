@@ -14,7 +14,7 @@ async defer type="text/javascript"></script>
 This journal started as a project to document various technical efforts that
 other engineers might find helpful or interesting.
 
-1. [Authors](#authors)
+1. [Staff](#staff)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Update](#lab-update)
 
