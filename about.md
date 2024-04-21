@@ -24,7 +24,7 @@ other engineers might find helpful or interesting.
 data-type="VERTICAL" data-vanity="lunarjournal" data-version="v1"><a class="badge-base__link LI-simple-link"
 href="https://za.linkedin.com/in/lunarjournal?trk=profile-badge">Dylan Müller</a></div>
 
-Dylan Müller is an electrical engineer from Cape Town, South Africa. In 2021
+Dylan Müller is an electrical engineer from Cape Town, South Africa and Lead Scientist of Lunar RF Labs. In 2021
 he graduated from the
 [University of Cape Town](https://www.uct.ac.za/)
 with a bachelor's degree in electrical and computer engineering.
