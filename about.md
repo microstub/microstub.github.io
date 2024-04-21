@@ -56,7 +56,7 @@ RF domain.
 
 # Laboratory Status
 
-Currently the R&D Lab is well equipment for RF development below 500 MHz.
+Currently the R&D Lab is well equipped for RF development below 500 MHz.
 
 Equipment List:
 
