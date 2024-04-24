@@ -45,13 +45,13 @@ html {
 
 body {
   background: $white;
-  font: 15px $inter;
+  font: 14.5px $inter;
   line-height: 1.4;
   color: $black;
 }
 
 small {
-  font-size: 15px;
+  font-size: 14.5px;
   color: $black;
 }
 
@@ -189,7 +189,7 @@ dl dt {
 article > header span {
   color: #333;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 nav {
@@ -202,7 +202,7 @@ nav {
     float: none;
     margin-top: 20px;
     display: block;
-    font-size: 15px;
+    font-size: 14.5px;
   }
 
   a {
@@ -285,11 +285,11 @@ img {
 
 .index aside dd {
   margin-left: 0;
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .index aside dt {
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .index aside dd:not(:last-child) {
@@ -427,7 +427,7 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $white;
-  font-size: 15px;
+  font-size: 14.5px;
   width: 400px;
   margin-top: 10px;
 
@@ -456,7 +456,7 @@ img {
     border-left: 5px solid $dark;
     padding: 5px 1rem;
     color: black;
-    font-size: 15px;
+    font-size: 14.5px;
     margin: 15px 0;
     background: #eee;
   }
@@ -466,7 +466,7 @@ img {
   }
 
   .read-more {
-    font-size: 15px;
+    font-size: 14.5px;
   }
 }
 
