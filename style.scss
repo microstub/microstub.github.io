@@ -207,10 +207,10 @@ nav {
   a {
     text-align: right;
     font-weight: 400;
-    padding: 8px;
+    padding: 9px;
     color: $white;
     text-decoration-line: none;
-    border: 1px solid $white;
+    background: #2d2c2c;
 
     @include mobile {
       margin: 0 5px;
