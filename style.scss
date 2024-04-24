@@ -143,6 +143,7 @@ div ol {
 }
 
 div ol:first-of-type {
+  border: 1px solid;
   background: #eee;
 }
 
@@ -207,10 +208,10 @@ nav {
   a {
     text-align: right;
     font-weight: 400;
-    padding: 9px;
+    padding: 8px;
     color: $white;
     text-decoration-line: none;
-    background: #3f3f3f;
+    border: 1px solid $white;
 
     @include mobile {
       margin: 0 5px;
@@ -229,6 +230,7 @@ aside {
   display: flex;
   align-items: center;
   padding: 0px;
+  border: 1px solid;
   background: #eee;
   @include mobile {
     padding: 0px;
@@ -449,6 +451,7 @@ img {
 
 .post {
   blockquote {
+    border: 1px solid $black;
     border-left: 5px solid $dark;
     padding: 5px 1rem;
     color: black;
@@ -473,6 +476,7 @@ img {
 
 table {
   padding: 0;
+  border: 1px solid;
   background: #eee;
 }
 
@@ -544,6 +548,7 @@ table tr td :last-child {
 }
 
 .contents {
+  border: 1px solid;
   background: $white;
 }
 
