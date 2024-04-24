@@ -212,6 +212,7 @@ nav {
     color: $white;
     text-decoration-line: none;
     border: 1px solid $white;
+    background: #000;
 
     @include mobile {
       margin: 0 5px;
