@@ -556,4 +556,10 @@ table tr td :last-child {
   background: $white;
 }
 
+.MathJax
+{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 @import "highlights";
