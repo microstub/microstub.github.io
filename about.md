@@ -4,8 +4,6 @@ title: About the Lunar Journal
 permalink: /about/
 ---
 
-<script src="https://platform.linkedin.com/badges/js/profile.js"
-async defer type="text/javascript"></script>
 <meta name="robots" content="noindex">
 
 > Technical journal for engineers, hobbyists and makers with a focus on
@@ -20,9 +18,7 @@ other engineers might find helpful or interesting.
 
 # Staff
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light"
-data-type="VERTICAL" data-vanity="lunarjournal" data-version="v1"><a class="badge-base__link LI-simple-link"
-href="https://za.linkedin.com/in/lunarjournal?trk=profile-badge">Dylan Müller</a></div>
+<a href="https://www.linkedin.com/in/lunarjournal/">Dylan Müller</a>
 
 Dylan Müller is an electrical engineer from Cape Town, South Africa and Lead Scientist of Lunar RF Labs. In 2021
 he graduated from the
