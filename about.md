@@ -23,7 +23,7 @@ other engineers might find helpful or interesting.
 Dylan Müller is an electrical engineer from Cape Town, South Africa and Lead Scientist of Lunar RF Labs. In 2021
 he graduated from the
 [University of Cape Town](https://www.uct.ac.za/)
-with a bachelor's degree in electrical and computer engineering.
+with a bachelor's (BSc) degree in electrical and computer engineering.
 
 [[CV](https://lunarjournal.github.io/data/CV.pdf)]
 
