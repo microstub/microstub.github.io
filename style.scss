@@ -47,7 +47,7 @@ html {
 body {
   background: $white;
   font: 14.5px $inter;
-  line-height: 1.4;
+  line-height: 1.5;
   color: $black;
 }
 
@@ -71,12 +71,12 @@ h6 {
   font-weight: bold;
   scroll-margin-top: 125px;
 
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 15px 0 15px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.5;
     scroll-margin-top: 160px;
   }
 }
@@ -110,7 +110,7 @@ hr {
 
 p {
   margin: 15px 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 p:has(img):not(:has(img.emoji)) {
@@ -131,7 +131,7 @@ ol {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   padding-right: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 ul {
