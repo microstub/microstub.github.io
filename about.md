@@ -18,7 +18,7 @@ other engineers might find helpful or interesting.
 
 # Staff
 
-<a href="https://www.linkedin.com/in/lunarjournal/">Dylan Müller</a>
+<a href="https://www.linkedin.com/in/dylanmuller/">Dylan Müller</a>
 
 Dylan Müller is an electrical engineer from Cape Town, South Africa and Lead Scientist of Lunar RF Labs. In 2021
 he graduated from the
