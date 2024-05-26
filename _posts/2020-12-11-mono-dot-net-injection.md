@@ -2,7 +2,7 @@
 layout: post
 title: Mono/.NET Injection Under Linux
 author: Dylan Müller
-author_url: https://linkedin.com/in/lunarjournal
+author_url: https://linkedin.com/in/dylanmuller
 ---
 
 > Learning mono library injection through a Robocraft exploit. The method used in
