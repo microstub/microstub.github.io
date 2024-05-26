@@ -2,7 +2,7 @@
 layout: post
 title: A Compact Linux Detours Library (x86_64)
 author: Dylan Müller
-author_url: https://linkedin.com/in/lunarjournal
+author_url: https://linkedin.com/in/dylanmuller
 ---
 
 > Function detouring is a powerful hooking technique that allows for the
