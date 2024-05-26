@@ -2,7 +2,7 @@
 layout: post
 title: Tiny C Binaries
 author: Dylan Müller
-author_url: https://linkedin.com/in/lunarjournal
+author_url: https://linkedin.com/in/dylanmuller
 ---
 
 > By default, following the linking stage, GCC generates ELF binaries that contain
