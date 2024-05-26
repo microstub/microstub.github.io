@@ -2,7 +2,7 @@
 layout: post
 title: Transistor Design For Newbies
 author: Dylan Müller
-author_url: https://linkedin.com/in/lunarjournal
+author_url: https://linkedin.com/in/dylanmuller
 ---
 
 > Transistors are important electronic devices that find use in a wide range of
