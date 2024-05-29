@@ -354,7 +354,7 @@ We know that:
 Thus, given A<sub>v</sub> = 70, z<sub>out</sub> = 5KΩ we have I<sub>E</sub> =
 0.35mA. We are now able to calculate R<sub>e</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/27.png){:height="70px"}
+![enter image description here](http://lunarjournal.github.io/images/3/27.png){:height="75px"}
 
 For V<sub>cc</sub> = 5V, I<sub>E</sub> = 0.35mA we get  R<sub>e</sub> =~2.1KΩ
 
