@@ -272,7 +272,7 @@ There are various circuit configurations used to achieve amplification using
 transistors, a useful 'template' is known as common emitter configuration (shown
 below with an NPN transistor):
 
- ![enter image description here](http://lunarjournal.github.io/images/3/37.png){:height="400px"}
+ ![enter image description here](http://lunarjournal.github.io/images/3/37.png){:height="350px"}
 
 Here we model a 20mVp (20mV amplitude) sinusoidal signal source with a
 resistance of 50 Ω, but your input can be practically anything.
