@@ -371,7 +371,7 @@ Here R<sub>base</sub> represents the AC input impedance of transistor Q1
 We know how to calculate r'e from earlier and we use the minimum value of β (75
 for 2N2222) to calculate R<sub>base</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/30.png){:height="70px"}
+![enter image description here](http://lunarjournal.github.io/images/3/30.png){:height="65px"}
 
 Thus R<sub>base</sub> = 5.4 KΩ
 
