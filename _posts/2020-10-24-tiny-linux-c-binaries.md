@@ -63,8 +63,8 @@ main.c -o example`
 #include <stdio.h>
 
 int main(int agrc, char *argv[]){
-printf("Hello, World!");
-return  0;
+    printf("Hello, World!");
+    return  0;
 }
 ```
 
