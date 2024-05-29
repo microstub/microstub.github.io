@@ -399,19 +399,19 @@ into the base of transistor Q1.
 A good rule of thumb is to allow for 1% of the total divider current to pass
 into the base of the transistor.
 
-![enter image description here](http://lunarjournal.github.io/images/3/33.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/33.png){:height="70px"}
 
 We can therefore assume that I<sub>R1</sub> ~= I<sub>R2</sub> and solving the
 above expression yields I<sub>R2</sub> = 0.456mA. Since we know the voltage
 across  R<sub>2</sub> (given by V<sub>B</sub>) we can calculate the resistance
 value:
 
-![enter image description here](http://lunarjournal.github.io/images/3/34.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/34.png){:height="70px"}
 
 This gives R<sub>2</sub> ~= 3.2KΩ. Finally we calculate the value of
 R<sub>1</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/35.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/35.png){:height="70px"}
 
 R<sub>1</sub> ~= 7.8 KΩ
 
@@ -419,7 +419,7 @@ The values of capacitors C3, C2 and C1 are chosen such that the capacitive
 reactance (resistance at AC) at the desired signal frequency is minimal.
 Capacitive reactance is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/39.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/39.png){:height="70px"}
 
 Now that we have all the required component values, we build the circuit in
 LTSpice:
