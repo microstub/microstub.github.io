@@ -311,7 +311,7 @@ Here z<sub>out</sub> represents the output impedance of the common-emitter
 amplifier which is given by the parallel combination of R<sub>c</sub> and your
 load resistance, R<sub>L</sub> (connected to C2).
 
-![enter image description here](http://lunarjournal.github.io/images/3/23.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/23.png){:height="70px"}
 
 From an AC perspective:
 * Capacitors become short circuits
@@ -321,7 +321,7 @@ From an AC perspective:
 The term r'e is known as the transistor's AC base-emitter junction resistance
 and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/24.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/24.png){:height="70px"}
 
 The introduction of capacitor C1 nulls out the term R<sub>e</sub> from the
 expression for  A<sub>v</sub>. This is typically done to achieve higher values
@@ -338,7 +338,7 @@ R<sub>c</sub> = 5KΩ
 
 Next we determine the maximum AC gain possible given a fixed z<sub>out</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/25.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/25.png){:height="80px"}
 
 It is usually good practice to give 20% of (Vcc/2) to Re and 70% to Rc. Higher
 ratios of Vcc(Re) to Vcc(Rc) might lead to higher ac gain (A<sub>v</sub>) but
@@ -349,19 +349,19 @@ expected voltage gain for this amplifier.
 
 We know that:
 
-![enter image description here](http://lunarjournal.github.io/images/3/26.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/26.png){:height="70px"}
 
 Thus, given A<sub>v</sub> = 70, z<sub>out</sub> = 5KΩ we have I<sub>E</sub> =
 0.35mA. We are now able to calculate R<sub>e</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/27.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/27.png){:height="70px"}
 
 For V<sub>cc</sub> = 5V, I<sub>E</sub> = 0.35mA we get  R<sub>e</sub> =~2.1KΩ
 
 A useful parameter for common emitter configuration is the AC input impedance
 (looking in from C3)  and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/28.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/28.png){:height="80px"}
 
 Here R<sub>base</sub> represents the AC input impedance of transistor Q1
 (looking into the base):
@@ -371,14 +371,14 @@ Here R<sub>base</sub> represents the AC input impedance of transistor Q1
 We know how to calculate r'e from earlier and we use the minimum value of β (75
 for 2N2222) to calculate R<sub>base</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/30.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/30.png){:height="70px"}
 
 Thus R<sub>base</sub> = 5.4 KΩ
 
 Returning to our DC analysis, we calculate the expected voltage at the
 transistor base:
 
-![enter image description here](http://lunarjournal.github.io/images/3/31.png){:height="60px"}
+![enter image description here](http://lunarjournal.github.io/images/3/31.png){:height="45px"}
 
 We know that V<sub>Re</sub> is 30% of Vcc/2, which gives V<sub>B</sub> = 1.45V.
 Now given I<sub>E</sub> = 0.35mA we can again use our minimum value for β to
