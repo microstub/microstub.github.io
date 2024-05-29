@@ -21,7 +21,7 @@ controlled water valve.
 
 ![\[insert image\]](https://lunarjournal.github.io/images/3/valve2.png){:height="200px"}
 
-![enter image description here](https://lunarjournal.github.io/images/3/07.png)
+![enter image description here](https://lunarjournal.github.io/images/3/07.png){:height="200px"}
 
 Here it is important to reference the water analogy of current and voltage. In
 the water analogy we picture a column of water moving through a pipe.
@@ -30,7 +30,7 @@ We define current as the movement of water (charge) through the pipe (wire), or
 in mathematical terms the rate of flow of water (charge) past a given point with
 respect to time:
 
-![enter image description here](http://lunarjournal.github.io/images/3/01.png)
+![enter image description here](http://lunarjournal.github.io/images/3/01.png){:height="65px"}
 
 Voltage is analogous to the pressure differential between two points. For
 example, suppose we suspend water in a pipe and then apply a high pressure at
@@ -51,7 +51,7 @@ Potential difference (voltage) is just a differential measure of this electric
 'field potential' or put differently, the capacity of charge to do work in the
 presence of an electric field:
 
-![enter image description here](http://lunarjournal.github.io/images/3/02.png)
+![enter image description here](http://lunarjournal.github.io/images/3/02.png){:height="45px"}
 
 With this in mind the idea of a water valve then makes sense. The valve consists
 of three ports, one attached to one end of the pipe, the other port to the end
@@ -76,7 +76,7 @@ are individual elements (phosphorus, boron) added to neutral silicon (and
 replace the corresponding silicon atoms) in order to change the electrical
 properties of the layer.
 
-![enter image description here](http://lunarjournal.github.io/images/3/10.png)
+![enter image description here](http://lunarjournal.github.io/images/3/10.png){:height="200px"}
 
 For example, boron [B] dopant has a valency (number of outer electrons) of 3,
 while silicon has a valency of 4. This means that when boron and silicon bond
@@ -90,7 +90,7 @@ In contrast phosphorus [P] dopant has a valency of 5, again there is a mismatch
 phosphorus to move freely through the crystal structure and giving the overall
 crystal layer a negative polarity, the n type layer.
 
-![enter image description here](http://lunarjournal.github.io/images/3/04.png)
+![enter image description here](http://lunarjournal.github.io/images/3/04.png){:height="200px"}
 
 If we were to place an n region and p region together we would form an
 electronic device known as a diode. A diode is a 2 terminal device (with the n
@@ -101,7 +101,7 @@ there is a localised effect at their layer boundary that results in a small
 number of electrons (from the n type region) migrating to the p type region in
 what is known as the depletion region.
 
-![enter image description here](http://lunarjournal.github.io/images/3/11.jpg)
+![enter image description here](http://lunarjournal.github.io/images/3/11.jpg){:height="300px"}
 
 The migration of electrons from the n type region to the p type region at the np
 boundary sets up what is known as a barrier potential, a secondary electric
@@ -139,7 +139,7 @@ flow.
 The ratio of base-emitter current to collector-emitter current is known as (β)
 and is an important consideration in the design of circuits using transistors:
 
-![enter image description here](http://lunarjournal.github.io/images/3/06.png)
+![enter image description here](http://lunarjournal.github.io/images/3/06.png){:height="45px"}
 
 Both transistor current paths have an associated voltage drop/potential
 difference across them.
@@ -148,7 +148,7 @@ For the current flow from base to emitter, there is the base-emitter voltage
 drop V<sub>BE</sub> and from collector to emitter there is the collector-emitter
 voltage drop V<sub>CE</sub> :
 
-![enter image description here](http://lunarjournal.github.io/images/3/07.gif)
+![enter image description here](http://lunarjournal.github.io/images/3/07.gif){:height="200px"}
 
 The values of V<sub>CE</sub>, V<sub>BE</sub> and V<sub>CB</sub> have predictable
 values for the three modes of operation of a transistor, these are:
@@ -168,7 +168,7 @@ states: cut-off or saturation.
 The following switching circuit is usually employed (with an NPN BJT)  (shown
 together with an LED):
 
-![enter image description here](http://lunarjournal.github.io/images/3/12.jpg)
+![enter image description here](http://lunarjournal.github.io/images/3/12.jpg){:height="300px"}
 
 
 The circuit is seen consisting of a base current limiting resistor R<sub>B</sub>
@@ -181,7 +181,7 @@ transistor is switched fully on (driven into saturation).
 To calculate the values for resistors R<sub>B</sub> and R<sub>LIM</sub> we use
 the equation relating base current to collector current defined earlier:
 
-![enter image description here](http://lunarjournal.github.io/images/3/06.png)
+![enter image description here](http://lunarjournal.github.io/images/3/06.png){:height="45px"}
 
 The first question becomes what collector current I<sub>C</sub> we desire. This
 value depends on the device/load you are trying to switch on/off. It is worth
@@ -189,7 +189,7 @@ noting that when a transistor is switched fully on (is in saturation mode) the
 equivalent circuit (simplified) is as follows (shown without the LED, you can
 assume the LED follows resistor R<sub>C</sub>):
 
-![enter image description here](http://lunarjournal.github.io/images/3/08.jpg)
+![enter image description here](http://lunarjournal.github.io/images/3/08.jpg){:height="300px"}
 
 Thus at the collector a direct connection to ground is made. However this
 connection is not perfect and there is an associated voltage drop from collector
@@ -251,11 +251,11 @@ In conclusion:
 The simple LED transistor circuit was modelled in LTSpice, with the LED
 represented as a series voltage source (representing the 2v voltage drop).:
 
-![enter image description here](http://lunarjournal.github.io/images/3/18.png)
+![enter image description here](http://lunarjournal.github.io/images/3/18.png){:height="450px"}
 
  A simulation of the DC operating point of the circuit yielded:
 
-![enter image description here](http://lunarjournal.github.io/images/3/19.png)
+![enter image description here](http://lunarjournal.github.io/images/3/19.png){:height="200px"}
 
 Here we can see the ~1mA base current (I<sub>b</sub>) driving ~15mA collector
 (I<sub>C</sub>) current. All current values are shown in S.I units of amperes
@@ -272,7 +272,7 @@ There are various circuit configurations used to achieve amplification using
 transistors, a useful 'template' is known as common emitter configuration (shown
 below with an NPN transistor):
 
- ![enter image description here](http://lunarjournal.github.io/images/3/37.png)
+ ![enter image description here](http://lunarjournal.github.io/images/3/37.png){:height="400px"}
 
 Here we model a 20mVp (20mV amplitude) sinusoidal signal source with a
 resistance of 50 Ω, but your input can be practically anything.
@@ -293,7 +293,7 @@ Capacitor C3 is known as a DC blocking capacitor and is used to remove the DC
 component of the input signal at the feed point (base of Q1). All signals have a
 dc component:
 
-![enter image description here](http://lunarjournal.github.io/images/3/21.png)
+![enter image description here](http://lunarjournal.github.io/images/3/21.png){:height="300px"}
 
 Effectively C3 serves to isolate the fluctuating(AC) component from the net
 signal, that is, we need a signal that moves along the line y= 0.
@@ -305,13 +305,13 @@ The role of capacitor C1 is a bit more involved and requires and understanding
 of AC circuit analysis, specifically the AC signal gain/amplification
 A<sub>v</sub> which, for common emitter configuration, is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/22.png)
+![enter image description here](http://lunarjournal.github.io/images/3/22.png){:height="60px"}
 
 Here z<sub>out</sub> represents the output impedance of the common-emitter
 amplifier which is given by the parallel combination of R<sub>c</sub> and your
 load resistance, R<sub>L</sub> (connected to C2).
 
-![enter image description here](http://lunarjournal.github.io/images/3/23.png)
+![enter image description here](http://lunarjournal.github.io/images/3/23.png){:height="60px"}
 
 From an AC perspective:
 * Capacitors become short circuits
@@ -321,7 +321,7 @@ From an AC perspective:
 The term r'e is known as the transistor's AC base-emitter junction resistance
 and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/24.png)
+![enter image description here](http://lunarjournal.github.io/images/3/24.png){:height="60px"}
 
 The introduction of capacitor C1 nulls out the term R<sub>e</sub> from the
 expression for  A<sub>v</sub>. This is typically done to achieve higher values
@@ -338,7 +338,7 @@ R<sub>c</sub> = 5KΩ
 
 Next we determine the maximum AC gain possible given a fixed z<sub>out</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/25.png)
+![enter image description here](http://lunarjournal.github.io/images/3/25.png){:height="60px"}
 
 It is usually good practice to give 20% of (Vcc/2) to Re and 70% to Rc. Higher
 ratios of Vcc(Re) to Vcc(Rc) might lead to higher ac gain (A<sub>v</sub>) but
@@ -349,42 +349,42 @@ expected voltage gain for this amplifier.
 
 We know that:
 
-![enter image description here](http://lunarjournal.github.io/images/3/26.png)
+![enter image description here](http://lunarjournal.github.io/images/3/26.png){:height="60px"}
 
 Thus, given A<sub>v</sub> = 70, z<sub>out</sub> = 5KΩ we have I<sub>E</sub> =
 0.35mA. We are now able to calculate R<sub>e</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/27.png)
+![enter image description here](http://lunarjournal.github.io/images/3/27.png){:height="60px"}
 
 For V<sub>cc</sub> = 5V, I<sub>E</sub> = 0.35mA we get  R<sub>e</sub> =~2.1KΩ
 
 A useful parameter for common emitter configuration is the AC input impedance
 (looking in from C3)  and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/28.png)
+![enter image description here](http://lunarjournal.github.io/images/3/28.png){:height="60px"}
 
 Here R<sub>base</sub> represents the AC input impedance of transistor Q1
 (looking into the base):
 
-![enter image description here](http://lunarjournal.github.io/images/3/29.png)
+![enter image description here](http://lunarjournal.github.io/images/3/29.png){:height="60px"}
 
 We know how to calculate r'e from earlier and we use the minimum value of β (75
 for 2N2222) to calculate R<sub>base</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/30.png)
+![enter image description here](http://lunarjournal.github.io/images/3/30.png){:height="60px"}
 
 Thus R<sub>base</sub> = 5.4 KΩ
 
 Returning to our DC analysis, we calculate the expected voltage at the
 transistor base:
 
-![enter image description here](http://lunarjournal.github.io/images/3/31.png)
+![enter image description here](http://lunarjournal.github.io/images/3/31.png){:height="60px"}
 
 We know that V<sub>Re</sub> is 30% of Vcc/2, which gives V<sub>B</sub> = 1.45V.
 Now given I<sub>E</sub> = 0.35mA we can again use our minimum value for β to
 calculate our required base current:
 
-![enter image description here](http://lunarjournal.github.io/images/3/32.png)
+![enter image description here](http://lunarjournal.github.io/images/3/32.png){:height="60px"}
 
 Thus I<sub>B</sub> = 4.57uA
 
@@ -399,19 +399,19 @@ into the base of transistor Q1.
 A good rule of thumb is to allow for 1% of the total divider current to pass
 into the base of the transistor.
 
-![enter image description here](http://lunarjournal.github.io/images/3/33.png)
+![enter image description here](http://lunarjournal.github.io/images/3/33.png){:height="60px"}
 
 We can therefore assume that I<sub>R1</sub> ~= I<sub>R2</sub> and solving the
 above expression yields I<sub>R2</sub> = 0.456mA. Since we know the voltage
 across  R<sub>2</sub> (given by V<sub>B</sub>) we can calculate the resistance
 value:
 
-![enter image description here](http://lunarjournal.github.io/images/3/34.png)
+![enter image description here](http://lunarjournal.github.io/images/3/34.png){:height="60px"}
 
 This gives R<sub>2</sub> ~= 3.2KΩ. Finally we calculate the value of
 R<sub>1</sub>:
 
-![enter image description here](http://lunarjournal.github.io/images/3/35.png)
+![enter image description here](http://lunarjournal.github.io/images/3/35.png){:height="60px"}
 
 R<sub>1</sub> ~= 7.8 KΩ
 
@@ -419,23 +419,23 @@ The values of capacitors C3, C2 and C1 are chosen such that the capacitive
 reactance (resistance at AC) at the desired signal frequency is minimal.
 Capacitive reactance is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/39.png)
+![enter image description here](http://lunarjournal.github.io/images/3/39.png){:height="60px"}
 
 Now that we have all the required component values, we build the circuit in
 LTSpice:
 
-![enter image description here](http://lunarjournal.github.io/images/3/38.png)
+![enter image description here](http://lunarjournal.github.io/images/3/38.png){:height="400px"}
 
 A simulation of the DC operating point was performed:
 
-![enter image description here](http://lunarjournal.github.io/images/3/40.png)
+![enter image description here](http://lunarjournal.github.io/images/3/40.png){:height="400px"}
 
 Here we can see our expected V<sub>base</sub> of around 1.45V and an emitter
 current of around 0.38mA (instead of 0.35mA), not too bad! Let's measure the
 voltage gain( with the signal source set to a peak amplitude of 1mV and a 100K
 load attached):
 
-![enter image description here](http://lunarjournal.github.io/images/3/43.png)
+![enter image description here](http://lunarjournal.github.io/images/3/43.png){:height="400px"}
 
 Our output across our load is seen reaching an amplitude of 60mV and so we have
 a voltage gain of ~60.
