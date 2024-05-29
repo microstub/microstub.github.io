@@ -406,7 +406,7 @@ above expression yields I<sub>R2</sub> = 0.456mA. Since we know the voltage
 across  R<sub>2</sub> (given by V<sub>B</sub>) we can calculate the resistance
 value:
 
-![enter image description here](http://lunarjournal.github.io/images/3/34.png){:height="70px"}
+![enter image description here](http://lunarjournal.github.io/images/3/34.png){:height="65px"}
 
 This gives R<sub>2</sub> ~= 3.2KΩ. Finally we calculate the value of
 R<sub>1</sub>:
