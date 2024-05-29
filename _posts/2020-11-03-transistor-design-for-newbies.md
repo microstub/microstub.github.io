@@ -361,7 +361,7 @@ For V<sub>cc</sub> = 5V, I<sub>E</sub> = 0.35mA we get  R<sub>e</sub> =~2.1KΩ
 A useful parameter for common emitter configuration is the AC input impedance
 (looking in from C3)  and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/28.png){:height="80px"}
+![enter image description here](http://lunarjournal.github.io/images/3/28.png){:height="70px"}
 
 Here R<sub>base</sub> represents the AC input impedance of transistor Q1
 (looking into the base):
