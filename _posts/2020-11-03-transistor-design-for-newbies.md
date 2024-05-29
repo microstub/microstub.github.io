@@ -424,7 +424,7 @@ Capacitive reactance is given by:
 Now that we have all the required component values, we build the circuit in
 LTSpice:
 
-![enter image description here](http://lunarjournal.github.io/images/3/38.png){:height="400px"}
+![enter image description here](http://lunarjournal.github.io/images/3/38.png){:height="350px"}
 
 A simulation of the DC operating point was performed:
 
@@ -435,10 +435,10 @@ current of around 0.38mA (instead of 0.35mA), not too bad! Let's measure the
 voltage gain( with the signal source set to a peak amplitude of 1mV and a 100K
 load attached):
 
-![enter image description here](http://lunarjournal.github.io/images/3/43.png){:height="400px"}
+![enter image description here](http://lunarjournal.github.io/images/3/43.png){:height="300px"}
 
-Our output across our load is seen reaching an amplitude of 60mV and so we have
-a voltage gain of ~60.
+Our output across our load is seen reaching an amplitude of 70mV and so we have
+a voltage gain of ~70.
 
 # LTSpice
 
