@@ -251,7 +251,7 @@ In conclusion:
 The simple LED transistor circuit was modelled in LTSpice, with the LED
 represented as a series voltage source (representing the 2v voltage drop).:
 
-![enter image description here](http://lunarjournal.github.io/images/3/18.png)
+![enter image description here](http://lunarjournal.github.io/images/3/18.png){:width="400px"}
 
  A simulation of the DC operating point of the circuit yielded:
 
@@ -272,7 +272,7 @@ There are various circuit configurations used to achieve amplification using
 transistors, a useful 'template' is known as common emitter configuration (shown
 below with an NPN transistor):
 
- ![enter image description here](http://lunarjournal.github.io/images/3/37.png)
+ ![enter image description here](http://lunarjournal.github.io/images/3/37.png){:width="600px"}
 
 Here we model a 20mVp (20mV amplitude) sinusoidal signal source with a
 resistance of 50 Ω, but your input can be practically anything.
