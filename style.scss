@@ -398,6 +398,10 @@ img {
   padding-bottom: 2px;
   padding-top: 2px;
   user-select: none;
+  
+  @include mobile {
+    background: linear-gradient(to right, #272727 70%, white);
+  }
 }
 
 .site-header {
