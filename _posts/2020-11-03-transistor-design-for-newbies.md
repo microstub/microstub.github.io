@@ -189,7 +189,7 @@ noting that when a transistor is switched fully on (is in saturation mode) the
 equivalent circuit (simplified) is as follows (shown without the LED, you can
 assume the LED follows resistor R<sub>C</sub>):
 
-![enter image description here](http://lunarjournal.github.io/images/3/08.jpg)
+![enter image description here](http://lunarjournal.github.io/images/3/08.jpg){:width="450px"}
 
 Thus at the collector a direct connection to ground is made. However this
 connection is not perfect and there is an associated voltage drop from collector
@@ -428,14 +428,14 @@ LTSpice:
 
 A simulation of the DC operating point was performed:
 
-![enter image description here](http://lunarjournal.github.io/images/3/40.png)
+![enter image description here](http://lunarjournal.github.io/images/3/40.png){:width="500px"}
 
 Here we can see our expected V<sub>base</sub> of around 1.45V and an emitter
 current of around 0.38mA (instead of 0.35mA), not too bad! Let's measure the
 voltage gain( with the signal source set to a peak amplitude of 1mV and a 100K
 load attached):
 
-![enter image description here](http://lunarjournal.github.io/images/3/43.png)
+![enter image description here](http://lunarjournal.github.io/images/3/43.png){:width="500px"}
 
 Our output across our load is seen reaching an amplitude of 70mV and so we have
 a voltage gain of ~70.
