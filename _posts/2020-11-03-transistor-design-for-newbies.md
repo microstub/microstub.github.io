@@ -340,7 +340,7 @@ Next we determine the maximum AC gain possible given a fixed z<sub>out</sub>:
 
 ![enter image description here](http://lunarjournal.github.io/images/3/25.png){:height="80px"}
 
-It is usually good practice to give 20% of (Vcc/2) to Re and 70% to Rc. Higher
+It is usually good practice to give 30% of (Vcc/2) to Re and 70% to Rc. Higher
 ratios of Vcc(Re) to Vcc(Rc) might lead to higher ac gain (A<sub>v</sub>) but
 could sacrifice operational stability as a result.
 
