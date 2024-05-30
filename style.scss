@@ -287,6 +287,11 @@ img {
   margin-bottom: 15px;
   margin-top: 15px;
   user-select: none;
+
+  @include mobile {
+     height: 100%;
+     width: 100%;
+  }
 }
 
 .index aside dd {
