@@ -21,7 +21,7 @@ controlled water valve.
 
 ![\[insert image\]](https://lunarjournal.github.io/images/3/valve2.png){:height="200px"}
 
-![enter image description here](https://lunarjournal.github.io/images/3/07.png){:height="200px"}
+![enter image description here](https://lunarjournal.github.io/images/3/07.png)
 
 Here it is important to reference the water analogy of current and voltage. In
 the water analogy we picture a column of water moving through a pipe.
@@ -76,7 +76,7 @@ are individual elements (phosphorus, boron) added to neutral silicon (and
 replace the corresponding silicon atoms) in order to change the electrical
 properties of the layer.
 
-![enter image description here](http://lunarjournal.github.io/images/3/10.png){:height="200px"}
+![enter image description here](http://lunarjournal.github.io/images/3/10.png)
 
 For example, boron [B] dopant has a valency (number of outer electrons) of 3,
 while silicon has a valency of 4. This means that when boron and silicon bond
@@ -189,7 +189,7 @@ noting that when a transistor is switched fully on (is in saturation mode) the
 equivalent circuit (simplified) is as follows (shown without the LED, you can
 assume the LED follows resistor R<sub>C</sub>):
 
-![enter image description here](http://lunarjournal.github.io/images/3/08.jpg){:height="300px"}
+![enter image description here](http://lunarjournal.github.io/images/3/08.jpg)
 
 Thus at the collector a direct connection to ground is made. However this
 connection is not perfect and there is an associated voltage drop from collector
@@ -251,7 +251,7 @@ In conclusion:
 The simple LED transistor circuit was modelled in LTSpice, with the LED
 represented as a series voltage source (representing the 2v voltage drop).:
 
-![enter image description here](http://lunarjournal.github.io/images/3/18.png){:height="450px"}
+![enter image description here](http://lunarjournal.github.io/images/3/18.png)
 
  A simulation of the DC operating point of the circuit yielded:
 
@@ -272,7 +272,7 @@ There are various circuit configurations used to achieve amplification using
 transistors, a useful 'template' is known as common emitter configuration (shown
 below with an NPN transistor):
 
- ![enter image description here](http://lunarjournal.github.io/images/3/37.png){:height="350px"}
+ ![enter image description here](http://lunarjournal.github.io/images/3/37.png)
 
 Here we model a 20mVp (20mV amplitude) sinusoidal signal source with a
 resistance of 50 Ω, but your input can be practically anything.
@@ -424,18 +424,18 @@ Capacitive reactance is given by:
 Now that we have all the required component values, we build the circuit in
 LTSpice:
 
-![enter image description here](http://lunarjournal.github.io/images/3/38.png){:height="350px"}
+![enter image description here](http://lunarjournal.github.io/images/3/38.png)
 
 A simulation of the DC operating point was performed:
 
-![enter image description here](http://lunarjournal.github.io/images/3/40.png){:height="400px"}
+![enter image description here](http://lunarjournal.github.io/images/3/40.png)
 
 Here we can see our expected V<sub>base</sub> of around 1.45V and an emitter
 current of around 0.38mA (instead of 0.35mA), not too bad! Let's measure the
 voltage gain( with the signal source set to a peak amplitude of 1mV and a 100K
 load attached):
 
-![enter image description here](http://lunarjournal.github.io/images/3/43.png){:height="300px"}
+![enter image description here](http://lunarjournal.github.io/images/3/43.png)
 
 Our output across our load is seen reaching an amplitude of 70mV and so we have
 a voltage gain of ~70.
