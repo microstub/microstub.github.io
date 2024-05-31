@@ -11,7 +11,7 @@ permalink: /about/
 
 1. [Staff](#staff)
 2. [Lunar RF Labs](#lunar-rf-labs)
-3. [Lab Update](#lab-update)
+3. [Lab Status](#lab-status)
 
 This journal started as a project to document various technical efforts that
 other engineers might find helpful or interesting.
@@ -46,7 +46,7 @@ in wireless systems.
 > We are Lunar RF Labs©, a radio-frequency research laboratory. <br>
 [lunar-rf.com](https://lunar-rf.com)
 
-# Laboratory Status
+# Lab Status
 
 Currently the R&D Lab is well equipped for RF development below 500 MHz.
 
