@@ -9,12 +9,12 @@ permalink: /about/
 > Technical journal for engineers, hobbyists and makers with a focus on
 > software and electronics engineering. 
 
-This journal started as a project to document various technical efforts that
-other engineers might find helpful or interesting.
-
 1. [Staff](#staff)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Update](#lab-update)
+
+This journal started as a project to document various technical efforts that
+other engineers might find helpful or interesting.
 
 # Staff
 
