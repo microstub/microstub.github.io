@@ -46,13 +46,13 @@ html {
 
 body {
   background: $white;
-  font: 15.5px $inter;
+  font: 15px $inter;
   line-height: 1.5;
   color: $black;
 }
 
 small {
-  font-size: 15.5px;
+  font-size: 15px;
   color: $black;
 }
 
@@ -82,22 +82,22 @@ h6 {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 17px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 17px;
   color: $grey;
 }
 
@@ -197,7 +197,7 @@ nav {
   float: right;
   margin-top: 30px;
   font-family: $inter;
-  font-size: 14px;
+  font-size: 13px;
 
   @include mobile {
     float: none;
@@ -295,11 +295,11 @@ img {
 
 .index aside dd {
   margin-left: 0;
-  font-size: 15.5px;
+  font-size: 15px;
 }
 
 .index aside dt {
-  font-size: 15.5px;
+  font-size: 15px;
 }
 
 .index aside dd:not(:last-child) {
@@ -441,13 +441,13 @@ img {
   color: $white;
   font-family: $inter;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: #000;
-  font-size: 15.5px;
+  font-size: 15px;
   width: 400px;
   margin-top: 10px;
 
@@ -476,7 +476,7 @@ img {
     border-left: 5px solid $dark;
     padding: 5px 1rem;
     color: black;
-    font-size: 15.5px;
+    font-size: 15px;
     margin: 15px 0;
     background: #fff;
   }
@@ -486,7 +486,7 @@ img {
   }
 
   .read-more {
-    font-size: 15.5px;
+    font-size: 15px;
   }
 }
 
@@ -502,7 +502,7 @@ table {
 }
 
 table tr {
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
