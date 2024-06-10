@@ -560,6 +560,14 @@ table tr td :last-child {
   }
 }
 
+code table {
+    border: none;
+}
+
+code table tr {
+    font-size: 12px;
+}
+
 .text-summary {
   @include mobile {
     padding: 0px;
