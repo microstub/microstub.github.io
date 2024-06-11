@@ -39,15 +39,11 @@ kramdown:
 sass:
   style: :expanded
 
-plugins:
-  - jekyll-target-blank
-
 gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-github-metadata
   - jemoji
-  - jekyll-target-blank
 
 exclude:
   - Gemfile
