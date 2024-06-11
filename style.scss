@@ -568,6 +568,10 @@ code table tr {
     font-size: 12px;
 }
 
+.rouge-gutter {
+    user-select: none;
+}
+
 .text-summary {
   @include mobile {
     padding: 0px;
