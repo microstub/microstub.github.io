@@ -60,7 +60,7 @@ Bench Multimeter: Rigol DM3068
 Function Generator: GW Instek GFG-8215A
 Power Supply: Rigol DP832
 Soldering Station: RS PRO 65W 202-4487
-Hot Air Station: RS PRO 700W
+Hot Air Station: RS PRO 700W 124-4133
 Workbench Lamp: Duratool 15W LED
 ```
 
