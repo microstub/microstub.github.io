@@ -8,7 +8,7 @@ $serif: sans-serif;
 $inter: "Roboto";
 
 @mixin mobile {
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 730px) {
     @content;
   }
 }
