@@ -6,6 +6,7 @@ const createCopyButton = (codeElement) => {
     img.addEventListener('click', () => {
         var codeText = codeElement.innerText;
         codeText = codeText.replace(/^[\s\S]*?\n\n/, '');
+	codeText = codeText.replace(/^[\s\S]*?\t\n/, '');
         navigator.clipboard.writeText(codeText).then(() => {
             img.style.opacity = '0.7';
         }).catch((err) => {
