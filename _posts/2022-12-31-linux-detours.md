@@ -383,10 +383,10 @@ Let's examine the disassembly of our `add()` function once again:
 
 ```
 Dump of assembler code for function add:
-   0x0000555555561389 <+0>:	48 b8 b1 13 56 55 55 55 00 00	movabs $0x5555555613b1,%rax
-   0x0000555555561393 <+10>:	ff e0	jmpq   *%rax
-   0x0000555555561395 <+12>:	89 7d fc	mov    %edi,-0x4(%rbp)
-   0x0000555555561398 <+15>:	89 75 f8	mov    %esi,-0x8(%rbp)
+   0x0000555555561389 <+0>:  48 b8 b1 13 56 55 55 55 00 00 movabs $0x5555555613b1,%rax
+   0x0000555555561393 <+10>: ff e0	jmpq   *%rax
+   0x0000555555561395 <+12>: 89 7d fc	mov    %edi,-0x4(%rbp)
+   0x0000555555561398 <+15>: 89 75 f8	mov    %esi,-0x8(%rbp)
 ```
 
 `0x5555555613b1` is the address of our detour/intercept function. Let's examine
@@ -403,9 +403,9 @@ Dump of assembler code for function add_detour:
    0x00005555555613b9 <+8>:	48 83 ec 10	sub    $0x10,%rsp
    0x00005555555613bd <+12>:	89 7d fc	mov    %edi,-0x4(%rbp)
    0x00005555555613c0 <+15>:	89 75 f8	mov    %esi,-0x8(%rbp)
-   0x00005555555613c3 <+18>:	48 8d 3d 53 5c 00 00	lea    0x5c53(%rip),%rdi        # 0x55555556701d
+   0x00005555555613c3 <+18>:	48 8d 3d 53 5c 00 00	lea    0x5c53(%rip),%rdi
    0x00005555555613ca <+25>:	e8 b1 fd ff ff	callq  0x555555561180 <puts@plt>
-   0x00005555555613cf <+30>:	48 8b 05 ba bc 01 00	mov    0x1bcba(%rip),%rax        # 0x55555557d090 <addo>
+   0x00005555555613cf <+30>:	48 8b 05 ba bc 01 00	mov    0x1bcba(%rip),%rax
    0x00005555555613d6 <+37>:	be 05 00 00 00	mov    $0x5,%esi
    0x00005555555613db <+42>:	bf 05 00 00 00	mov    $0x5,%edi
    0x00005555555613e0 <+47>:	ff d0	callq  *%rax
