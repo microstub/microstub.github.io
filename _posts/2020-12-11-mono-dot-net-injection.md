@@ -117,7 +117,7 @@ typedef void* (*mono_assembly_open)(char* file, void* stat);
 typedef void* (*mono_assembly_get_image)(void* assembly);
 typedef void* (*mono_class_from_name)(void* image, char* namespacee, char* name);
 typedef void* (*mono_class_get_method_from_name)(void* classs, char* name,
-                                                DWORD param_count);
+                                                 DWORD param_count);
 typedef void* (*mono_runtime_invoke)(void* method, void* instance, void* *params,
                                      void* exc);
 ```
@@ -151,7 +151,7 @@ de-allocation due to garbage collection.
 For Unity3D this is typically achieved using the following pattern:
 
 ```csharp
-     public class Exploit : MonoBehaviour
+ public class Exploit : MonoBehaviour
 	{...}
 
  public static class Test
