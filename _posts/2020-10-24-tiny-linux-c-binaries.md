@@ -59,7 +59,7 @@ type, as well as section listings.
 A sample hello world program is shown below and was compiled with GCC using `gcc
 main.c -o example`
 
-```c
+```
 #include <stdio.h>
 
 int main(int agrc, char *argv[]){
@@ -155,7 +155,7 @@ syscall:
 We may then make a call to this assembly routine from C using the following
 function  signature:
 
-```c
+```
 void* syscall(
 	void* syscall_number,
 	void* param1,
@@ -175,7 +175,7 @@ Syscall `0x1` takes three arguments and has the following signature:
 
 A file called base.c was created, implementing both syscall and print wrappers:
 
-```c
+```
 // base.c
 typedef  unsigned  long  int uintptr;
 typedef  long  int intptr;
