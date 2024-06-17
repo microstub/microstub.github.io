@@ -4,7 +4,7 @@ const createCopyButton = (codeElement) => {
     img.src = '/assets/copy.svg';
 
     img.addEventListener('click', () => {
-        const codeText = codeElement.innerText;
+        var codeText = codeElement.innerText;
 	codeText = codeText.replace(/.*\t\n/, '');
         navigator.clipboard.writeText(codeText).then(() => {
             img.style.opacity = '0.7';
