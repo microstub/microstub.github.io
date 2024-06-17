@@ -8,7 +8,7 @@ const createCopyButton = (codeElement) => {
         codeText = codeText.replace(/^[\s\S]*?\n\n/, '');
 	codeText = codeText.replace(/^[\s\S]*?\t\n/, '');
         navigator.clipboard.writeText(codeText).then(() => {
-            img.style.opacity = '0.7';
+            img.style.border = "1px solid #00ff00";
         }).catch((err) => {
             console.error('Failed to copy text: ', err);
         });
