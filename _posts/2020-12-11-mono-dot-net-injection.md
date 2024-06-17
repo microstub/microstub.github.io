@@ -110,7 +110,7 @@ Some interesting symbols found in `libmono.so` include:
 
 The function signatures for these symbols are shown below:
 
-```c
+```
 typedef void* (*mono_thread_attach)(void* domain);
 typedef void* (*mono_get_root_domain)();
 typedef void* (*mono_assembly_open)(char* file, void* stat);
@@ -150,7 +150,7 @@ de-allocation due to garbage collection.
 
 For Unity3D this is typically achieved using the following pattern:
 
-```csharp
+```
  public class Exploit : MonoBehaviour
 	{...}
 
@@ -180,7 +180,7 @@ chose to implement three simple functionalities:
 
  - Increase/decrease game speed
 
-```csharp
+```
 if(Input.GetKeyDown(KeyCode.F2)){
             speedhack =  !speedhack;
             if(speedhack == true){
@@ -193,7 +193,7 @@ if(Input.GetKeyDown(KeyCode.F2)){
 
  - Clip through walls/obstacles
 
-```csharp
+```
 if(Input.GetKeyDown(KeyCode.F3)){
             collision =  !collision;
             GameObject obj = GameObject.Find("Player Machine Root");
@@ -211,7 +211,7 @@ if(Input.GetKeyDown(KeyCode.F3)){
 
 - Place all network entites near player
 
-```csharp
+```
 if(Input.GetKeyDown(KeyCode.F1))
 {
     salt = !salt;
