@@ -569,11 +569,13 @@ code table {
 code table tr {
     font-size: 12px;
 }
+
 .copy-code {
     width: 22px;
     cursor: pointer;
     display: inline-block;
     float: right;
+    border: 1px solid #ff0000;
     @include mobile {
     display: none;
   }
