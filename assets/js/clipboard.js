@@ -1,5 +1,3 @@
-const codeElements = document.querySelectorAll('code');
-
 const createCopyButton = (codeElement) => {
     const img = document.createElement('img');
     img.classList.add('copy-code');
@@ -17,11 +15,13 @@ const createCopyButton = (codeElement) => {
     return img;
 };
 
-// Log each <code> element to the console
-codeElements.forEach((codeElement) => {
-    const parentElement = codeElement.parentElement;
-    if (parentElement && parentElement.classList.contains('highlight')) {
-        const copyButton = createCopyButton(codeElement);
-        codeElement.insertBefore(copyButton, codeElement.firstChild);
-    }
+window.addEventListener('DOMContentLoaded', function() {
+        const codeElements = document.querySelectorAll('code');
+	codeElements.forEach((codeElement) => {
+	    const parentElement = codeElement.parentElement;
+	    if (parentElement && parentElement.classList.contains('highlight')) {
+	        const copyButton = createCopyButton(codeElement);
+	        codeElement.insertBefore(copyButton, codeElement.firstChild);
+	    }
+	});
 });
