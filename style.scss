@@ -575,6 +575,9 @@ code table tr {
     top: -2px;
     right: 4px;
     cursor: pointer;
+    @include mobile {
+    display: none;
+  }
 }
 
 .rouge-gutter {
