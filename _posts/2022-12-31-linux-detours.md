@@ -193,7 +193,7 @@ The following is a disassembly of the instructions required for a `JMP` to a
 64-bit immediate address:
 
 ```
-0x0000555555561389 <+0>:	48 b8 b1 13 56 55 55 55 00 00	movabs $0x5555555613b1,%rax
+0x0000555555561389 <+0>:	48 b8 b1 13 56 55 55 55 00 00 movabs $0x5555555613b1,%rax
 0x0000555555561393 <+10>:	ff e0	jmpq   *%rax
 ```
 
