@@ -36,7 +36,7 @@ disabled for certain character models, for D3D9 this might involve hooking
 `DrawIndexedPrimitive`.
 
 
-```c
+```
 HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
 {
     // Check play model strides, primitive count, etc
@@ -56,27 +56,27 @@ follows:
 
 - Declare a function pointer with target function signature.
 
-```c
+```
 typedef HRESULT (WINAPI* tDrawIndexedPrimitive)(LPDIRECT3DDEVICE9 pDevice, ...args);
 ```
 
 - Define detour function with same function signature
 
-```c
+```
 HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
 ```
 
 - Assign the function pointer the target functions address in memory. In this
   case a VTable entry.
 
-```c
+```
 #define DIP 0x55
 tDrawIndexedPrimitive oDrawIndexedPrimitive = (oDrawIndexedPrimitive)SomeVTable[DIP];
 ```
 
 - Call DetourFunction
 
-```c
+```
 DetourFunction((void**)&oDrawIndexedPrimitive, &hkhkDrawIndexedPrimitive)
 ```
 
@@ -103,7 +103,7 @@ Two different approaches to method detouring were investigated and implemented
 in the cdl86 C library. First let's have a look at a typical function call for a
 simple C program. We will be using GDB to inspect the resulting dissasembly.
 
-```c
+```
 #include <stdio.h>
 
 int add(int x, int y)
@@ -219,7 +219,7 @@ as well as a call to the target function, offset by the `JMP` patch length.
 
 The tampoline generation code for `cdl86` is shown below:
 
-```c
+```
 uint8_t *cdl_gen_trampoline(uint8_t *target, uint8_t *bytes_orig, int size)
 {
     uint8_t *trampoline;
@@ -251,7 +251,7 @@ set for both the target function before modification as well as the trampoline
 function, after allocation. Here is a snippet from the `cdl86` library for
 setting memory attributes:
 
-```c
+```
 /* Set R/W memory protections for code page. */
 int cdl_set_page_protect(uint8_t *code)
 {
@@ -282,7 +282,7 @@ Let's have a look at all of this in action using GDB. I will be using the
 test case in the `cdl86` library. The source code for this test case is shown
 below:
 
-```c
+```
 #include "cdl.h"
 
 typedef int add_t(int x, int y);
@@ -454,7 +454,7 @@ There is another method of function detouring which involves placing INT3
 breakpoints at the start of the target function in memory. `INT3` breakpoints
 are encoded with the `0xCC` opcode:
 
-```c
+```
 /* Generate int3 instruction. */
 uint8_t *cdl_gen_swbp(uint8_t *code)
 {
@@ -475,7 +475,7 @@ any active global software breakpoints.
 
 This is how the signal handler is registered in `cdl86`:
 
-```c
+```
  struct sigaction sa = {};
 
     /* Initialise cdl signal handler. */
@@ -495,7 +495,7 @@ This is how the signal handler is registered in `cdl86`:
 Note the use of `SA_SIGINFO` to get context information. The software breakpoint
 handler is then defined as follows:
 
-```c
+```
 void cdl_swbp_handler(int sig, siginfo_t *info, struct ucontext_t *context)
 {
     int i = 0x0;
@@ -537,7 +537,7 @@ use of an
 Once a shared library (`.so`) has been injected you can use the following code
 to get the base address of the main executable module:
 
-```c
+```
 #include <link.h>
 #include <inttypes.h>
 
@@ -553,7 +553,7 @@ int __attribute__((constructor)) init()
 
 Or find the address of a function by symbol name:
 
-```c
+```
 void* dl_handle = dlopen(NULL, RTLD_LAZY);
 void* add_ptr = dlsym(dl_handle, "add");
 ```
@@ -561,7 +561,7 @@ void* add_ptr = dlsym(dl_handle, "add");
 # API
 The API for the `cdl86` library is shown below:
 
-```c
+```
 struct cdl_jmp_patch cdl_jmp_attach(void **target, void *detour);
 struct cdl_swbp_patch cdl_swbp_attach(void **target, void *detour);
 void cdl_jmp_detach(struct cdl_jmp_patch *jmp_patch);
