@@ -585,6 +585,11 @@ code table tr {
     user-select: none;
 }
 
+.rouge-code {
+    overflow: overlay;
+    display: inline-grid;
+}
+
 .text-summary {
   @include mobile {
     padding: 0px;
