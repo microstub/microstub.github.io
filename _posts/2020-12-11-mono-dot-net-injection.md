@@ -116,10 +116,8 @@ typedef void* (*mono_get_root_domain)();
 typedef void* (*mono_assembly_open)(char* file, void* stat);
 typedef void* (*mono_assembly_get_image)(void* assembly);
 typedef void* (*mono_class_from_name)(void* image, char* namespacee, char* name);
-typedef void* (*mono_class_get_method_from_name)(void* classs, char* name,
-                                                 DWORD param_count);
-typedef void* (*mono_runtime_invoke)(void* method, void* instance, void* *params,
-                                     void* exc);
+typedef void* (*mono_class_get_method_from_name)(void* classs, char* name, DWORD param_count);
+typedef void* (*mono_runtime_invoke)(void* method, void* instance, void* *params, void* exc);
 ```
 
 In order to perform code injection, firstly a handle to the root application
