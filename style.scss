@@ -586,8 +586,11 @@ code table tr {
 }
 
 .rouge-code {
-    overflow: overlay;
     display: inline-grid;
+}
+
+.rouge-code pre {
+    overflow-x: auto;
 }
 
 .text-summary {
