@@ -4,9 +4,7 @@ const createCopyButton = (codeElement) => {
     img.src = '/assets/copy.svg';
 
     img.addEventListener('click', () => {
-        var codeText = codeElement.innerText;
-        codeText = codeText.replace(/^[\s\S]*?\n\n/, '');
-	codeText = codeText.replace(/^[\s\S]*?\t\n/, '');
+        var codeText = codeElement.querySelector('.rouge-code pre').textContent;
         navigator.clipboard.writeText(codeText).then(() => {
             img.style.border = "1px solid #00ff00";
         }).catch((err) => {
