@@ -9,7 +9,7 @@ permalink: /about/
 > Technical journal for engineers, hobbyists and makers with a focus on
 > software and electronics engineering. 
 
-1. [Authors](#Authors)
+1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
 
