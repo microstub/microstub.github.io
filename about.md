@@ -9,14 +9,14 @@ permalink: /about/
 > Technical journal for engineers, hobbyists and makers with a focus on
 > software and electronics engineering. 
 
-1. [Staff](#staff)
+1. [Staff](#Authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
 
 This journal started as a project to document various technical efforts that
 other engineers might find helpful or interesting.
 
-# Staff
+# Authors
 
 <a href="https://www.linkedin.com/in/dylanmuller/">Dylan Müller</a>
 
