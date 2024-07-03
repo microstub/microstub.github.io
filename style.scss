@@ -278,6 +278,11 @@ aside {
   width: 150px;
   height: 150px;
   flex: 0 0 auto;
+
+  @include mobile {
+     margin-left: auto;
+     margin-right: auto;
+  }
 }
 
 .index aside img {
