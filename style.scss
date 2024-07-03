@@ -274,8 +274,10 @@ aside {
 }
 
 .index aside div {
+  display: flex;
   width: 150px;
   height: 150px;
+  flex: 0 0 auto;
 }
 
 .index aside img {
@@ -286,6 +288,7 @@ aside {
   margin-top: 0px;
   margin-bottom: 0px;
   user-select: none;
+  object-fit: cover;
 }
 
 img {
