@@ -318,12 +318,12 @@ img {
 .index aside dd {
   margin-left: 0;
   font-size: 15px;
-  max-width: min-content;
+  max-width: fit-content;
 }
 
 .index aside dt {
   font-size: 15px;
-  max-width: min-content;
+  max-width: fit-content;
 }
 
 .index aside dd:not(:last-child) {
