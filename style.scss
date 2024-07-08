@@ -582,6 +582,7 @@ table tr td :last-child {
   @include mobile {
     padding-left: 0px;
     padding-top: 15px;
+    width: auto;
   }
 }
 
