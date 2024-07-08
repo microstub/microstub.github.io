@@ -178,6 +178,11 @@ dl {
   /* grid-template-columns: auto 1fr; */
   grid-gap: 0.2em 1.5rem;
   padding-bottom: 15px;
+
+  @include mobile {
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+  }
 }
 
 dl dd {
