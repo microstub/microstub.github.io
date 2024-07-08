@@ -577,6 +577,8 @@ table tr td :last-child {
 
 .text-info {
   padding: 15px;
+  width: 300px;
+
   @include mobile {
     padding-left: 0px;
     padding-top: 15px;
