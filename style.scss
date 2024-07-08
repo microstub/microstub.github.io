@@ -319,11 +319,13 @@ img {
   margin-left: 0;
   font-size: 15px;
   width: fit-content;
+  box-sizing: content-box;
 }
 
 .index aside dt {
   font-size: 15px;
   width: fit-content;
+  box-sizing: content-box;
 }
 
 .index aside dd:not(:last-child) {
