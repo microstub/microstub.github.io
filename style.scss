@@ -176,7 +176,7 @@ b {
 dl {
   display: grid;
   /* grid-template-columns: auto 1fr; */
-  grid-gap: 0.2em 1.5rem;
+  grid-gap: 3px 24px;
 
   @include mobile {
     border-bottom: 1px solid;
