@@ -175,7 +175,7 @@ b {
 
 dl {
   display: grid;
-  grid-template-columns: auto 1fr;
+  /* grid-template-columns: auto 1fr; */
   grid-gap: 0.2em 1.5rem;
   padding-bottom: 15px;
 }
