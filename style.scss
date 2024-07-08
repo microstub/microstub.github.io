@@ -319,12 +319,20 @@ img {
   margin-left: 0;
   font-size: 15px;
   width: min-content;
+
+  @include mobile {
+     width: auto;
+  }
 }
 
 .index aside dt {
   font-size: 15px;
   text-align: right;
   width: min-content;
+
+  @include mobile {
+     width: auto;
+  }
 }
 
 .index aside dd:not(:last-child) {
