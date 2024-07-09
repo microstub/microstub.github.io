@@ -318,21 +318,11 @@ img {
 .index aside dd {
   margin-left: 0;
   font-size: 15px;
-  width: 95px;
-
-  @include mobile {
-    width: auto;
-  }
 }
 
 .index aside dt {
   font-size: 15px;
   text-align: right;
-  width: 60px;
-
-  @include mobile {
-    width: auto;
-  }
 }
 
 .index aside dd:not(:last-child) {
@@ -587,6 +577,7 @@ table tr td :last-child {
 .text-info {
   padding: 15px;
   box-sizing: border-box;
+  flex: 0 0 205px;
 
   @include mobile {
     padding-left: 0px;
