@@ -149,7 +149,7 @@ div ol:first-of-type {
   border: 1px solid;
   background: #fff;
   font-size: 14.5px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 ol ul,
@@ -221,7 +221,7 @@ nav {
     padding: 7px;
     color: $white;
     text-decoration-line: none;
-    border-radius: 5px;
+    border-radius: 3px;
     background: #000;
 
     @include mobile {
@@ -245,7 +245,7 @@ aside {
   padding: 0px;
   border: 1px solid;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
 
   @include mobile {
     height: auto;
@@ -515,7 +515,7 @@ img {
     font-size: 15px;
     margin: 15px 0;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   .comments {
