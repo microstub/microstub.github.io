@@ -28,19 +28,21 @@ layout: default
 
 <div class="aside-container">
   <aside>
-    <div>
+    <div class="info-avatar">
       <img alt="Lunar Journal Logo" src="{{ site.avatar }}">
     </div>
-    <dl class="text-info">
-      <dt>email:</dt>
-      <dd><a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></dd>
-      <dt>youtube:</dt>
-      <dd><a href="https://youtube.com/@{{ site.links.youtube }}">@{{ site.links.youtube }}</a></dd>
-      <dt>github:</dt>
-      <dd><a href="https://github.com/{{ site.links.github }}">{{ site.links.github }}</a></dd>
-      <dt>linktr.ee:</dt>
-      <dd><a href="https://linktr.ee/{{ site.links.linktree }}">{{ site.links.linktree }}</a></dd>
-    </dl>
+    <div>
+      <dl class="text-info">
+        <dt>email:</dt>
+        <dd><a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></dd>
+        <dt>youtube:</dt>
+        <dd><a href="https://youtube.com/@{{ site.links.youtube }}">@{{ site.links.youtube }}</a></dd>
+        <dt>github:</dt>
+        <dd><a href="https://github.com/{{ site.links.github }}">{{ site.links.github }}</a></dd>
+        <dt>linktr.ee:</dt>
+        <dd><a href="https://linktr.ee/{{ site.links.linktree }}">{{ site.links.linktree }}</a></dd>
+      </dl>
+    </div>
     <small class="text-summary">
       {{ site.description }}
     </small>
