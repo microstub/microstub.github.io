@@ -18,7 +18,7 @@ other engineers might find helpful or interesting.
 
 # Authors
 
-<a href="https://www.linkedin.com/in/dylanmuller/">Dylan Müller</a>
+[Dylan Müller]([https://lunar-rf.com](https://www.linkedin.com/in/dylanmuller/))
 
 Dylan Müller is an electrical engineer from Cape Town, South Africa
 and Lead Scientist of Lunar RF Labs. In 2021 he graduated from the
@@ -27,7 +27,7 @@ with a bachelor's (BScEng) degree in electrical and computer engineering.
 
 [[CV](https://lunarjournal.github.io/data/CV.pdf)]
 
-<img src="https://lunarjournal.github.io/images/personal/me_bw.jpeg" />
+![Dylan Müller](https://lunarjournal.github.io/images/personal/me_bw.jpeg)
 
 Education:
 
@@ -64,4 +64,4 @@ Hot Air Station: RS PRO 700W 124-4133
 Workbench Lamp: Duratool 15W LED
 ```
 
-<img src="https://lunarjournal.github.io/images/personal/lab_latest.JPG" />
+![Lab Status](https://lunarjournal.github.io/images/personal/lab_latest.JPG)
