@@ -174,7 +174,7 @@ b {
 }
 
 dl {
-  display: inline-grid;
+  display: grid;
   /* grid-template-columns: auto 1fr; */
   grid-gap: 3px 24px;
 
@@ -575,7 +575,6 @@ table tr td :last-child {
 }
 
 .text-info {
-  padding: 15px;
   box-sizing: border-box;
   flex: 0 0 205px;
 
@@ -621,9 +620,7 @@ code table tr {
   @include mobile {
     padding: 0px;
   }
-  padding: 10px;
   line-height: 1.5;
-  box-sizing: border-box;
 }
 
 .contents {
