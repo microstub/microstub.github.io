@@ -592,8 +592,7 @@ table tr td :last-child {
 
 .info {
   @include mobile {
-    padding-left: 0px;
-    padding-top: 15px;
+    display: none;
   }
 }
 
@@ -634,8 +633,11 @@ code table tr {
 .summary {
   @include mobile {
     padding: 0px;
+    margin-top: 20px;
   }
+
   line-height: 1.5;
+  display: inline-block;
 }
 
 .contents {
