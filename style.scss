@@ -323,7 +323,7 @@ img {
   max-width: 95px;
   
   @include mobile {
-    max-width: auto;
+    max-width: none;
   }
 }
 
@@ -333,7 +333,7 @@ img {
   max-width: 60px;
   
   @include mobile {
-    max-width: auto;
+    max-width: none;
   }
 }
 
