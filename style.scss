@@ -229,6 +229,7 @@ nav {
 }
 
 .aside-container {
+  display: flex;
   @include mobile {
     width: auto;
     padding-left: 0px;
