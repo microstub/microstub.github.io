@@ -280,7 +280,7 @@ aside {
   }
 }
 
-.info-avatar {
+.avatar {
   display: flex;
   width: 150px;
   height: 150px;
@@ -586,7 +586,7 @@ table tr td :last-child {
   padding: 0 1rem;
 }
 
-.text-info {
+.info {
   @include mobile {
     padding-left: 0px;
     padding-top: 15px;
