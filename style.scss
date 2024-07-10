@@ -174,22 +174,6 @@ b {
   font-weight: bold;
 }
 
-dl {
-  display: grid;
-  /* grid-template-columns: auto 1fr; */
-  grid-gap: 3px 24px;
-}
-
-dl dd {
-  grid-column-start: 2;
-  margin: 0;
-}
-
-dl dt {
-  font-weight: 700;
-  grid-column-start: 1;
-}
-
 article > header span {
   color: #333;
   white-space: nowrap;
