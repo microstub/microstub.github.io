@@ -316,6 +316,7 @@ img {
 .index aside dd {
   margin-left: 0;
   font-size: 15px;
+  width: fit-content;
   /*
   max-width: 95px;
   
@@ -328,6 +329,7 @@ img {
 .index aside dt {
   font-size: 15px;
   text-align: left;
+  width: fit-content;
   /*  max-width: 60px;
   
   @include mobile {
