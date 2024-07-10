@@ -573,6 +573,11 @@ table tr td :last-child {
   }
 }
 
+.info table {
+  padding-bottom: 0;
+  border: 0;
+}
+
 code table {
     padding: 0px;
     border: none;
