@@ -281,7 +281,7 @@ nav {
   }
 }
 
-.index aside img {
+.avatar img {
   width: 100%;
   height: 100%;
   padding-bottom: 0px;
@@ -306,17 +306,17 @@ img {
   }
 }
 
-.index aside dd {
+.index dd {
   margin-left: 0;
   font-size: 15px;
 }
 
-.index aside dt {
+.index dt {
   font-size: 15px;
   text-align: left;
 }
 
-.index aside dd:not(:last-child) {
+.index dd:not(:last-child) {
   margin-bottom: 0.4rem;
 }
 
