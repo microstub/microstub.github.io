@@ -316,28 +316,21 @@ img {
 .index aside dd {
   margin-left: 0;
   font-size: 15px;
-  width: auto;
-  display: inline-block;
-  /*
   max-width: 95px;
   
   @include mobile {
     max-width: none;
   }
-  */
 }
 
 .index aside dt {
   font-size: 15px;
   text-align: left;
-  width: auto;
-  display: inline-block;
-  /*  max-width: 60px;
+  max-width: 60px;
   
   @include mobile {
     max-width: none;
   }
-  */
 }
 
 .index aside dd:not(:last-child) {
