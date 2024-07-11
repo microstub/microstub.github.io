@@ -201,10 +201,7 @@ nav {
     text-decoration-line: none;
     border-radius: 3px;
     background: #000;
-
-    @include mobile {
-      margin: 0 5px;
-    }
+    font-size: 13px;
   }
 }
 
