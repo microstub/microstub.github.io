@@ -7,9 +7,9 @@ name: Lunar Journal
 description: >-
         Welcome to the home of the Lunar Journal!<br><br>
         Journal publications cover various areas in software
-        and electronics engineering. :rocket:
+        and electronics engineering.
     
-bio: Technical journal for engineers, hobbyists and makers hosted by <a class="header-link" href="https://lunar.sh">Lunar RF Labs</a>
+bio: Technical journal for engineers, hobbyists and makers hosted by <a class="header-link" href="https://lunar.sh">Lunar RF Labs</a> :rocket:
 github_raw: https://raw.githubusercontent.com/lunarjournal/lunarjournal.github.io/main
 
 avatar: /images/logo_space.jpg
