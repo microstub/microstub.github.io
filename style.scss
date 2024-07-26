@@ -175,9 +175,11 @@ b {
 }
 
 article > header span {
+  display: block;
   color: #333;
   white-space: nowrap;
   font-size: 15px;
+  margin-top: 1px;
 }
 
 nav {
