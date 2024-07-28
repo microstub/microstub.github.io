@@ -154,9 +154,9 @@ The values of $$V_{CE}$$, $$V_{BE}$$ and $$V_{CB}$$ have predictable
 values for the three modes of operation of a transistor, these are:
 
 * **Cut-off** (The transistor acts as an open curcuit; valve closed).
-  $$V_{BE} \ll 0.7V$$
+  $$V_{BE}$$ << 0.7V
 * **Saturation** (The transistor acts as a short circuit; valve completely open)
-  $$V_{BE} \ge 0.7V$$
+  $$V_{BE}$$ >= 0.7V
 * **Active** (The transistor acts as an amplifier; valve varies between closed
   and completely open)
 
