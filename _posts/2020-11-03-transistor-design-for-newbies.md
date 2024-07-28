@@ -332,7 +332,7 @@ The first step in the design of the amplfier is choosing $$R_{c}$$ such that
 $$z_{out}$$ isn't affected by changes in $$R_{L}$$. For example, for a
 large value of $$R_{L}$$ choose $$R_{c} \ll R_{L}$$.
 
-For the purposes of our example we assume $$R_{L}$$ = 100k\Omega$$. We then choose
+For the purposes of our example we assume $$R_{L} = 100k\Omega$$. We then choose
 $$R_{c} = 5k\Omega$$
 
 Next we determine the maximum AC gain possible given a fixed $$z_{out}$$:
