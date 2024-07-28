@@ -51,7 +51,7 @@ Potential difference (voltage) is just a differential measure of this electric
 'field potential' or put differently, the capacity of charge to do work in the
 presence of an electric field:
 
-$$ V_{f} - V{i} = -\int \overrightarrow{E} \cdot \overrightarrow{d}s $$
+$$ V_{f} - V_{i} = -\int \overrightarrow{E} \cdot \overrightarrow{d}s $$
 
 With this in mind the idea of a water valve then makes sense. The valve consists
 of three ports, one attached to one end of the pipe, the other port to the end
