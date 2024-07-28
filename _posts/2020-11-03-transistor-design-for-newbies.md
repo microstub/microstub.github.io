@@ -317,7 +317,7 @@ From an AC perspective:
 *  Inductors become open circuits
 * Voltage sources become grounds
 
-The term r'e is known as the transistor's AC base-emitter junction resistance
+The term $$r'e$$ is known as the transistor's AC base-emitter junction resistance
 and is given by:
 
 $$ r'e = \frac{25mV}{I_{E}} $$
