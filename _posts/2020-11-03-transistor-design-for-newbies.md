@@ -339,8 +339,8 @@ Next we determine the maximum AC gain possible given a fixed $$z_{out}$$:
 
 $$ A_{v} = \frac{0.7(\frac{V_{cc}}{2})}{0.025} $$
 
-It is usually good practice to give 30% of (Vcc/2) to Re and 70% to Rc. Higher
-ratios of Vcc(Re) to Vcc(Rc) might lead to higher ac gain ($$A_{v}$$) but
+It is usually good practice to give 30% of $$\frac{V_{cc}}{2}$$ to Re and 70% to Rc. Higher
+ratios of $$V_{cc}(R_{e})$$ to $$V_{cc}(R_{c})$$ might lead to higher ac gain ($$A_{v}$$) but
 could sacrifice operational stability as a result.
 
 Given $$V_{CC}$$ = 5V, we get $$A_{v}$$ = 70. This is the highest
