@@ -337,10 +337,10 @@ $$R_{c} = 5k\Omega$$
 
 Next we determine the maximum AC gain possible given a fixed $$z_{out}$$:
 
-$$ A_{v} = \frac{0.7(\frac{V_{cc}}{2})}{0.025} $$
+$$ A_{v} = \frac{0.7(\frac{V_{CC}}{2})}{0.025} $$
 
-It is usually good practice to give 30% of $$\frac{V_{cc}}{2}$$ to Re and 70% to Rc. Higher
-ratios of $$V_{cc}(R_{e})$$ to $$V_{cc}(R_{c})$$ might lead to higher ac gain ($$A_{v}$$) but
+It is usually good practice to give 30% of $$\frac{V_{CC}}{2}$$ to $$R_{e}$$ and 70% to $$R_{c}$$. Higher
+ratios of $$V_{CC}(R_{e})$$ to $$V_{CC}(R_{c})$$ might lead to higher ac gain ($$A_{v}$$) but
 could sacrifice operational stability as a result.
 
 Given $$V_{CC}$$ = 5V, we get $$A_{v}$$ = 70. This is the highest
@@ -353,7 +353,7 @@ $$ I_{E} \approx I_{C} \approx \frac{0.025 A_{v}}{z_{out}} $$
 Thus, given $$A_{v}$$= 70, $$z_{out} = 5k\Omega$$ we have $$I_{E}$$ =
 0.35mA. We are now able to calculate $$R_{e}$$:
 
-$$ R_{e} = \frac{0.3(\frac{V_{cc}}{2})}{I_{E}} $$
+$$ R_{e} = \frac{0.3(\frac{V_{CC}}{2})}{I_{E}} $$
 
 For $$V_{CC}$$= 5V, $$I_{E}$$ = 0.35mA we get  $$R_{e} \approx 2.1k\Omega$$.
 
@@ -379,7 +379,7 @@ transistor base:
 
 $$ V_{B} = V_{Re} + 0.7 $$
 
-We know that $$V_{Re}$$ is 30% of $$\frac{V_{cc}}{2}$$, which gives $$V_{B}$$ = 1.45V.
+We know that $$V_{Re}$$ is 30% of $$\frac{V_{CC}}{2}$$, which gives $$V_{B}$$ = 1.45V.
 Now given $$I_{E}$$ = 0.35mA we can again use our minimum value for $$\beta$$ to
 calculate our required base current:
 
