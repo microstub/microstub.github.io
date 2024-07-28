@@ -8,7 +8,8 @@ layout: default
   {% for post in site.posts %}
   <article class="post">
     <header>
-      <div><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %e, %Y" }}</div>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span>
+      <div><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
       <div class="excerpt">{{ post.excerpt }}</div>
     </header>
   </article>
