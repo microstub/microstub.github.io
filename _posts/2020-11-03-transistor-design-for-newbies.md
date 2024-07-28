@@ -30,7 +30,7 @@ We define current as the movement of water (charge) through the pipe (wire), or
 in mathematical terms the rate of flow of water (charge) past a given point with
 respect to time:
 
-![enter image description here](http://lunarjournal.github.io/images/3/01.png){:height="65px"}
+$$ i=\frac{dC}{dt} $$
 
 Voltage is analogous to the pressure differential between two points. For
 example, suppose we suspend water in a pipe and then apply a high pressure at
@@ -51,7 +51,7 @@ Potential difference (voltage) is just a differential measure of this electric
 'field potential' or put differently, the capacity of charge to do work in the
 presence of an electric field:
 
-![enter image description here](http://lunarjournal.github.io/images/3/02.png){:height="45px"}
+$$ V_{f} - V{i} = -\int \overrightarrow{E} \cdot \overrightarrow{d}s $$
 
 With this in mind the idea of a water valve then makes sense. The valve consists
 of three ports, one attached to one end of the pipe, the other port to the end
@@ -76,7 +76,7 @@ are individual elements (phosphorus, boron) added to neutral silicon (and
 replace the corresponding silicon atoms) in order to change the electrical
 properties of the layer.
 
-![enter image description here](http://lunarjournal.github.io/images/3/10.png)
+![enter image description here](https://lunarjournal.github.io/images/3/10.png)
 
 For example, boron [B] dopant has a valency (number of outer electrons) of 3,
 while silicon has a valency of 4. This means that when boron and silicon bond
@@ -90,7 +90,7 @@ In contrast phosphorus [P] dopant has a valency of 5, again there is a mismatch
 phosphorus to move freely through the crystal structure and giving the overall
 crystal layer a negative polarity, the n type layer.
 
-![enter image description here](http://lunarjournal.github.io/images/3/04.png){:height="200px"}
+![enter image description here](https://lunarjournal.github.io/images/3/04.png){:height="200px"}
 
 If we were to place an n region and p region together we would form an
 electronic device known as a diode. A diode is a 2 terminal device (with the n
@@ -101,7 +101,7 @@ there is a localised effect at their layer boundary that results in a small
 number of electrons (from the n type region) migrating to the p type region in
 what is known as the depletion region.
 
-![enter image description here](http://lunarjournal.github.io/images/3/11.jpg){:height="300px"}
+![enter image description here](https://lunarjournal.github.io/images/3/11.jpg){:height="300px"}
 
 The migration of electrons from the n type region to the p type region at the np
 boundary sets up what is known as a barrier potential, a secondary electric
@@ -116,12 +116,12 @@ It is equivalent to having a water valve initially shut tight and requiring a
 torque in order to get water flowing. A typical value for the barrier potential
 of garden variety diodes is between 0.3v-0.7v.
 
-![enter image description here](http://lunarjournal.github.io/images/3/03.gif)
+![enter image description here](https://lunarjournal.github.io/images/3/03.gif)
 
 A bipolar junction transistor (BJT) may be viewed as a combination of two diodes
 (shown below for an NPN transistor):
 
-![enter image description here](http://lunarjournal.github.io/images/3/05.gif)
+![enter image description here](https://lunarjournal.github.io/images/3/05.gif)
 
 An NPN BJT transistor has two current paths, one from the collector to emitter
 and the other from the base to emitter. The current flow from collector to
@@ -136,27 +136,27 @@ through a diode. However it takes much more voltage to 'push' charge through a
 diode in the direction it's meant to block than in the direction it is meant to
 flow.
 
-The ratio of base-emitter current to collector-emitter current is known as (β)
+The ratio of base-emitter current to collector-emitter current is known as ($$\beta$$)
 and is an important consideration in the design of circuits using transistors:
 
-![enter image description here](http://lunarjournal.github.io/images/3/06.png){:height="45px"}
+$$ I_{c} = \beta I_{B} $$
 
 Both transistor current paths have an associated voltage drop/potential
 difference across them.
 
 For the current flow from base to emitter, there is the base-emitter voltage
-drop V<sub>BE</sub> and from collector to emitter there is the collector-emitter
-voltage drop V<sub>CE</sub> :
+drop $$V_{BE}$$ and from collector to emitter there is the collector-emitter
+voltage drop $$V_{CE}$$ :
 
-![enter image description here](http://lunarjournal.github.io/images/3/07.gif){:height="200px"}
+![enter image description here](https://lunarjournal.github.io/images/3/07.gif){:height="200px"}
 
-The values of V<sub>CE</sub>, V<sub>BE</sub> and V<sub>CB</sub> have predictable
+The values of $$V_{CE}$$, $$V_{BE}$$ and $$V_{CB}$$ have predictable
 values for the three modes of operation of a transistor, these are:
 
 * **Cut-off** (The transistor acts as an open curcuit; valve closed).
-  V<sub>BE</sub> << 0.7V
+  $$V_{BE} \ll 0.7V$$
 * **Saturation** (The transistor acts as a short circuit; valve completely open)
-* V<sub>BE</sub> >= 0.7V
+  $$V_{BE} \ge 0.7V$$
 * **Active** (The transistor acts as an amplifier; valve varies between closed
   and completely open)
 
@@ -168,72 +168,71 @@ states: cut-off or saturation.
 The following switching circuit is usually employed (with an NPN BJT)  (shown
 together with an LED):
 
-![enter image description here](http://lunarjournal.github.io/images/3/12.jpg){:height="300px"}
+![enter image description here](https://lunarjournal.github.io/images/3/12.jpg){:height="300px"}
 
 
-The circuit is seen consisting of a base current limiting resistor R<sub>B</sub>
-as well as a collector-emitter current limiting resistor R<sub>LIM</sub>.
+The circuit is seen consisting of a base current limiting resistor $$R_{B}$$
+as well as a collector-emitter current limiting resistor $$R_{LIM}$$.
 
-R<sub>B</sub> serves to set up the correct base current, while R<sub>LIM</sub>
+$$R_{B}$$ serves to set up the correct base current, while $$R_{LIM}$$
 serves to limit the maximum current through the LED (shown in red) when the
 transistor is switched fully on (driven into saturation).
 
-To calculate the values for resistors R<sub>B</sub> and R<sub>LIM</sub> we use
+To calculate the values for resistors $$R_{B}$$ and $$R_{LIM}$$ we use
 the equation relating base current to collector current defined earlier:
 
-![enter image description here](http://lunarjournal.github.io/images/3/06.png){:height="45px"}
+$$ I_{c} = \beta I_{B} $$
 
-The first question becomes what collector current I<sub>C</sub> we desire. This
+The first question becomes what collector current $$I_{C}$$ we desire. This
 value depends on the device/load you are trying to switch on/off. It is worth
 noting that when a transistor is switched fully on (is in saturation mode) the
 equivalent circuit (simplified) is as follows (shown without the LED, you can
-assume the LED follows resistor R<sub>C</sub>):
+assume the LED follows resistor $$R_{C}$$):
 
-![enter image description here](http://lunarjournal.github.io/images/3/08.jpg){:width="450px"}
+![enter image description here](https://lunarjournal.github.io/images/3/08.jpg){:width="450px"}
 
 Thus at the collector a direct connection to ground is made. However this
 connection is not perfect and there is an associated voltage drop from collector
-to emitter of typically around 0.2v (V<sub>CE</sub>) rather than 0v. Determining
-the relevant value for I<sub>C</sub> is then just a matter how much current your
+to emitter of typically around 0.2v ($$V_{CE}$$) rather than 0v. Determining
+the relevant value for $$I_{C}$$ is then just a matter how much current your
 load (LED in our case) requires.
 
 For example, a typical green led requires around 15mA of current to light up
-brightly so we set I<sub>C</sub> = 15mA. A green LED also typically has a 2v
-drop across it. To calculate R<sub>LIM</sub> we use ohms law:
+brightly so we set $$I_{C}$$ = 15mA. A green LED also typically has a 2v
+drop across it. To calculate $$R_{LIM}$$ we use ohms law:
 
-
-![enter image description here](http://lunarjournal.github.io/images/3/14.gif)
+$$ R_{LIM} = \frac{V_{CC} - V_{LED} - V_{CE}}{I_{DESIRED}} $$
 
 Given the LED and collector to emitter voltage drops of 2v and 0.2v
 respectively, we can further reduce the above expression above to:
 
-![enter image description here](http://lunarjournal.github.io/images/3/15.gif)
+$$ R_{LIM} = \frac{V_{CC} - 2 - 0.2}{15 \cdot 10^{-3}} $$
 
-Choosing V<sub>CC</sub> is just a matter of what you have at hand. For example,
+Choosing $$V_{CC}$$ is just a matter of what you have at hand. For example,
 a 5v or 9v supply would be adequate to drive the transistor into saturation as
-long as V<sub>CC</sub> >> 0.7v (due to the base emitter voltage drop) and Vcc >>
+long as $$V_{CC}$$ >> 0.7v (due to the base emitter voltage drop) and Vcc >>
 2v (for the led).
 
-Assume V<sub>CC</sub> = 5v, then R<sub>LIM</sub> = 186.7 Ω
+Assume $$V_{CC}$$ = 5v, then $$R_{LIM}$$ = 186.7 Ω
 
-In calculating the required base current, we use the transistor's β value. This
+In calculating the required base current, we use the transistor's $$\beta$$ value. This
 can be found on the transistors datasheet and typically varies from anywhere
-between 20 to 200. The rule of thumb is to use the minimum value of β for a
+between 20 to 200. The rule of thumb is to use the minimum value of $$\beta$$ for a
 specific transistor type. For the standard garden variety 2N2222 transistor, the
-minimum value of β is around 75. Therefore to calculate I<sub>B</sub>, we have:
+minimum value of $$\beta$$ is around 75. Therefore to calculate $$I_{B}$$, we have:
 
-![enter image description here](http://lunarjournal.github.io/images/3/16.gif)
+$$ I_{B} = \frac{I_{C} \cdot SF}{\beta_{min}} = \frac{15mA \cdot 5}{75} = 1mA $$
 
 You might have noticed an additional factor called SF for (safety factor). This
-is a factor typically around 5-10 that we multiply our calculated I<sub>B</sub>
+is a factor typically around 5-10 that we multiply our calculated $$I_{B}$$
 with in order to ensure we drive the transistor into saturation. This gives a
-value of around 1mA for I<sub>B</sub>.
+value of around 1mA for $$I_{B}$$.
 
-Given I<sub>B</sub>, calculating R<sub>B</sub> becomes trivial as we know the
-voltage across R<sub>B</sub> as: V<sub>CC</sub> - V<sub>BE</sub> (think of
-V<sub>BE</sub> as a 0.7v diode) and so we apply ohms law once again:
+Given $$I_{B}$$, calculating $$R_{B}$$ becomes trivial as we know the
+voltage across $$R_{B}$$ as: $$V_{CC} - V_{BE}$$ (think of
+$$V_{BE}$$ as a 0.7v diode) and so we apply ohms law once again:
 
-![enter image description here](http://lunarjournal.github.io/images/3/17.gif)
+$$ R_{B} = \frac{V_{CC} - V_{BE}}{I_{B}} = \frac{5-0.7}{1 \cdot 10^{-3}} = 4.3k\Omega $$
 
 Now you can connect a switch between the base resistor and Vcc or connect the
 base resistor directly to the output of a 5V-TTL micro-controller in order to
@@ -242,23 +241,23 @@ require a relatively small current (<1mA) in order to switch a much larger
 current through the LED (15mA)!
 
 In conclusion:
-1. Determine required collector current  I<sub>C</sub>
-2. Calculate  R<sub>LIM</sub> (ohms law)
-3. Calculate  I<sub>B</sub> using lowest value for β
-4. Multiply  I<sub>B</sub> by safety factor 5-10
-5. Calculate R<sub>B</sub> (ohms law)
+1. Determine required collector current $$I_{C}$$
+2. Calculate $$R_{LIM}$$ (ohms law)
+3. Calculate $$I_{B}$$ using lowest value for $$\beta$$
+4. Multiply $$I_{B}$$ by safety factor 5-10
+5. Calculate $$R_{B}$$ (ohms law)
 
 The simple LED transistor circuit was modelled in LTSpice, with the LED
 represented as a series voltage source (representing the 2v voltage drop).:
 
-![enter image description here](http://lunarjournal.github.io/images/3/18.png){:width="400px"}
+![enter image description here](https://lunarjournal.github.io/images/3/18.png){:width="400px"}
 
  A simulation of the DC operating point of the circuit yielded:
 
-![enter image description here](http://lunarjournal.github.io/images/3/19.png){:height="200px"}
+![enter image description here](https://lunarjournal.github.io/images/3/19.png){:height="200px"}
 
-Here we can see the ~1mA base current (I<sub>b</sub>) driving ~15mA collector
-(I<sub>C</sub>) current. All current values are shown in S.I units of amperes
+Here we can see the ~1mA base current ($$I_{b}$$) driving ~15mA collector
+($$I_{C}$$) current. All current values are shown in S.I units of amperes
 (A).
 
 # Transistor as an amplifier
@@ -272,7 +271,7 @@ There are various circuit configurations used to achieve amplification using
 transistors, a useful 'template' is known as common emitter configuration (shown
 below with an NPN transistor):
 
- ![enter image description here](http://lunarjournal.github.io/images/3/37.png){:width="600px"}
+ ![enter image description here](https://lunarjournal.github.io/images/3/37.png){:width="600px"}
 
 Here we model a 20mVp (20mV amplitude) sinusoidal signal source with a
 resistance of 50 Ω, but your input can be practically anything.
@@ -293,7 +292,7 @@ Capacitor C3 is known as a DC blocking capacitor and is used to remove the DC
 component of the input signal at the feed point (base of Q1). All signals have a
 dc component:
 
-![enter image description here](http://lunarjournal.github.io/images/3/21.png){:height="300px"}
+![enter image description here](https://lunarjournal.github.io/images/3/21.png){:height="300px"}
 
 Effectively C3 serves to isolate the fluctuating(AC) component from the net
 signal, that is, we need a signal that moves along the line y= 0.
@@ -303,15 +302,15 @@ offset at the output of the amplifier.
 
 The role of capacitor C1 is a bit more involved and requires and understanding
 of AC circuit analysis, specifically the AC signal gain/amplification
-A<sub>v</sub> which, for common emitter configuration, is given by:
+$$A_{v}$$ which, for common emitter configuration, is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/22.png){:height="60px"}
+$$ A_{v} = \frac{z_{out}}{r'e + R_{e}} $$
 
-Here z<sub>out</sub> represents the output impedance of the common-emitter
-amplifier which is given by the parallel combination of R<sub>c</sub> and your
-load resistance, R<sub>L</sub> (connected to C2).
+Here $$z_{out}$$ represents the output impedance of the common-emitter
+amplifier which is given by the parallel combination of $$R_{c}$$ and your
+load resistance, $$R_{L}$$ (connected to C2).
 
-![enter image description here](http://lunarjournal.github.io/images/3/23.png){:height="70px"}
+$$ z_{out} = \frac{R_{c} \cdot R_{L}}{R_{c} + R_{L}} $$
 
 From an AC perspective:
 * Capacitors become short circuits
@@ -321,75 +320,75 @@ From an AC perspective:
 The term r'e is known as the transistor's AC base-emitter junction resistance
 and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/24.png){:height="70px"}
+$$ r'e = \frac{25mV}{I_{E}} $$
 
-The introduction of capacitor C1 nulls out the term R<sub>e</sub> from the
-expression for  A<sub>v</sub>. This is typically done to achieve higher values
-of A<sub>v</sub> than would otherwise be possible if resistor R<sub>e</sub> was
-still present. For lower, more controlled values of A<sub>v</sub>, resistor
-R<sub>e</sub> should not be bypassed by capacitor C1.
+The introduction of capacitor C1 nulls out the term $$R_{e}$$ from the
+expression for  $$A_{v}$$. This is typically done to achieve higher values
+of $$A_{v}$$ than would otherwise be possible if resistor $$R_{e}$$ was
+still present. For lower, more controlled values of $$A_{v}$$, resistor
+$$R_{e}$$ should not be bypassed by capacitor C1.
 
-The first step in the design of the amplfier is choosing R<sub>c</sub> such that
-z<sub>out</sub> isn't affected by changes in R<sub>L</sub>. For example, for a
-large value of R<sub>L</sub> choose R<sub>c</sub> << R<sub>L</sub>.
+The first step in the design of the amplfier is choosing $$R_{c}$$ such that
+$$z_{out}$$ isn't affected by changes in $$R_{L}$$. For example, for a
+large value of $$R_{L}$$ choose $$R_{c} \ll R_{L}$$.
 
-For the purposes of our example we assume R<sub>L</sub> = 100KΩ We then choose
-R<sub>c</sub> = 5KΩ
+For the purposes of our example we assume $$R_{L}$$ = 100k\Omega$$. We then choose
+$$R_{c} = 5k\Omega$$
 
-Next we determine the maximum AC gain possible given a fixed z<sub>out</sub>:
+Next we determine the maximum AC gain possible given a fixed $$z_{out}$$:
 
-![enter image description here](http://lunarjournal.github.io/images/3/25.png){:height="80px"}
+$$ A_{v} = \frac{0.7(\frac{V_{cc}}{2})}{0.025} $$
 
 It is usually good practice to give 30% of (Vcc/2) to Re and 70% to Rc. Higher
-ratios of Vcc(Re) to Vcc(Rc) might lead to higher ac gain (A<sub>v</sub>) but
+ratios of Vcc(Re) to Vcc(Rc) might lead to higher ac gain ($$A_{v}$$) but
 could sacrifice operational stability as a result.
 
-Given V<sub>cc</sub> = 5V, we get A<sub>v</sub> = 70. This is the highest
+Given $$V_{CC}$$ = 5V, we get $$A_{v}$$ = 70. This is the highest
 expected voltage gain for this amplifier.
 
 We know that:
 
-![enter image description here](http://lunarjournal.github.io/images/3/26.png){:height="70px"}
+$$ I_{E} \approx I_{C} \approx \frac{0.025 A_{v}}{z_{out}} $$
 
-Thus, given A<sub>v</sub> = 70, z<sub>out</sub> = 5KΩ we have I<sub>E</sub> =
-0.35mA. We are now able to calculate R<sub>e</sub>:
+Thus, given $$A_{v}$$= 70, $$z_{out} = 5k\Omega$$ we have $$I_{E}$$ =
+0.35mA. We are now able to calculate $$R_{e}$$:
 
-![enter image description here](http://lunarjournal.github.io/images/3/27.png){:height="75px"}
+$$ R_{e} = \frac{0.3(\frac{V_{cc}}{2})}{I_{E}} $$
 
-For V<sub>cc</sub> = 5V, I<sub>E</sub> = 0.35mA we get  R<sub>e</sub> =~2.1KΩ
+For $$V_{CC}$$= 5V, $$I_{E}$$ = 0.35mA we get  $$R_{e} \approx 2.1k\Omega$$.
 
 A useful parameter for common emitter configuration is the AC input impedance
 (looking in from C3)  and is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/28.png){:height="70px"}
+$$ z_{in} = (\frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{base}})^{-1} $$
 
-Here R<sub>base</sub> represents the AC input impedance of transistor Q1
+Here $$R_{base}$$ represents the AC input impedance of transistor Q1
 (looking into the base):
 
-![enter image description here](http://lunarjournal.github.io/images/3/29.png){:height="60px"}
+$$ R_{base} = \beta \cdot r'e $$
 
-We know how to calculate r'e from earlier and we use the minimum value of β (75
-for 2N2222) to calculate R<sub>base</sub>:
+We know how to calculate r'e from earlier and we use the minimum value of $$\beta$$ (75
+for 2N2222) to calculate $$R_{base}$$:
 
-![enter image description here](http://lunarjournal.github.io/images/3/30.png){:height="65px"}
+$$ R_{base} = 75 \cdot \frac{25}{0.35} $$
 
-Thus R<sub>base</sub> = 5.4 KΩ
+Thus $$R_{base} = 5.4k\Omega$$
 
 Returning to our DC analysis, we calculate the expected voltage at the
 transistor base:
 
-![enter image description here](http://lunarjournal.github.io/images/3/31.png){:height="45px"}
+$$ V_{B} = V_{Re} + 0.7 $$
 
-We know that V<sub>Re</sub> is 30% of Vcc/2, which gives V<sub>B</sub> = 1.45V.
-Now given I<sub>E</sub> = 0.35mA we can again use our minimum value for β to
+We know that $$V_{Re}$$ is 30% of $$\frac{V_{cc}}{2}$$, which gives $$V_{B}$$ = 1.45V.
+Now given $$I_{E}$$ = 0.35mA we can again use our minimum value for $$\beta$$ to
 calculate our required base current:
 
-![enter image description here](http://lunarjournal.github.io/images/3/32.png){:height="60px"}
+$$ I_{B} = \frac{0.35 mA}{75} $$
 
-Thus I<sub>B</sub> = 4.57uA
+Thus $$I_{B}$$ = 4.57uA
 
 At this point we need to ensure that small changes in the value of base current
-(which occur due to variations in β ) do not significantly effect the DC
+(which occur due to variations in $$\beta$$ ) do not significantly effect the DC
 operating point of the amplifier circuit.
 
 In order to ensure a stable operating point we 'stiffen' the voltage divider by
@@ -399,43 +398,43 @@ into the base of transistor Q1.
 A good rule of thumb is to allow for 1% of the total divider current to pass
 into the base of the transistor.
 
-![enter image description here](http://lunarjournal.github.io/images/3/33.png){:height="70px"}
+$$ \frac{1}{100} \cdot I_{R_{1}} = 4.57uA $$
 
-We can therefore assume that I<sub>R1</sub> ~= I<sub>R2</sub> and solving the
-above expression yields I<sub>R2</sub> = 0.456mA. Since we know the voltage
-across  R<sub>2</sub> (given by V<sub>B</sub>) we can calculate the resistance
+We can therefore assume that $$I_{R1} \approx I_{R2}$$ and solving the
+above expression yields $$I_{R2}$$ = 0.456mA. Since we know the voltage
+across  $$R_{2}$$ (given by $$V_{B}$$) we can calculate the resistance
 value:
 
-![enter image description here](http://lunarjournal.github.io/images/3/34.png){:height="65px"}
+$$ R_{2} = \frac{1.45}{0.99(0.456 \cdot 10^{-3})} $$
 
-This gives R<sub>2</sub> ~= 3.2KΩ. Finally we calculate the value of
-R<sub>1</sub>:
+This gives $$ R_{2} \approx 3.2 k\Omega $$. Finally we calculate the value of
+$$R_{1}$$:
 
-![enter image description here](http://lunarjournal.github.io/images/3/35.png){:height="70px"}
+$$ R_{1} = \frac{5-1.45}{0.456 \cdot 10^{-3}} $$
 
-R<sub>1</sub> ~= 7.8 KΩ
+$$ R_{1} \approx 7.8k\Omega $$
 
 The values of capacitors C3, C2 and C1 are chosen such that the capacitive
 reactance (resistance at AC) at the desired signal frequency is minimal.
 Capacitive reactance is given by:
 
-![enter image description here](http://lunarjournal.github.io/images/3/39.png){:height="70px"}
+$$ X_{C} = \frac{1}{2\pi fC} $$
 
 Now that we have all the required component values, we build the circuit in
 LTSpice:
 
-![enter image description here](http://lunarjournal.github.io/images/3/38.png)
+![enter image description here](https://lunarjournal.github.io/images/3/38.png)
 
 A simulation of the DC operating point was performed:
 
-![enter image description here](http://lunarjournal.github.io/images/3/40.png){:width="500px"}
+![enter image description here](https://lunarjournal.github.io/images/3/40.png){:width="500px"}
 
-Here we can see our expected V<sub>base</sub> of around 1.45V and an emitter
+Here we can see our expected $$V_{base}$$ of around 1.45V and an emitter
 current of around 0.38mA (instead of 0.35mA), not too bad! Let's measure the
 voltage gain( with the signal source set to a peak amplitude of 1mV and a 100K
 load attached):
 
-![enter image description here](http://lunarjournal.github.io/images/3/43.png){:width="500px"}
+![enter image description here](https://lunarjournal.github.io/images/3/43.png){:width="500px"}
 
 Our output across our load is seen reaching an amplitude of 70mV and so we have
 a voltage gain of ~70.
