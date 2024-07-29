@@ -198,12 +198,13 @@ nav {
   a {
     text-align: right;
     font-weight: 400;
-    padding: 7px;
+    padding: 6px;
     color: $white;
     text-decoration-line: none;
     border-radius: 3px;
     background: #000;
     font-size: 13px;
+    border: 1px solid #fff;
   }
 }
 
@@ -344,7 +345,7 @@ img {
 }
 
 .header-link{
-  color: #000;
+  color: #fff;
 }
 
 .clearfix:after {
@@ -357,7 +358,7 @@ img {
 
 .no-decoration {
   text-decoration-line: none;
-  color: #000;
+  color: #fff;
   font-family: $inter;
   user-select: none;
 }
@@ -379,7 +380,7 @@ img {
 }
 
 .sticky {
-  background-color: #fff;
+  background-color: #000;
   position: sticky;
   border-bottom: 1px solid;
   top: 0;
@@ -443,7 +444,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #000;
+  color: #fff;
   font-size: 15px;
   width: 400px;
   margin-top: 10px;
