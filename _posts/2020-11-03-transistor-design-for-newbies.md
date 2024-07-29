@@ -213,7 +213,7 @@ a 5v or 9v supply would be adequate to drive the transistor into saturation as
 long as $$V_{CC}$$ >> 0.7v (due to the base emitter voltage drop) and Vcc >>
 2v (for the led).
 
-Assume $$V_{CC}$$ = 5v, then $$R_{LIM}$$ = 186.7 Ω
+Assume $$V_{CC}$$ = 5v, then $$R_{LIM}$$ = 186.7 $$\Omega$$
 
 In calculating the required base current, we use the transistor's $$\beta$$ value. This
 can be found on the transistors datasheet and typically varies from anywhere
@@ -274,7 +274,7 @@ below with an NPN transistor):
  ![enter image description here](https://lunarjournal.github.io/images/3/37.png){:width="600px"}
 
 Here we model a 20mVp (20mV amplitude) sinusoidal signal source with a
-resistance of 50 Ω, but your input can be practically anything.
+resistance of 50 $$\Omega$$, but your input can be practically anything.
 
 It should be noted that there are two electrical 'components' of the above
 circuit, these are AC (the fluctuating component) and DC (the static component).
@@ -284,7 +284,7 @@ When analysing a circuit from a DC perspective there are a few rules to follow:
 *  Inductors become closed circuits
 
 This means that at the base of Q1, C3 becomes an open connection, i.e the base
-of the transistor cannot see signal source V2 or the 50Ω. resistor .
+of the transistor cannot see signal source V2 or the 50 $$\Omega$$. resistor .
 Additionally, capacitor C1 becomes an open circuit and therefore has no effect
 (it's as if all the capacitors weren't there in the first place).
 
