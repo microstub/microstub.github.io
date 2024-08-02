@@ -381,11 +381,10 @@ img {
 
 .sticky {
   background-color: #0a0b10;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   width: 100%;
   z-index: 5;
-  border-bottom: 5px solid #90a1a8;
 }
 
 .title {
