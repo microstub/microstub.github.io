@@ -71,7 +71,7 @@ h6 {
   font-family: $inter;
   color: $black;
   font-weight: bold;
-  scroll-margin-top: 125px;
+  /* scroll-margin-top: 125px; */
 
   line-height: 1.5;
   margin: 15px 0 15px;
@@ -79,7 +79,7 @@ h6 {
 
   @include mobile {
     line-height: 1.5;
-    scroll-margin-top: 160px;
+    /* scroll-margin-top: 160px; */
   }
 }
 
