@@ -286,9 +286,11 @@ img {
   margin-bottom: 15px;
   margin-top: 15px;
   user-select: none;
+  border-radius: 1px 0px 0px 1px;
 
   @include mobile {
      height: 100%;
+     border-radius: 0;
   }
 }
 
