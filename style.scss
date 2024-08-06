@@ -629,7 +629,7 @@ code table tr {
 
 .footer-love {
   margin: 0 auto;
-  width: fit-content;
+  max-width: max-content;
   margin-top: 30px;
   font-size: 14px;
   font-family: 'Roboto';
