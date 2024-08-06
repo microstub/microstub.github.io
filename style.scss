@@ -628,11 +628,9 @@ code table tr {
 }
 
 .footer-love {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
   margin-top: 30px;
-  align-items: center;
-  gap: 5px;
   font-size: 14px;
   font-family: 'Roboto';
   color: #696969;
