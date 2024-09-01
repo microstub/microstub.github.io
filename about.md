@@ -48,7 +48,7 @@ in wireless systems.
 
 # Lab Status
 
-Currently the R&D Lab is well equipped for RF development below 500 MHz.
+Currently the R&D Lab is well equipped for RF development in the VHF band (30-300) MHz.
 
 Equipment List:
 
