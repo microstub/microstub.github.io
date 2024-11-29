@@ -100,13 +100,13 @@ payload which is essentially a shared library that makes internal calls to
 
 Some interesting symbols found in `libmono.so` include:
 
- - **mono_get_root_domain** - get handle to primary domain
- - **mono_thread_attach** - attach to domain
- - **mono_assembly_open** - load assembly
- - **mono_assembly_get_image** - get assembly image
- - **mono_class_from_name** - get handle to class
- - **mono_class_get_method_from_name** - get handle to class method
- - **mono_runtime_invoke** - invoke class method
+ - `mono_get_root_domain` - get handle to primary domain
+ - `mono_thread_attach` - attach to domain
+ - `mono_assembly_open` - load assembly
+ - `mono_assembly_get_image` - get assembly image
+ - `mono_class_from_name` - get handle to class
+ - `mono_class_get_method_from_name` - get handle to class method
+ - `mono_runtime_invoke` - invoke class method
 
 The function signatures for these symbols are shown below:
 
