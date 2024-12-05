@@ -9,7 +9,7 @@ The Lunar Journal is built with [Jekyll](https://jekyllrb.com/) and hosted with 
 Source code is a heavily modified version of [jekyll-now](https://github.com/barryclark/jekyll-now).
 
 Authors:<br>
-- [Dylan Müller](https://linkedin.com/in/dylanmuller)
+- [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
 
 # Build info
 
