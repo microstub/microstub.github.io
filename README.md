@@ -6,7 +6,7 @@ The Lunar Journal: [`journal.lunar.sh`](https://journal.lunar.sh)
 
 The Lunar Journal is built with [Jekyll](https://jekyllrb.com/) and hosted with GitHub Pages.
 
-Source code is a heavily modified version of [jekyll-now](https://github.com/barryclark/jekyll-now).
+Source code is a heavily modified version of [`jekyll-now`](https://github.com/barryclark/jekyll-now).
 
 Authors:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
