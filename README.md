@@ -25,4 +25,4 @@ Then run: `jekyll serve` in root directory.
 
 # License
 
-This source code is licensed under `[MIT](https://opensource.org/license/mit/)`.
+This source code is licensed under [`MIT`](https://opensource.org/license/mit/).
