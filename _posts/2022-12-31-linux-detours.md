@@ -270,11 +270,11 @@ int cdl_set_page_protect(uint8_t *code)
 
 The general procedure to place the `JMP` hook is as follows:
 
-1. Determine the minimum number of bytes required for a JMP patch
-2. Create trampoline function
-3. Set memory permissions (read, write, execute)
-4. Generate `JMP` to detour at target function
-5. Fill unused bytes with NOP
+1. Determine the minimum number of bytes required for a JMP patch.
+2. Create trampoline function.
+3. Set memory permissions (read, write, execute).
+4. Generate `JMP` to detour at target function.
+5. Fill unused bytes with NOP.
 6. Assign trampoline address to target function pointer.
 
 Let's have a look at all of this in action using GDB. I will be using the
