@@ -53,15 +53,15 @@ Currently the R&D Lab is well equipped for RF development in the VHF band (30-30
 Equipment List:
 
 ```
-DSO: Rigol DS1202Z-E
-Vector Network Analyzer: Siglent SVA1015X
-Spectrum Analyzer: Rigol DSA815-TG
-Bench Multimeter: Rigol DM3068
-Function Generator: GW Instek GFG-8215A
-Power Supply: Rigol DP832
-Soldering Station: RS PRO 65W 202-4487
-Hot Air Station: RS PRO 700W 124-4133
-Workbench Lamp: Duratool 15W LED
+- DSO: Rigol DS1202Z-E
+- Vector Network Analyzer: Siglent SVA1015X
+- Spectrum Analyzer: Rigol DSA815-TG
+- Bench Multimeter: Rigol DM3068
+- Function Generator: GW Instek GFG-8215A
+- Power Supply: Rigol DP832
+- Soldering Station: RS PRO 65W 202-4487
+- Hot Air Station: RS PRO 700W 124-4133
+- Workbench Lamp: Duratool 15W LED
 ```
 
 ![Lab Status](https://lunarjournal.github.io/images/personal/lab_latest.JPG)
