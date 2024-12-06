@@ -153,7 +153,7 @@ voltage drop $$V_{CE}$$ :
 The values of $$V_{CE}$$, $$V_{BE}$$ and $$V_{CB}$$ have predictable
 values for the three modes of operation of a transistor, these are:
 
-* **Cut-off** (The transistor acts as an open curcuit; valve closed).
+* **Cut-off** (The transistor acts as an open circuit; valve closed).
   $$V_{BE}$$ < 0.7V
 * **Saturation** (The transistor acts as a short circuit; valve completely open)
   $$V_{BE}$$ >= 0.7V
@@ -328,7 +328,7 @@ of $$A_{v}$$ than would otherwise be possible if resistor $$R_{e}$$ was
 still present. For lower, more controlled values of $$A_{v}$$, resistor
 $$R_{e}$$ should not be bypassed by capacitor C1.
 
-The first step in the design of the amplfier is choosing $$R_{c}$$ such that
+The first step in the design of the amplifier is choosing $$R_{c}$$ such that
 $$z_{out}$$ isn't affected by changes in $$R_{L}$$. For example, for a
 large value of $$R_{L}$$ choose $$R_{c} \ll R_{L}$$.
 
