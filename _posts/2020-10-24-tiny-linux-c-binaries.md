@@ -57,7 +57,7 @@ point for code execution along with various fields such as the ABI version, ISA
 type, as well as section listings.
 
 A sample hello world program is shown below and was compiled with GCC using `gcc
-main.c -o example`
+main.c -o example`.
 
 ```
 #include <stdio.h>
