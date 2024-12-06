@@ -94,7 +94,7 @@ GCC contains a large number of optimisation flags, these include the common :
 `-O2 -O3 -Os` flags as well as many more less widely used compile time options,
 which we will explore further. However, since we have not yet compiled with any
 optimisation thus far, and as a first step we recompile the above example with
-`-Os`, to optimise for size;
+`-Os`, to optimise for size.
 
 And we see no decrease in size! This is expected behaviour however, since the
 `-Os` flag does not consider all redundant section data for removal, on the
@@ -257,7 +257,7 @@ syscall:
 	ret
 ```
 
-Finally gcc was invoked with `gcc base.c boot.s -nostdlib -o base`
+Finally gcc was invoked with `gcc base.c boot.s -nostdlib -o base`.
 
 ![enter image description here](https://lunarjournal.github.io/images/2/05.png)
 
@@ -295,9 +295,9 @@ The linker script sets the virtual base address of the output binary to 0x400000
 and retains only the essential code segments.
 
 Custom linker scripts are parsed to GCC with the `-T` switch and the resulting
-binary was compiled with: `gcc -T x86_64.ld base.c boot.s -nostdlib -o base`
+binary was compiled with: `gcc -T x86_64.ld base.c boot.s -nostdlib -o base`.
 
-This produced an output executable of around **~2.7 KB**
+This produced an output executable of around **~2.7 KB**.
 
 This is much better, but there is still some room for improvement using
 additional GCC compile time switches.
@@ -324,7 +324,7 @@ unwanted code sections, these include:
 
 Compiling our example again with: `gcc -T x86_64.ld base.c boot.s -nostdlib -o
 base -ffunction-sections -fdata-sections -Wl,--gc-sections -fno-unwind-tables
--Wl,--build-id=none -Qn -Os -s`
+-Wl,--build-id=none -Qn -Os -s`.
 
 This produces an output executable with a size of **~1.5KB** but we can still go
 further!
