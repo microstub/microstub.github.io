@@ -82,7 +82,7 @@ anti-cheat client EasyAntiCheat:
    managed libraries) and is cross-referenced to prevent modification to game
    binaries.
  - Uses a heartbeat mechanism to ensure presence of the anti-cheat client (To
-   mitigate anti-cheat removal)
+   mitigate anti-cheat removal).
  - Works with an online service known as RoboShield to monitor server side
    parameters such as position, velocity, damage, etc and assigns each user with
    a trust score. The lower the score the higher the chance of getting kicked
@@ -96,7 +96,7 @@ therefore any client side anti-tamper protection could be bypassed.
 In order to inject our own c# code we need to somehow force the client to load
 our own  .NET/mono library at runtime. This may be accomplished by a stager
 payload which is essentially a shared library that makes internal calls to
-`libmono.so`
+`libmono.so`.
 
 Some interesting symbols found in `libmono.so` include:
 
@@ -123,10 +123,10 @@ typedef void* (*mono_runtime_invoke)(void* method, void* instance, void* *params
 In order to perform code injection, firstly a handle to the root application
 domain must be retrieved using `mono_get_root_domain`. The primary application
 thread must then be binded to the root domain using `mono_thread_attach` and the
-assembly image loaded with `mono_assembly_open` and `mono_assembly_get_image`
+assembly image loaded with `mono_assembly_open` and `mono_assembly_get_image`.
 
 Next the assembly class and class method to execute may be found by name using
-`mono_class_from_name` and `mono_class_get_method_from_name`
+`mono_class_from_name` and `mono_class_get_method_from_name`.
 
 Finally the class method may be executed using `mono_runtime_invoke`. It should
 be noted that the class method to execute should be declared as static.
@@ -195,7 +195,7 @@ The stager payload shown above loads the mono assembly located in
 method Load within the namespace Test and class Test (Test::Test::Load).
 
 Load has the following signature: `public  static  void  Load()` The stager may
-be compiled with: `gcc -fpic -shared stager.cpp -o stager.so`
+be compiled with: `gcc -fpic -shared stager.cpp -o stager.so`.
 
 In order to inject the stager into the target process you may use any standard
 linux shared library
