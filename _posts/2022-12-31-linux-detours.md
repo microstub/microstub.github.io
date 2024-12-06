@@ -29,7 +29,7 @@ maintains a library known as [MS Detours](https://github.com/microsoft/Detours).
 It allows for the interception of Windows API calls within the memory address
 space of a process.
 
-This might be useful in certain situtations such as if you are writing a D3D9
+This might be useful in certain situations such as if you are writing a D3D9
 (DirectX) hook and you need to intercept cetain graphics routines. This is
 commonly done for ESP and wallhacks where the Z depth buffer needs to be
 disabled for certain character models, for D3D9 this might involve hooking
@@ -86,7 +86,7 @@ flow to the detour function function.
 
 At this point any calls to `DrawIndexedPrimitive` within the `LPDIRECT3DDEVICE9`
 class will be rerouted to `hkDrawIndexedPrimitive`. You can see that this is a
-very powerful concept and gives us access to the calees function arguments. As
+very powerful concept and gives us access to the callee's function arguments. As
 demonstrated, it is possible to hook both C and C++ functions.
 
 The difference generally is that the first argument to a C++ function is a
@@ -101,7 +101,7 @@ follows is a brief explanation on how the library was designed.
 
 Two different approaches to method detouring were investigated and implemented
 in the cdl86 C library. First let's have a look at a typical function call for a
-simple C program. We will be using GDB to inspect the resulting dissasembly.
+simple C program. We will be using GDB to inspect the resulting disassembly.
 
 ```
 #include <stdio.h>
@@ -158,7 +158,7 @@ Dump of assembler code for function main:
 pushes the current value of `%rip` (next instruction after call) onto the stack
 and then transfers control flow to the target function.
 
-You may have also noticed the presence of the `endbr64` intruction. This
+You may have also noticed the presence of the `endbr64` instruction. This
 instruction is specific to Intel processors and is part of [Intel's Control-Flow
 Enforcement Technology
 (CET)](https://software.intel.com/content/www/us/en/develop/articles/technical-look-control-flow-enforcement-technology.html).
@@ -217,7 +217,7 @@ Simply put, the trampoline function behaves as the original, unpatched function.
 As shown above it consists of the target function's original instruction bytes
 as well as a call to the target function, offset by the `JMP` patch length.
 
-The tampoline generation code for `cdl86` is shown below:
+The trampoline generation code for `cdl86` is shown below:
 
 ```
 uint8_t *cdl_gen_trampoline(uint8_t *target, uint8_t *bytes_orig, int size)
