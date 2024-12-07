@@ -574,4 +574,4 @@ void cdl_swbp_dbg(struct cdl_swbp_patch *swbp_patch);
 You can find the `cdl86` source code
 [here](https://github.com/lunarjournal/cdl86).<br>
 This project was inspired by some reverse engineering research I did for my
-[undergraduate thesis](https://github.com/lunarjournal/research).
+ECE [research project](https://github.com/lunarjournal/research).
