@@ -5,7 +5,7 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
-> Transistors are important electronic devices that find use in a wide range of
+> `BJTs` are important electronic devices that find use in a wide range of
 > applications. Learn how to design circuits with them.
 
 1. [Principle of operation](#principle-of-operation)
