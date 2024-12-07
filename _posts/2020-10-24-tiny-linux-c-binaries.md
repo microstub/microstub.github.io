@@ -5,7 +5,7 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
-> By default, following the linking stage, GCC generates ELF binaries that contain
+> By default, following the linking stage, `GCC` generates `ELF` binaries that contain
 > redundant section data that increase executable size.
 
 1. [ELF Binaries](#elf-binaries)
