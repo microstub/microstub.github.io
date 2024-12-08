@@ -4,7 +4,7 @@
 
 > Technical journal for engineers, hobbyists and makers with a focus on software and electronics engineering.<br>
 
-The Lunar Journal is built with [`Jekyll`](https://jekyllrb.com/) and hosted with `GitHub Pages`.
+The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted with `GitHub Pages`.
 
 Source code is a heavily modified version of [`jekyll-now`](https://github.com/barryclark/jekyll-now).
 
