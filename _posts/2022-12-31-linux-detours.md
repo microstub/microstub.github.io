@@ -94,7 +94,7 @@ hidden `this` pointer. Therefore you can define a C++ detour in C with this
 extra argument.
 
 Detours is great, but it is only available for Windows. The aim of the `cdl86`
-project is to create a simple, compact detours library for x86_64 Linux. What
+project is to create a simple, compact detours library for `x86_64` Linux. What
 follows is a brief explanation on how the library was designed.
 
 # Detour methods
