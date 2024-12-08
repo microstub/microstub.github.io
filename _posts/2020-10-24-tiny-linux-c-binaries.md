@@ -107,8 +107,8 @@ Linux kernel directly to print to the standard output stream.
 
 <a name="linux-syscalls"/>
 # Linux syscalls
-System calls on Linux are invoked with the x86_64 `syscall` opcode and syscall
-parameters follow a very specific order on 64-bit architectures. For x86_64
+System calls on Linux are invoked with the `x86_64` `syscall` opcode and syscall
+parameters follow a very specific order on 64-bit architectures. For `x86_64`
 ([System V ABI  - Section
 A.2.1](https://refspecs.linuxfoundation.org/elf/x86_64-abi-0.99.pdf)), the order
 of parameters for linux system calls is as follows:
@@ -167,7 +167,7 @@ void* syscall(
 ```
 
 To write to the standard output stream we invoke syscall `0x1`, which handles
-file output. A useful x86_64 Linux syscall table can be found
+file output. A useful `x86_64` Linux syscall table can be found
 [here](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/).
 Syscall `0x1` takes three arguments and has the following signature:
 
