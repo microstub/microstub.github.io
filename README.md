@@ -2,7 +2,7 @@
 
 `Lunar Journal`: [`journal.lunar.sh`](https://journal.lunar.sh)
 
-> Technical journal for engineers, hobbyists and makers with a focus on software and electronics engineering.<br>
+> Technical journal for engineers, hobbyists and makers.
 
 The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted with `GitHub Pages`.
 
