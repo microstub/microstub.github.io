@@ -179,7 +179,7 @@ article > header div {
     font-size: 15px;
 }
 
-div a:hover {
+div a:hover:not(:has(img)) {
     color: #fff;
     background: #000;
 }
