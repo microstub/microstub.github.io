@@ -179,6 +179,11 @@ article > header div {
     font-size: 15px;
 }
 
+header div a:hover {
+    color: #fff;
+    background: #000;
+}
+
 li {
     padding-left: 10px;
 }
