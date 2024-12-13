@@ -395,6 +395,7 @@ the disassembly of our detour function:
 ```
 disas /r 0x5555555613b1
 ```
+
 ```
 Dump of assembler code for function add_detour:
    0x00005555555613b1 <+0>:	f3 0f 1e fa	endbr64
@@ -430,6 +431,7 @@ trampoline function, let's dissasemble it:
 ```
 x/10i 0x7ffff7ffb000
 ```
+
 ```
    0x7ffff7ffb000:	endbr64
    0x7ffff7ffb004:	push   %rbp
