@@ -8,7 +8,7 @@ author_url: https://linkedin.com/in/dylanmuller
 > By default, following the linking stage, `GCC` generates `ELF` binaries that contain
 > redundant section data that increase executable size.
 
-1. [`ELF Binaries`](#elf-binaries)
+1. [ELF Binaries](#elf-binaries)
 2. [Size Optimisation](#size-optimisation)
 3. [Linux Syscalls](#linux-syscalls)
 4. [Custom Linker Script](#custom-linker-script)
