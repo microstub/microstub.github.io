@@ -218,7 +218,7 @@ Assume $$V_{CC}$$ = 5v, then $$R_{LIM}$$ = 186.7 $$\Omega$$
 In calculating the required base current, we use the transistor's $$\beta$$ value. This
 can be found on the transistors datasheet and typically varies from anywhere
 between 20 to 200. The rule of thumb is to use the minimum value of $$\beta$$ for a
-specific transistor type. For the standard garden variety 2N2222 transistor, the
+specific transistor type. For the standard garden variety `2N2222` transistor, the
 minimum value of $$\beta$$ is around 75. Therefore to calculate $$I_{B}$$, we have:
 
 $$ I_{B} = \frac{I_{C} \cdot SF}{\beta_{min}} = \frac{15mA \cdot 5}{75} = 1mA $$
@@ -368,7 +368,7 @@ Here $$R_{base}$$ represents the AC input impedance of transistor Q1
 $$ R_{base} = \beta \cdot r'e $$
 
 We know how to calculate r'e from earlier and we use the minimum value of $$\beta$$ (75
-for 2N2222) to calculate $$R_{base}$$:
+for `2N2222`) to calculate $$R_{base}$$:
 
 $$ R_{base} = 75 \cdot \frac{25}{0.35} $$
 
