@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Tiny C (x86_64) Function Hooking Library.
+title: A Tiny C (x86_64) Function Hooking Library
 author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
