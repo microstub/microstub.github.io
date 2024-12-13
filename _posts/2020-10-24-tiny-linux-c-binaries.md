@@ -304,8 +304,8 @@ additional GCC compile time switches.
 
 # GCC Flags
 
-We have thus far managed to shrink our executable size down to ~2.7KB from our
-initial file size of ~17kb by stripping redundant section data using a custom
+We have thus far managed to shrink our executable size down to **~2.7 KB** from our
+initial file size of **~17 KB** by stripping redundant section data using a custom
 linker script and removing standard library object code.
 
 However, GCC has several compile time flags that can further help in removing
@@ -326,7 +326,7 @@ Compiling our example again with: `gcc -T x86_64.ld base.c boot.s -nostdlib -o
 base -ffunction-sections -fdata-sections -Wl,--gc-sections -fno-unwind-tables
 -Wl,--build-id=none -Qn -Os -s`.
 
-This produces an output executable with a size of **~1.5KB** but we can still go
+This produces an output executable with a size of **~1.5 KB** but we can still go
 further!
 
 Additionally, you can include the `-static` switch to ensure a static binary.
@@ -348,8 +348,8 @@ bytes** !
 
 At this point it would probably be best to switch to assembly to get smaller
 file sizes, however the goal of this journal was to create small executables
-written in C and I think we've done quite well to reduce in size from  ~17kb
-down to ~830 bytes!
+written in C and I think we've done quite well to reduce in size from **~17 KB**
+down to **~830 bytes**!
 
 ![enter image description here](https://lunarjournal.github.io/images/2/08.png)
 
