@@ -132,7 +132,7 @@ open or closed.
 You might be wondering why conventional (positive) current flows backwards
 through the base-collector diode (from collector to emitter) for an `NPN`
 transistor. As it turns out, current can actually flow in multiple directions
-through a diode. However it takes much more voltage to 'push' charge through a
+through a diode. However it takes much more `voltage` to 'push' charge through a
 diode in the direction it's meant to block than in the direction it is meant to
 flow.
 
@@ -192,7 +192,7 @@ assume the `LED` follows resistor $$R_{C}$$):
 ![enter image description here](https://lunarjournal.github.io/images/3/08.jpg){:width="450px"}
 
 Thus at the collector a direct connection to ground is made. However this
-connection is not perfect and there is an associated voltage drop from collector
+connection is not perfect and there is an associated `voltage` drop from collector
 to emitter of typically around `0.2v` ($$V_{CE}$$) rather than `0v`. Determining
 the relevant value for $$I_{C}$$ is then just a matter how much current your
 load (`LED`in our case) requires.
@@ -203,14 +203,14 @@ drop across it. To calculate $$R_{LIM}$$ we use ohms law:
 
 $$ R_{LIM} = \frac{V_{CC} - V_{LED} - V_{CE}}{I_{DESIRED}} $$
 
-Given the `LED` and collector to emitter voltage drops of `2v` and `0.2v`
+Given the `LED` and collector to emitter `voltage` drops of `2v` and `0.2v`
 respectively, we can further reduce the above expression above to:
 
 $$ R_{LIM} = \frac{V_{CC} - 2 - 0.2}{15 \cdot 10^{-3}} $$
 
 Choosing $$V_{CC}$$ is just a matter of what you have at hand. For example,
 a `5v` or `9v` supply would be adequate to drive the transistor into saturation as
-long as $$V_{CC}$$ >> `0.7v` (due to the base emitter voltage drop) and Vcc >>
+long as $$V_{CC}$$ >> `0.7v` (due to the base emitter `voltage` drop) and Vcc >>
 `2v` (for the led).
 
 Assume $$V_{CC}$$ = `5v`, then $$R_{LIM}$$ = 186.7 $$\Omega$$
@@ -248,7 +248,7 @@ In conclusion:
 5. Calculate $$R_{B}$$ (ohms law)
 
 The simple `LED` transistor circuit was modelled in `LTSpice`, with the `LED`
-represented as a series voltage source (representing the `2v` voltage drop).:
+represented as a series `voltage` source (representing the `2v` `voltage` drop).:
 
 ![enter image description here](https://lunarjournal.github.io/images/3/18.png){:width="400px"}
 
@@ -344,7 +344,7 @@ ratios of $$V_{CC}(R_{e})$$ to $$V_{CC}(R_{c})$$ might lead to higher `AC` gain 
 could sacrifice operational stability as a result.
 
 Given $$V_{CC}$$ = `5V`, we get $$A_{v}$$ = `70`. This is the highest
-expected voltage gain for this amplifier.
+expected `voltage` gain for this amplifier.
 
 We know that:
 
@@ -374,7 +374,7 @@ $$ R_{base} = `75` \cdot \frac{25}{0.35} $$
 
 Thus $$R_{base} = 5.4k\Omega$$
 
-Returning to our `DC` analysis, we calculate the expected voltage at the
+Returning to our `DC` analysis, we calculate the expected `voltage` at the
 transistor base:
 
 $$ V_{B} = V_{Re} + 0.7 $$
@@ -391,7 +391,7 @@ At this point we need to ensure that small changes in the value of base current
 (which occur due to variations in $$\beta$$) do not significantly effect the `DC`
 operating point of the amplifier circuit.
 
-In order to ensure a stable operating point we 'stiffen' the voltage divider by
+In order to ensure a stable operating point we 'stiffen' the `voltage` divider by
 ensuring the only a small fraction of the total resistor divider current flows
 into the base of transistor `Q1`.
 
@@ -401,7 +401,7 @@ into the base of the transistor.
 $$ \frac{1}{100} \cdot I_{R_{1}} = 4.57uA $$
 
 We can therefore assume that $$I_{R1} \approx I_{R2}$$ and solving the
-above expression yields $$I_{R2}$$ = `0.456mA`. Since we know the voltage
+above expression yields $$I_{R2}$$ = `0.456mA`. Since we know the `voltage`
 across  $$R_{2}$$ (given by $$V_{B}$$) we can calculate the resistance
 value:
 
@@ -431,13 +431,13 @@ A simulation of the `DC` operating point was performed:
 
 Here we can see our expected $$V_{base}$$ of around `1.45V` and an emitter
 current of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
-voltage gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
+`voltage` gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
 load attached):
 
 ![enter image description here](https://lunarjournal.github.io/images/3/43.png){:width="500px"}
 
 Our output across our load is seen reaching an amplitude of `70mV` and so we have
-a voltage gain of `~70`.
+a `voltage` gain of `~70`.
 
 # LTSpice
 
