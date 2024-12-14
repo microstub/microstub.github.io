@@ -179,7 +179,7 @@ by inserting instructions into memory.
 The first method of function detouring we will explore is by inserting a `JMP`
 instruction at the beginning of the target function to transfer control over to
 the detour function. It should be noted that in order to preserve the stack we
-need to use a `JMP` (specifically `jmpq`) instruction rather than a CALL.
+need to use a `JMP` (specifically `jmpq`) instruction rather than a `CALL`.
 
 Since there is no way to pass a 64-bit address to the `jmpq` instruction we will
 have to first store the address we want to jump to into a register. We need to
