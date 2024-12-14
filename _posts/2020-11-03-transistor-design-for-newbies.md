@@ -61,12 +61,12 @@ regulating the flow of water between both ends.
 By rotating the valve we adjust the water flow rate (`current`) through the pipe.
 This is the basic principle of operation of a transistor. However rather than
 applying a mechanical torque, we apply a potential difference at the base to
-regulate current flow.
+regulate `current` flow.
 
 You may think of the degree to which the mechanical valve is open or closed as
 proportional to the voltage applied at the base of the transistor. This means
-that we can control a potentially larger current through the transistor using a
-smaller current through the base (through the application of a base voltage),
+that we can control a potentially larger `current` through the transistor using a
+smaller `current` through the base (through the application of a base voltage),
 this is one of the useful properties of transistors.
 
 Bipolar Junction Transistors (`BJTs`) usually consists of three semiconductor
@@ -123,25 +123,25 @@ A bipolar junction transistor (`BJT`) may be viewed as a combination of two diod
 
 ![enter image description here](https://lunarjournal.github.io/images/3/05.gif)
 
-An `NPN` `BJT` transistor has two current paths, one from the collector to emitter
-and the other from the base to emitter. The current flow from collector to
+An `NPN` `BJT` transistor has two `current` paths, one from the collector to emitter
+and the other from the base to emitter. The `current` flow from collector to
 emitter represents the water flow in the pipe containing the valve, while the
-current flow from base to emitter represents the degree to which the valve is
+`current` flow from base to emitter represents the degree to which the valve is
 open or closed.
 
 You might be wondering why conventional (positive) current flows backwards
 through the base-collector diode (from collector to emitter) for an `NPN`
-transistor. As it turns out, current can actually flow in multiple directions
+transistor. As it turns out, `current` can actually flow in multiple directions
 through a diode. However it takes much more `voltage` to 'push' charge through a
 diode in the direction it's meant to block than in the direction it is meant to
 flow.
 
-The ratio of `base-emitter` current to `collector-emitter` current is known as ($$\beta$$)
+The ratio of `base-emitter` `current` to `collector-emitter` `current` is known as ($$\beta$$)
 and is an important consideration in the design of circuits using transistors:
 
 $$ I_{c} = \beta I_{B} $$
 
-Both transistor current paths have an associated voltage drop/potential
+Both transistor `current` paths have an associated voltage drop/potential
 difference across them.
 
 For the `current` flow from base to emitter, there is the `base-emitter` `voltage`
@@ -171,19 +171,19 @@ together with an `LED`):
 ![enter image description here](https://lunarjournal.github.io/images/3/12.jpg){:height="300px"}
 
 
-The circuit is seen consisting of a base current limiting resistor $$R_{B}$$
-as well as a `collector-emitter` current limiting resistor $$R_{LIM}$$.
+The circuit is seen consisting of a base `current` limiting resistor $$R_{B}$$
+as well as a `collector-emitter` `current` limiting resistor $$R_{LIM}$$.
 
 $$R_{B}$$ serves to set up the correct base current, while $$R_{LIM}$$
-serves to limit the maximum current through the `LED` (shown in red) when the
+serves to limit the maximum `current` through the `LED` (shown in red) when the
 transistor is switched fully on (driven into saturation).
 
 To calculate the values for resistors $$R_{B}$$ and $$R_{LIM}$$ we use
-the equation relating base current to collector current defined earlier:
+the equation relating base `current` to collector `current` defined earlier:
 
 $$ I_{c} = \beta I_{B} $$
 
-The first question becomes what collector current $$I_{C}$$ we desire. This
+The first question becomes what collector `current` $$I_{C}$$ we desire. This
 value depends on the device/load you are trying to switch on/off. It is worth
 noting that when a transistor is switched fully on (is in saturation mode) the
 equivalent circuit (simplified) is as follows (shown without the `LED`, you can
@@ -194,10 +194,10 @@ assume the `LED` follows resistor $$R_{C}$$):
 Thus at the collector a direct connection to ground is made. However this
 connection is not perfect and there is an associated `voltage` drop from collector
 to emitter of typically around `0.2v` ($$V_{CE}$$) rather than `0v`. Determining
-the relevant value for $$I_{C}$$ is then just a matter how much current your
+the relevant value for $$I_{C}$$ is then just a matter how much `current` your
 load (`LED`in our case) requires.
 
-For example, a typical green led requires around `15mA` of current to light up
+For example, a typical green led requires around `15mA` of `current` to light up
 brightly so we set $$I_{C}$$ = `15mA`. A green `LED` also typically has a `2v`
 drop across it. To calculate $$R_{LIM}$$ we use ohms law:
 
@@ -215,7 +215,7 @@ long as $$V_{CC}$$ >> `0.7v` (due to the base emitter `voltage` drop) and Vcc >>
 
 Assume $$V_{CC}$$ = `5v`, then $$R_{LIM}$$ = 186.7 $$\Omega$$
 
-In calculating the required base current, we use the transistor's $$\beta$$ value. This
+In calculating the required base `current`, we use the transistor's $$\beta$$ value. This
 can be found on the transistors datasheet and typically varies from anywhere
 between `20` to `200`. The rule of thumb is to use the minimum value of $$\beta$$ for a
 specific transistor type. For the standard garden variety `2N2222` transistor, the
@@ -237,11 +237,11 @@ $$ R_{B} = \frac{V_{CC} - V_{BE}}{I_{B}} = \frac{5-0.7}{1 \cdot 10^{-3}} = 4.3k\
 Now you can connect a switch between the base resistor and Vcc or connect the
 base resistor directly to the output of a `5V-TTL` micro-controller in order to
 turn the `LED` on and off! The benefit of using a transistor to do that is that we
-require a relatively small current (`< 1mA`) in order to switch a much larger
-current through the `LED` (`15mA`)!
+require a relatively small `current` (`< 1mA`) in order to switch a much larger
+`current` through the `LED` (`15mA`)!
 
 In conclusion:
-1. Determine required collector current $$I_{C}$$
+1. Determine required collector `current` $$I_{C}$$
 2. Calculate $$R_{LIM}$$ (ohms law)
 3. Calculate $$I_{B}$$ using lowest value for $$\beta$$
 4. Multiply $$I_{B}$$ by safety factor `5-10`
@@ -256,8 +256,8 @@ represented as a series `voltage` source (representing the `2v` `voltage` drop).
 
 ![enter image description here](https://lunarjournal.github.io/images/3/19.png){:height="200px"}
 
-Here we can see the `~1mA` base current ($$I_{b}$$) driving `~15mA` collector
-($$I_{C}$$) current. All current values are shown in `S.I` units of amperes
+Here we can see the `~1mA` base `current` ($$I_{b}$$) driving `~15mA` collector
+($$I_{C}$$) `current`. All `current` values are shown in `S.I` units of amperes
 (`A`).
 
 # Transistor as an amplifier
@@ -381,21 +381,21 @@ $$ V_{B} = V_{Re} + 0.7 $$
 
 We know that $$V_{Re}$$ is `30%` of $$\frac{V_{CC}}{2}$$, which gives $$V_{B}$$ = `1.45V`.
 Now given $$I_{E}$$ = `0.35mA` we can again use our minimum value for $$\beta$$ to
-calculate our required base current:
+calculate our required base `current`:
 
 $$ I_{B} = \frac{0.35 mA}{75} $$
 
 Thus $$I_{B}$$ = 4.57uA
 
-At this point we need to ensure that small changes in the value of base current
+At this point we need to ensure that small changes in the value of base `current`
 (which occur due to variations in $$\beta$$) do not significantly effect the `DC`
 operating point of the amplifier circuit.
 
 In order to ensure a stable operating point we 'stiffen' the `voltage` divider by
-ensuring the only a small fraction of the total resistor divider current flows
+ensuring the only a small fraction of the total resistor divider `current` flows
 into the base of transistor `Q1`.
 
-A good rule of thumb is to allow for `1%` of the total divider current to pass
+A good rule of thumb is to allow for `1%` of the total divider `current` to pass
 into the base of the transistor.
 
 $$ \frac{1}{100} \cdot I_{R_{1}} = 4.57uA $$
@@ -430,7 +430,7 @@ A simulation of the `DC` operating point was performed:
 ![enter image description here](https://lunarjournal.github.io/images/3/40.png){:width="500px"}
 
 Here we can see our expected $$V_{base}$$ of around `1.45V` and an emitter
-current of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
+`current` of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
 `voltage` gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
 load attached):
 
