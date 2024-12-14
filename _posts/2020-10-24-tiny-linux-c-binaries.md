@@ -347,7 +347,7 @@ Running `./sstrip base` we get our final executable binary with a size of **~830
 bytes** !
 
 At this point it would probably be best to switch to assembly to get smaller
-file sizes, however the goal of this journal was to create small executables
+file sizes, however the goal of this `journal` was to create small executables
 written in `C` and I think we've done quite well to reduce in size from **~17 KB**
 down to **~830 bytes**!
 
