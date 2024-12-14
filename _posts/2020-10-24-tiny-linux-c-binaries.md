@@ -338,7 +338,7 @@ Despite all our optimisation thus far, there are still a few redundant code and
 data sections in our dynamically linked output executable. Enter `sstrip`...
 
 [sstrip](https://github.com/aunali1/super-strip) is a useful utility that
-attempts to identify which sections of an ELF binary are to be loaded into
+attempts to identify which sections of an `ELF` binary are to be loaded into
 memory during program execution. Based off this, all unused code and data
 sections are then subsequently removed. It is comparable to `strip` but performs
 section removal more aggressively.
@@ -356,9 +356,9 @@ down to **~830 bytes**!
 As a final comment you might be wondering if we could have simply run `sstrip`
 from our **17 KB** executable in the first place and the answer would be, no.
 
-I tried doing this and ended up with a binary image of around ~12 KB so it seems
+I tried doing this and ended up with a binary image of around **~12 KB** so it seems
 the sstrip needs a bit of additional assistance in the form our our manual
-optimisations to get really tiny binaries!
+optimisations to get really `tiny` binaries!
 
 # Source Code
 
