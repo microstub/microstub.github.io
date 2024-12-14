@@ -196,12 +196,12 @@ The following is a disassembly of the instructions required for a `JMP` to a
 0x0000555555561393 <+10>: ff e0	jmpq   *%rax
 ```
 
-You can see that 12 bytes are required to encode the `movabs` instruction (which
+You can see that `12` bytes are required to encode the `movabs` instruction (which
 moves the detour address into `%rax`) as well as the `jmpq` instruction.
 Immediate values are stored in little endian (LE) encoding.
 
-So we can therefore conclude that we need to patch **at least** 12 bytes in
-memory at the location of our target function. These 12 bytes however are
+So we can therefore conclude that we need to patch **at least** `12` bytes in
+memory at the location of our target function. These `12` bytes however are
 important and we cannot simply discard them. It turns out that we actually place
 these bytes at the start of what i will call a 'trampoline function', it's
 layout is as follows:
@@ -366,8 +366,8 @@ Dump of assembler code for function add:
    0x0000555555561395 <+12>:	89 7d fc	mov    %edi,-0x4(%rbp)
 ```
 
-This is the disassembly of the unaltered target function. 12 bytes for the `JMP`
-patch will have to be written at this address. Therefore the first 4
+This is the disassembly of the unaltered target function. `12` bytes for the `JMP`
+patch will have to be written at this address. Therefore the first `4`
 instructions will need to be written to the trampoline function followed by a
 JMP to address `0x0000555555561395` and that's all we need for the trampoline!
 
