@@ -76,13 +76,13 @@ However at his point it's worth noting the presence of the `EasyAntiCheat` folde
 in the root game directory which confirms the presence of an anti-cheat client.
 
 After some research I found out a few interesting details about the game's
-anti-cheat client `EasyAntiCheat`:
+`anti-cheat` client `EasyAntiCheat`:
 
  - The client computes hashes of all binary images during startup (including
    managed libraries) and is cross-referenced to prevent modification to game
    binaries.
- - Uses a heartbeat mechanism to ensure presence of the anti-cheat client (To
-   mitigate anti-cheat removal).
+ - Uses a heartbeat mechanism to ensure presence of the `anti-cheat` client (To
+   mitigate `anti-cheat` removal).
  - Works with an online service known as `RoboShield` to monitor server side
    parameters such as position, velocity, damage, etc and assigns each user with
    a trust score. The lower the score the higher the chance of getting kicked
