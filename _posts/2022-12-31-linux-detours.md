@@ -523,7 +523,7 @@ void cdl_swbp_handler(int sig, siginfo_t *info, struct ucontext_t *context)
 }
 ```
 
-Note that if a match of the RIP value to any known breakpoints occurs the `RIP`
+Note that if a match of the `RIP` value to any known breakpoints occurs the `RIP`
 value for the current context is updated and the new context applied using
 `setcontext()`. A trampoline function similar to our `JMP` patch is allocated
 and serves the same purpose.
