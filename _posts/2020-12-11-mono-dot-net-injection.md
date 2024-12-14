@@ -18,9 +18,9 @@ author_url: https://linkedin.com/in/dylanmuller
 of the `.NET` framework which runs on a variety of operating systems (including
 Linux).
 
-The mono build chain compiles `C#` source code (.cs files) down to `IL` (immediate
+The `mono` build chain compiles `C#` source code (`.cs` files) down to `IL` (immediate
 language) spec'd byte code which is then executed by the `CLR` (Common Language
-Runtime) layer provided by mono.
+Runtime) layer provided by `mono`.
 
 ![enter image description here](https://lunarjournal.github.io/images/4/04.png)
 
@@ -55,7 +55,7 @@ finding objects by name, tag, etc. These methods become useful when injecting
 our own code as they provide a facility for interfacing with the game engine
 from an external context (our `C#` script).
 
-Browsing the Robocraft root directory (installed via steam) revealed a few
+Browsing the `Robocraft` root directory (installed via steam) revealed a few
 directories that seemed interesting:
 
  - `Robocraft_Data`.
@@ -65,7 +65,7 @@ directories that seemed interesting:
 
 ![enter image description here](https://lunarjournal.github.io/images/4/02.png)
 
-Upon further inspection of the Robocraft_Data directory, we find the folders
+Upon further inspection of the `Robocraft_Data` directory, we find the folders
 containing the managed (`C#/Mono`) portion of the application. In particular, the
 Managed folder contains the `C#` libraries in `DLL` form of the `Unity3D` Engine as well
 as other proprietary modules from the game developer.
@@ -198,10 +198,10 @@ Load has the following signature: `public  static  void  Load()` The stager may
 be compiled with: `gcc -fpic -shared stager.cpp -o stager.so`.
 
 In order to inject the stager into the target process you may use any standard
-linux shared library
+Linux shared library
 [injector](https://git.lunar.sh/lunarjournal/RobocraftClient/src/branch/master/injector).
 
-With the capability of loading our own mono code into the target process, we
+With the capability of loading our own `mono` code into the target process, we
 need to ensure that our injected `C#` code stays persistent, i.e to prevent
 de-allocation due to garbage collection.
 
@@ -223,14 +223,14 @@ For `Unity3D` this is typically achieved using the following pattern:
     }
 ```
 
-It is also worth keeping track of the mono/.NET assembly versions used in the
+It is also worth keeping track of the `mono/.NET` assembly versions used in the
 original application. Ideally you would want to use an identical `.NET` version as
 compiling your `C#` exploit with the wrong .NET version can cause your exploit to
 fail.
 
 For Robocraft `.NET` `v2.0` was required. Finding support for an older version of
 `.NET` can be difficult as most modern `C#` `IDE's` do not support such an old target.
-A simple solution to this problem is to download an older version of mono.
+A simple solution to this problem is to download an older version of `mono`.
 
 At this point the second stage payload (our `C#` exploit) can be developed. I
 chose to implement three simple functionalities:
