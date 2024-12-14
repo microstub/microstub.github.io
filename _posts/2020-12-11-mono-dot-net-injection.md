@@ -202,7 +202,7 @@ linux shared library
 [injector](https://git.lunar.sh/lunarjournal/RobocraftClient/src/branch/master/injector).
 
 With the capability of loading our own mono code into the target process, we
-need to ensure that our injected c# code stays persistent, i.e to prevent
+need to ensure that our injected `C#` code stays persistent, i.e to prevent
 de-allocation due to garbage collection.
 
 For `Unity3D` this is typically achieved using the following pattern:
@@ -229,7 +229,7 @@ compiling your `C#` exploit with the wrong .NET version can cause your exploit t
 fail.
 
 For Robocraft `.NET` `v2.0` was required. Finding support for an older version of
-`.NET` can be difficult as most modern C# IDE's do not support such an old target.
+`.NET` can be difficult as most modern `C#` `IDE's` do not support such an old target.
 A simple solution to this problem is to download an older version of mono.
 
 At this point the second stage payload (our `C#` exploit) can be developed. I
