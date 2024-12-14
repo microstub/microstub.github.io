@@ -6,7 +6,7 @@ permalink: /about/
 
 <meta name="robots" content="noindex">
 
-> Technical journal for engineers, hobbyists and makers with a focus on
+> Technical `journal` for engineers, hobbyists and makers with a focus on
 > software and electronics engineering. 
 
 1. [Authors](#authors)
