@@ -362,5 +362,5 @@ optimisations to get really `tiny` binaries!
 
 # Source Code
 
-Source code used in this journal is available at:
+Source code used in this `journal` is available at:
 [https://github.com/lunarjournal/tinybase](https://github.com/lunarjournal/tinybase)
