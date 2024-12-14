@@ -15,36 +15,36 @@ author_url: https://linkedin.com/in/dylanmuller
 # Mono Overview
 
 [Mono](https://en.wikipedia.org/wiki/Mono_%28software%29) is an open source port
-of the .NET framework which runs on a variety of  operating systems (including
+of the `.NET` framework which runs on a variety of operating systems (including
 Linux).
 
-The mono build chain compiles C# source code (.cs files) down to IL (immediate
-language) spec'd byte code which is then executed by the CLR (Common Language
+The mono build chain compiles `C#` source code (.cs files) down to `IL` (immediate
+language) spec'd byte code which is then executed by the `CLR` (Common Language
 Runtime) layer provided by mono.
 
 ![enter image description here](https://lunarjournal.github.io/images/4/04.png)
 
-Due to the translation down to IL, module decompilation as well as
+Due to the translation down to `IL`, module decompilation as well as
 modification/reverse engineering is relatively straightforward and a variety of
-C# IL decompilers/recompilers already exist
+`C#` `IL` decompilers/recompilers already exist
 ([dnSpy](https://github.com/dnSpy/dnSpy/),
 [ILSpy](https://github.com/icsharpcode/ILSpy)).
 
 The focus of this journal is on managed library injection, more specifically the
-ability to inject c# code of our own and interact with/modify a target host.
+ability to inject `C#` code of our own and interact with/modify a target host.
 
 # Exploiting Robocraft
 
-[Robocraft](https://en.wikipedia.org/wiki/Robocraft) is an online MMO game
-developed by freejam games. It features futuristic robotic battles and is an
+[Robocraft](https://en.wikipedia.org/wiki/Robocraft) is an online `MMO` game
+developed by `freejam` games. It features futuristic robotic battles and is an
 example of an application we wish to tamper with.
 
 ![enter image description here](https://lunarjournal.github.io/images/4/01.jpg)
 
 Robocraft uses the [Unity3D](https://unity3d.com/get-unity/download) engine,
-which is a high level c# component based game engine.
+which is a high level `C#` component based game engine.
 
-World entities in Unity3D derive from class `UnityEngine::GameObject` and may
+World entities in `Unity3D` derive from class `UnityEngine::GameObject` and may
 have a number of components attached to them such as: rigidbodies, mesh
 renderers, scripts, etc.
 
@@ -53,48 +53,48 @@ renderers, scripts, etc.
 name (string), tag, transform (position), etc. as well as static methods for
 finding objects by name, tag, etc. These methods become useful when injecting
 our own code as they provide a facility for interfacing with the game engine
-from an external context (our c# script).
+from an external context (our `C#` script).
 
 Browsing the Robocraft root directory (installed via steam) revealed a few
 directories that seemed interesting:
 
- - Robocraft_Data
- - lib64
- - lib32
- - EasyAntiCheat.
+ - `Robocraft_Data`.
+ - `lib64`.
+ - `lib32`.
+ - `EasyAntiCheat`.
 
 ![enter image description here](https://lunarjournal.github.io/images/4/02.png)
 
 Upon further inspection of the Robocraft_Data directory, we find the folders
-containing the managed (C#/Mono) portion of the application. In particular, the
-Managed folder contains the C# libraries in DLL form of the Unity Engine as well
+containing the managed (`C#/Mono`) portion of the application. In particular, the
+Managed folder contains the `C#` libraries in `DLL` form of the `Unity3D` Engine as well
 as other proprietary modules from the game developer.
 
 ![enter image description here](https://lunarjournal.github.io/images/4/03.png)
 
-However at his point it's worth noting the presence of the EasyAntiCheat folder
+However at his point it's worth noting the presence of the `EasyAntiCheat` folder
 in the root game directory which confirms the presence of an anti-cheat client.
 
 After some research I found out a few interesting details about the game's
-anti-cheat client EasyAntiCheat:
+anti-cheat client `EasyAntiCheat`:
 
  - The client computes hashes of all binary images during startup (including
    managed libraries) and is cross-referenced to prevent modification to game
    binaries.
  - Uses a heartbeat mechanism to ensure presence of the anti-cheat client (To
    mitigate anti-cheat removal).
- - Works with an online service known as RoboShield to monitor server side
+ - Works with an online service known as `RoboShield` to monitor server side
    parameters such as position, velocity, damage, etc and assigns each user with
    a trust score. The lower the score the higher the chance of getting kicked
    from subsequent matches. This score seems to be persistent.
 
-Nonetheless, nothing seemed to prevent us from injecting our own c# library at
-runtime and this was the vector employed with Robocraft. The advantage of this
+Nonetheless, nothing seemed to prevent us from injecting our own `C#` library at
+runtime and this was the vector employed with `Robocraft`. The advantage of this
 method was that no modification to the game binaries would be required and
 therefore any client side anti-tamper protection could be bypassed.
 
-In order to inject our own c# code we need to somehow force the client to load
-our own  .NET/mono library at runtime. This may be accomplished by a stager
+In order to inject our own `C#` code we need to somehow force the client to load
+our own `.NET/mono` library at runtime. This may be accomplished by a stager
 payload which is essentially a shared library that makes internal calls to
 `libmono.so`.
 
@@ -205,7 +205,7 @@ With the capability of loading our own mono code into the target process, we
 need to ensure that our injected c# code stays persistent, i.e to prevent
 de-allocation due to garbage collection.
 
-For Unity3D this is typically achieved using the following pattern:
+For `Unity3D` this is typically achieved using the following pattern:
 
 ```
  public class Exploit : MonoBehaviour
@@ -224,15 +224,15 @@ For Unity3D this is typically achieved using the following pattern:
 ```
 
 It is also worth keeping track of the mono/.NET assembly versions used in the
-original application. Ideally you would want to use an identical .NET version as
-compiling your c# exploit with the wrong .NET version can cause your exploit to
+original application. Ideally you would want to use an identical `.NET` version as
+compiling your `C#` exploit with the wrong .NET version can cause your exploit to
 fail.
 
-For Robocraft .NET v2.0 was required. Finding support for an older version of
-.NET can be difficult as most modern C# IDE's do not support such an old target.
+For Robocraft `.NET` `v2.0` was required. Finding support for an older version of
+`.NET` can be difficult as most modern C# IDE's do not support such an old target.
 A simple solution to this problem is to download an older version of mono.
 
-At this point the second stage payload (our c# exploit) can be developed. I
+At this point the second stage payload (our `C#` exploit) can be developed. I
 chose to implement three simple functionalities:
 
  - Increase/decrease game speed
