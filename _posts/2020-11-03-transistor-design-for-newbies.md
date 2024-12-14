@@ -23,11 +23,11 @@ controlled water valve.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/07.png){:width="500px"}
 
-Here it is important to reference the water analogy of current and voltage. In
+Here it is important to reference the water analogy of `current` and `voltage`. In
 the water analogy we picture a column of water moving through a pipe.
 
-We define current as the movement of water (charge) through the pipe (wire), or
-in mathematical terms the rate of flow of water (charge) past a given point with
+We define current as the movement of water (`charge`) through the pipe (wire), or
+in mathematical terms the rate of flow of water (`charge`) past a given point with
 respect to time:
 
 $$ i=\frac{dC}{dt} $$
