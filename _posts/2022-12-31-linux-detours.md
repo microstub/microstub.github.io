@@ -29,10 +29,10 @@ maintains a library known as [MS Detours](https://github.com/microsoft/Detours).
 It allows for the interception of Windows API calls within the memory address
 space of a process.
 
-This might be useful in certain situations such as if you are writing a D3D9
-(DirectX) hook and you need to intercept cetain graphics routines. This is
-commonly done for ESP and wallhacks where the Z depth buffer needs to be
-disabled for certain character models, for D3D9 this might involve hooking
+This might be useful in certain situations such as if you are writing a `D3D9`
+(`DirectX`) hook and you need to intercept cetain graphics routines. This is
+commonly done for `ESP` and `wallhacks` where the Z depth buffer needs to be
+disabled for certain character models, for `D3D9` this might involve hooking
 `DrawIndexedPrimitive`.
 
 
@@ -87,10 +87,10 @@ flow to the detour function function.
 At this point any calls to `DrawIndexedPrimitive` within the `LPDIRECT3DDEVICE9`
 class will be rerouted to `hkDrawIndexedPrimitive`. You can see that this is a
 very powerful concept and gives us access to the callee's function arguments. As
-demonstrated, it is possible to hook both C and C++ functions.
+demonstrated, it is possible to hook both `C` and `C++` functions.
 
-The difference generally is that the first argument to a C++ function is a
-hidden `this` pointer. Therefore you can define a C++ detour in C with this
+The difference generally is that the first argument to a `C++` function is a
+hidden `this` pointer. Therefore you can define a `C++` detour in `C` with this
 extra argument.
 
 Detours is great, but it is only available for Windows. The aim of the `cdl86`
@@ -100,8 +100,8 @@ follows is a brief explanation on how the library was designed.
 # Detour methods
 
 Two different approaches to method detouring were investigated and implemented
-in the cdl86 C library. First let's have a look at a typical function call for a
-simple C program. We will be using GDB to inspect the resulting disassembly.
+in the cdl86 `C` library. First let's have a look at a typical function call for a
+simple `C` program. We will be using `GDB` to inspect the resulting disassembly.
 
 ```
 #include <stdio.h>
@@ -122,7 +122,7 @@ Compile with:
 gcc main.c -o main
 ```
 
-and then debug with GDB:
+and then debug with `GDB`:
 
 ```
 gdb main
@@ -162,18 +162,17 @@ You may have also noticed the presence of the `endbr64` instruction. This
 instruction is specific to Intel processors and is part of [Intel's Control-Flow
 Enforcement Technology
 (CET)](https://software.intel.com/content/www/us/en/develop/articles/technical-look-control-flow-enforcement-technology.html).
-CET is designed to provide hardware protection against ROP (Return-orientated
+CET is designed to provide hardware protection against `ROP` (Return-orientated
 Programming) and similar methods which manipulate control flow using *existing*
 byte code.
 
 It's two main features are:
 
 * A shadow stack for tracking return addresses.
-* Indirect branch tracking, which endbr64 is a part of.
+* Indirect branch tracking, which `endbr64` is a part of.
 
-Intel CET however does not prevent us from modifying control flow **directly**
+`Intel CET` however does not prevent us from modifying control flow **directly**
 by inserting instructions into memory.
-
 
 # JMP Patching
 
@@ -270,14 +269,14 @@ int cdl_set_page_protect(uint8_t *code)
 
 The general procedure to place the `JMP` hook is as follows:
 
-1. Determine the minimum number of bytes required for a JMP patch.
+1. Determine the minimum number of bytes required for a `JMP` patch.
 2. Create trampoline function.
 3. Set memory permissions (read, write, execute).
 4. Generate `JMP` to detour at target function.
-5. Fill unused bytes with NOP.
+5. Fill unused bytes with `NOP`.
 6. Assign trampoline address to target function pointer.
 
-Let's have a look at all of this in action using GDB. I will be using the
+Let's have a look at all of this in action using `GDB`. I will be using the
 [basic_jmp.c](https://github.com/lunarjournal/cdl86/blob/master/tests/basic_jmp.c)
 test case in the `cdl86` library. The source code for this test case is shown
 below:
@@ -331,13 +330,13 @@ We compile the following source file with (modified from makefile):
 gcc -I../ -g basic_jmp.c ../cdl.c ../lib/libudis86/*.c -g -o basic_jmp
 ```
 
-Then load into GDB using:
+Then load into `GDB` using:
 
 ```
 gdb basic_jmp
 ```
 
-Once GDB has loaded, we insert a breakpoints at lines 24 and 27 using the
+Once `GDB` has loaded, we insert a breakpoints at lines `24` and `27` using the
 command:
 
 ```
@@ -351,8 +350,8 @@ We start execution of the program with:
 run
 ```
 
-GDB will then inform you that the first breakpoint has been triggered. For this
-first breakpoint we are interested in the add() function's assembly before the
+`GDB` will then inform you that the first breakpoint has been triggered. For this
+first breakpoint we are interested in the `add()` function's assembly before the
 hook has taken place. To inspect this assembly, provide:
 
 ```
@@ -415,7 +414,7 @@ Dump of assembler code for function add_detour:
 ```
 
 We can see that a call to our trampoline function is made to the address given
-by referencing the QWORD (out function pointer) at address `0x55555557d090`,
+by referencing the `QWORD` (out function pointer) at address `0x55555557d090`,
 let's deference it:
 
 ```
@@ -452,7 +451,7 @@ give you an idea of how the control flow modification is achieved.
 
 # INT3 Patching
 
-There is another method of function detouring which involves placing INT3
+There is another method of function detouring which involves placing `INT3`
 breakpoints at the start of the target function in memory. `INT3` breakpoints
 are encoded with the `0xCC` opcode:
 
@@ -466,7 +465,7 @@ uint8_t *cdl_gen_swbp(uint8_t *code)
 ```
 
 So rather than placing a `JMP` patch to the detour we simply write the byte
-`0xCC` to the target function being careful to NOP the unused bytes. Once the
+`0xCC` to the target function being careful to `NOP` the unused bytes. Once the
 `RIP` register reaches an address of an `INT3` breakpoint the Linux kernel sends
 a `SIGTRAP` signal to the process.
 
@@ -576,4 +575,4 @@ void cdl_swbp_dbg(struct cdl_swbp_patch *swbp_patch);
 You can find the `cdl86` source code
 [here](https://github.com/lunarjournal/cdl86).<br>
 This project was inspired by some reverse engineering research I did for my
-ECE [research project](https://github.com/lunarjournal/research).
+`ECE` [research project](https://github.com/lunarjournal/research).
