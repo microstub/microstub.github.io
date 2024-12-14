@@ -36,8 +36,9 @@ $$ i=\frac{dC}{dt} $$
 example, suppose we suspend water in a pipe and then apply a high pressure at
 the top and a lower pressure at the bottom. We have just set up a 'water
 potential difference' between two points and this tends to move water (`charge`)
-from the higher pressure region (`voltage`) to the lower pressure region. The
-higher the water potential, the faster the column of water (`charge`) moves
+from the higher pressure region (`voltage`) to the lower pressure region. 
+
+The higher the water potential, the faster the column of water (`charge`) moves
 through the pipe when it has the chance.
 
 In reality, `voltage` arises due to the presence of electric fields. For a given
