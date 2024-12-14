@@ -73,7 +73,7 @@ as other proprietary modules from the game developer.
 ![enter image description here](https://lunarjournal.github.io/images/4/03.png)
 
 However at his point it's worth noting the presence of the `EasyAntiCheat` folder
-in the root game directory which confirms the presence of an anti-cheat client.
+in the root game directory which confirms the presence of an `anti-cheat` client.
 
 After some research I found out a few interesting details about the game's
 `anti-cheat` client `EasyAntiCheat`:
