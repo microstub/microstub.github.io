@@ -300,7 +300,7 @@ binary was compiled with: `gcc -T x86_64.ld base.c boot.s -nostdlib -o base`.
 This produced an output executable of around **~2.7 KB**.
 
 This is much better, but there is still some room for improvement using
-additional GCC compile time switches.
+additional `GCC` compile time switches.
 
 # GCC Flags
 
