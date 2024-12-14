@@ -198,7 +198,7 @@ the relevant value for $$I_{C}$$ is then just a matter how much current your
 load (`LED`in our case) requires.
 
 For example, a typical green led requires around `15mA` of current to light up
-brightly so we set $$I_{C}$$ = 15mA. A green `LED` also typically has a `2v`
+brightly so we set $$I_{C}$$ = `15mA`. A green `LED` also typically has a `2v`
 drop across it. To calculate $$R_{LIM}$$ we use ohms law:
 
 $$ R_{LIM} = \frac{V_{CC} - V_{LED} - V_{CE}}{I_{DESIRED}} $$
