@@ -78,24 +78,24 @@ properties of the layer.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/10.png)
 
-For example, boron `[B]` dopant has a valency (number of outer electrons) of 3,
-while silicon has a valency of 4. This means that when boron and silicon bond
-covalently (sharing of each others electrons) there is a mismatch (3 < 4)
+For example, `boron` `[B]` dopant has a valency (number of outer electrons) of `3`,
+while `silicon` has a valency of `4`. This means that when `boron` and `silicon` bond
+covalently (sharing of each others electrons) there is a mismatch (`3` < `4`)
 between their valence electrons, leaving a 'hole', which needs to be filled with
 an electron in order to match silicon's valency. This results in a crystal
-structure with a net positive charge, the p type layer.
+structure with a net positive charge, the `p` type layer.
 
-In contrast phosphorus `[P]` dopant has a valency of 5, again there is a mismatch
-(5 > 4) with silicon's valency (4), allowing for the extra electron of
-phosphorus to move freely through the crystal structure and giving the overall
+In contrast phosphorus `[P]` dopant has a valency of `5`, again there is a mismatch
+(`5` > `4`) with silicon's valency (`4`), allowing for the extra electron of
+`phosphorus` to move freely through the crystal structure and giving the overall
 crystal layer a negative polarity, the `n` type layer.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/04.png){:height="200px"}
 
 If we were to place an `n` region and `p` region together we would form an
-electronic device known as a diode. A diode is a 2 terminal device (with the `n`
+electronic device known as a diode. A diode is a `2` terminal device (with the `n`
 side connected to the negative terminal (cathode) and `p` side connected to the
-positive terminal (anode) ) that only allows current flow in one direction. It
+positive terminal (anode)) that only allows current flow in one direction. It
 is also worth nothing that by placing an `n` and `p` region next to one another
 there is a localised effect at their layer boundary that results in a small
 number of electrons (from the `n` type region) migrating to the `p` type region in
@@ -105,7 +105,7 @@ what is known as the depletion region.
 
 The migration of electrons from the n type region to the `p` type region at the `np`
 boundary sets up what is known as a barrier potential, a secondary electric
-field at the np layer boundary in opposition to the primary E-field (between `p`
+field at the np layer boundary in opposition to the primary `E-field` (between `p`
 and `n`).
 
 This is the amount of voltage (pressure) required to force `n` layer electrons
@@ -136,7 +136,7 @@ through a diode. However it takes much more voltage to 'push' charge through a
 diode in the direction it's meant to block than in the direction it is meant to
 flow.
 
-The ratio of base-emitter current to collector-emitter current is known as ($$\beta$$)
+The ratio of `base-emitter` current to `collector-emitter` current is known as ($$\beta$$)
 and is an important consideration in the design of circuits using transistors:
 
 $$ I_{c} = \beta I_{B} $$
@@ -226,7 +226,7 @@ $$ I_{B} = \frac{I_{C} \cdot SF}{\beta_{min}} = \frac{15mA \cdot 5}{75} = 1mA $$
 You might have noticed an additional factor called SF for (safety factor). This
 is a factor typically around `5-10` that we multiply our calculated $$I_{B}$$
 with in order to ensure we drive the transistor into saturation. This gives a
-value of around 1mA for $$I_{B}$$.
+value of around `1mA` for $$I_{B}$$.
 
 Given $$I_{B}$$, calculating $$R_{B}$$ becomes trivial as we know the
 voltage across $$R_{B}$$ as: $$V_{CC} - V_{BE}$$ (think of
@@ -237,7 +237,7 @@ $$ R_{B} = \frac{V_{CC} - V_{BE}}{I_{B}} = \frac{5-0.7}{1 \cdot 10^{-3}} = 4.3k\
 Now you can connect a switch between the base resistor and Vcc or connect the
 base resistor directly to the output of a `5V-TTL` micro-controller in order to
 turn the `LED` on and off! The benefit of using a transistor to do that is that we
-require a relatively small current (`<1mA`) in order to switch a much larger
+require a relatively small current (`< 1mA`) in order to switch a much larger
 current through the `LED` (`15mA`)!
 
 In conclusion:
@@ -274,7 +274,7 @@ below with an `NPN` transistor):
  ![enter image description here](https://lunarjournal.github.io/images/3/37.png){:width="600px"}
 
 Here we model a `20 mVp` (20mV amplitude) sinusoidal signal source with a
-resistance of 50 $$\Omega$$, but your input can be practically anything.
+resistance of `50` $$\Omega$$, but your input can be practically anything.
 
 It should be noted that there are two electrical 'components' of the above
 circuit, these are `AC` (the fluctuating component) and `DC` (the static component).
@@ -339,8 +339,8 @@ Next we determine the maximum `AC` gain possible given a fixed $$z_{out}$$:
 
 $$ A_{v} = \frac{0.7(\frac{V_{CC}}{2})}{0.025} $$
 
-It is usually good practice to give 30% of $$\frac{V_{CC}}{2}$$ to $$R_{e}$$ and 70% to $$R_{c}$$. Higher
-ratios of $$V_{CC}(R_{e})$$ to $$V_{CC}(R_{c})$$ might lead to higher ac gain ($$A_{v}$$) but
+It is usually good practice to give `30%` of $$\frac{V_{CC}}{2}$$ to $$R_{e}$$ and `70%` to $$R_{c}$$. Higher
+ratios of $$V_{CC}(R_{e})$$ to $$V_{CC}(R_{c})$$ might lead to higher `AC` gain ($$A_{v}$$) but
 could sacrifice operational stability as a result.
 
 Given $$V_{CC}$$ = `5V`, we get $$A_{v}$$ = `70`. This is the highest
@@ -388,7 +388,7 @@ $$ I_{B} = \frac{0.35 mA}{75} $$
 Thus $$I_{B}$$ = 4.57uA
 
 At this point we need to ensure that small changes in the value of base current
-(which occur due to variations in $$\beta$$ ) do not significantly effect the DC
+(which occur due to variations in $$\beta$$) do not significantly effect the `DC`
 operating point of the amplifier circuit.
 
 In order to ensure a stable operating point we 'stiffen' the voltage divider by
