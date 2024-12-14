@@ -192,7 +192,7 @@ void __attribute__((destructor)) shutdown()
 
 The stager payload shown above loads the mono assembly located in
 `<root>/Robocraft_Data/Managed/Client.dll` into memory and executes the class
-method Load within the namespace Test and class Test (Test::Test::Load).
+method Load within the `namespace` `Test` and `class` `Test` (`Test::Test::Load`).
 
 Load has the following signature: `public  static  void  Load()` The stager may
 be compiled with: `gcc -fpic -shared stager.cpp -o stager.so`.
