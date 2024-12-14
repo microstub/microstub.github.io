@@ -369,7 +369,7 @@ Dump of assembler code for function add:
 This is the disassembly of the unaltered target function. `12` bytes for the `JMP`
 patch will have to be written at this address. Therefore the first `4`
 instructions will need to be written to the trampoline function followed by a
-JMP to address `0x0000555555561395` and that's all we need for the trampoline!
+`JMP` to address `0x0000555555561395` and that's all we need for the trampoline!
 
 Now the fun part! Let's continue execution to the next breakpoint, where our
 `JMP` hook will be placed.
