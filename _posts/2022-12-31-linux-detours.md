@@ -162,7 +162,7 @@ You may have also noticed the presence of the `endbr64` instruction. This
 instruction is specific to Intel processors and is part of [Intel's Control-Flow
 Enforcement Technology
 (CET)](https://software.intel.com/content/www/us/en/develop/articles/technical-look-control-flow-enforcement-technology.html).
-CET is designed to provide hardware protection against `ROP` (Return-orientated
+`CET` is designed to provide hardware protection against `ROP` (Return-orientated
 Programming) and similar methods which manipulate control flow using *existing*
 byte code.
 
