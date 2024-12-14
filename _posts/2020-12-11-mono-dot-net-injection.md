@@ -304,5 +304,5 @@ dump the corresponding names to a text file.
 
 # Source Code
 
-All source code for this journal is hosted at
+All source code for this `journal` is hosted at
 [https://github.com/lunarjournal/robocraft](https://github.com/lunarjournal/robocraft)
