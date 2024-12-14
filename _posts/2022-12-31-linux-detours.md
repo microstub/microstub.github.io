@@ -26,7 +26,7 @@ See:
 
 [Microsoft Research](https://en.wikipedia.org/wiki/Microsoft_Research) currently
 maintains a library known as [MS Detours](https://github.com/microsoft/Detours).
-It allows for the interception of Windows API calls within the memory address
+It allows for the interception of Windows `API` calls within the memory address
 space of a process.
 
 This might be useful in certain situations such as if you are writing a `D3D9`
@@ -67,7 +67,7 @@ HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
 ```
 
 - Assign the function pointer the target functions address in memory. In this
-  case a VTable entry.
+  case a `VTable` entry.
 
 ```
 #define DIP 0x55
