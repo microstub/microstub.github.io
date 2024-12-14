@@ -387,7 +387,7 @@ calculate our required base `current`:
 
 $$ I_{B} = \frac{0.35 mA}{75} $$
 
-Thus $$I_{B}$$ = 4.57uA
+Thus $$I_{B}$$ = `4.57uA`
 
 At this point we need to ensure that small changes in the value of base `current`
 (which occur due to variations in $$\beta$$) do not significantly effect the `DC`
