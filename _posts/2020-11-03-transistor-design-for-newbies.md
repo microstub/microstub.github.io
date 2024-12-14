@@ -114,7 +114,7 @@ positive terminal (anode) of the diode.
 
 It is equivalent to having a water valve initially shut tight and requiring a
 torque in order to get water flowing. A typical value for the barrier potential
-of garden variety diodes is between 0.3v-0.7v.
+of garden variety diodes is between `0.3v-0.7v`.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/03.gif)
 
