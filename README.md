@@ -8,7 +8,10 @@ The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted w
 
 Source code is a heavily modified version of [`jekyll-now`](https://github.com/barryclark/jekyll-now). <br>
 
-The `Lunar Journal` is designed to be minimal, `ASCII` efficient and as easy to read as possible.
+The `Lunar Journal` is primarily designed to be:
+- minimal.
+- `ASCII` efficient.
+- easy to read.
 
 Authors:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
