@@ -32,24 +32,24 @@ respect to time:
 
 $$ i=\frac{dC}{dt} $$
 
-Voltage is analogous to the pressure differential between two points. For
+`Voltage` is analogous to the pressure differential between two points. For
 example, suppose we suspend water in a pipe and then apply a high pressure at
 the top and a lower pressure at the bottom. We have just set up a 'water
-potential difference' between two points and this tends to move water (charge)
-from the higher pressure region (voltage) to the lower pressure region. The
-higher the water potential, the faster the column of water (charge) moves
+potential difference' between two points and this tends to move water (`charge`)
+from the higher pressure region (`voltage`) to the lower pressure region. The
+higher the water potential, the faster the column of water (`charge`) moves
 through the pipe when it has the chance.
 
-In reality, voltage arises due to the presence of electric fields. For a given
+In reality, `voltage` arises due to the presence of electric fields. For a given
 electric field between two points, a positive test charge may be placed at any
 distance along the electric field lines, that is, its 'field potential' varies
 and a positive charge placed closer to the positive end of the electric field
 feels more repulsion (and therefore has a higher potential to do work) than at
 the negative end of the field.
 
-Potential difference (voltage) is just a differential measure of this electric
+Potential difference (`voltage`) is just a differential measure of this electric
 'field potential' or put differently, the capacity of charge to do work in the
-presence of an electric field:
+presence of an `electric` field:
 
 $$ V_{f} - V_{i} = -\int \overrightarrow{E} \cdot \overrightarrow{d}s $$
 
@@ -58,7 +58,7 @@ of three ports, one attached to one end of the pipe, the other port to the end
 section of the pipe and then the valve itself, sitting in the middle and
 regulating the flow of water between both ends.
 
-By rotating the valve we adjust the water flow rate (current) through the pipe.
+By rotating the valve we adjust the water flow rate (`current`) through the pipe.
 This is the basic principle of operation of a transistor. However rather than
 applying a mechanical torque, we apply a potential difference at the base to
 regulate current flow.
@@ -66,7 +66,7 @@ regulate current flow.
 You may think of the degree to which the mechanical valve is open or closed as
 proportional to the voltage applied at the base of the transistor. This means
 that we can control a potentially larger current through the transistor using a
-smaller current through the base (through the application of a base voltage) ,
+smaller current through the base (through the application of a base voltage),
 this is one of the useful properties of transistors.
 
 Bipolar Junction Transistors (`BJTs`) usually consists of three semiconductor
@@ -94,8 +94,8 @@ crystal layer a negative polarity, the `n` type layer.
 
 If we were to place an `n` region and `p` region together we would form an
 electronic device known as a diode. A diode is a `2` terminal device (with the `n`
-side connected to the negative terminal (cathode) and `p` side connected to the
-positive terminal (anode)) that only allows current flow in one direction. It
+side connected to the negative terminal (`cathode`) and `p` side connected to the
+positive terminal (`anode`)) that only allows current flow in one direction. It
 is also worth nothing that by placing an `n` and `p` region next to one another
 there is a localised effect at their layer boundary that results in a small
 number of electrons (from the `n` type region) migrating to the `p` type region in
@@ -108,9 +108,9 @@ boundary sets up what is known as a barrier potential, a secondary electric
 field at the np layer boundary in opposition to the primary `E-field` (between `p`
 and `n`).
 
-This is the amount of voltage (pressure) required to force `n` layer electrons
+This is the amount of voltage (`pressure`) required to force `n` layer electrons
 through the `np` barrier (the secondary E-field) where they can flow into the
-positive terminal (anode) of the diode.
+positive terminal (`anode`) of the diode.
 
 It is equivalent to having a water valve initially shut tight and requiring a
 torque in order to get water flowing. A typical value for the barrier potential
@@ -144,9 +144,9 @@ $$ I_{c} = \beta I_{B} $$
 Both transistor current paths have an associated voltage drop/potential
 difference across them.
 
-For the current flow from base to emitter, there is the base-emitter voltage
-drop $$V_{BE}$$ and from collector to emitter there is the collector-emitter
-voltage drop $$V_{CE}$$ :
+For the `current` flow from base to emitter, there is the `base-emitter` `voltage`
+drop $$V_{BE}$$ and from collector to emitter there is the `collector-emitter`
+`voltage` drop $$V_{CE}$$ :
 
 ![enter image description here](https://lunarjournal.github.io/images/3/07.gif){:height="200px"}
 
@@ -165,14 +165,14 @@ values for the three modes of operation of a transistor, these are:
 When using a transistor as a switch we place the transistor into one of two
 states: cut-off or saturation.
 
-The following switching circuit is usually employed (with an `NPN` `BJT`)  (shown
+The following switching circuit is usually employed (with an `NPN` `BJT`) (shown
 together with an `LED`):
 
 ![enter image description here](https://lunarjournal.github.io/images/3/12.jpg){:height="300px"}
 
 
 The circuit is seen consisting of a base current limiting resistor $$R_{B}$$
-as well as a collector-emitter current limiting resistor $$R_{LIM}$$.
+as well as a `collector-emitter` current limiting resistor $$R_{LIM}$$.
 
 $$R_{B}$$ serves to set up the correct base current, while $$R_{LIM}$$
 serves to limit the maximum current through the `LED` (shown in red) when the
@@ -223,7 +223,7 @@ minimum value of $$\beta$$ is around `75`. Therefore to calculate $$I_{B}$$, we 
 
 $$ I_{B} = \frac{I_{C} \cdot SF}{\beta_{min}} = \frac{15mA \cdot 5}{75} = 1mA $$
 
-You might have noticed an additional factor called SF for (safety factor). This
+You might have noticed an additional factor called `SF` for (safety factor). This
 is a factor typically around `5-10` that we multiply our calculated $$I_{B}$$
 with in order to ensure we drive the transistor into saturation. This gives a
 value of around `1mA` for $$I_{B}$$.
@@ -430,7 +430,7 @@ A simulation of the `DC` operating point was performed:
 ![enter image description here](https://lunarjournal.github.io/images/3/40.png){:width="500px"}
 
 Here we can see our expected $$V_{base}$$ of around `1.45V` and an emitter
-current of around `0.38mA` (instead of 0.35mA), not too bad! Let's measure the
+current of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
 voltage gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
 load attached):
 
