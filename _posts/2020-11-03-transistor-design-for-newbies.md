@@ -130,7 +130,7 @@ emitter represents the water flow in the pipe containing the valve, while the
 open or closed.
 
 You might be wondering why conventional (positive) current flows backwards
-through the base-collector diode (from collector to emitter) for an `NPN`
+through the `base-collector` diode (from collector to emitter) for an `NPN`
 transistor. As it turns out, `current` can actually flow in multiple directions
 through a diode. However it takes much more `voltage` to 'push' charge through a
 diode in the direction it's meant to block than in the direction it is meant to
