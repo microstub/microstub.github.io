@@ -65,9 +65,9 @@ applying a mechanical torque, we apply a potential difference at the base to
 regulate `current` flow.
 
 You may think of the degree to which the mechanical valve is open or closed as
-proportional to the voltage applied at the base of the transistor. This means
+proportional to the `voltage` applied at the base of the transistor. This means
 that we can control a potentially larger `current` through the transistor using a
-smaller `current` through the base (through the application of a base voltage),
+smaller `current` through the base (through the application of a base `voltage`),
 this is one of the useful properties of transistors.
 
 Bipolar Junction Transistors (`BJTs`) usually consists of three semiconductor
@@ -110,7 +110,7 @@ boundary sets up what is known as a barrier potential, a secondary electric
 field at the np layer boundary in opposition to the primary `E-field` (between `p`
 and `n`).
 
-This is the amount of voltage (`pressure`) required to force `n` layer electrons
+This is the amount of `voltage` (`pressure`) required to force `n` layer electrons
 through the `np` barrier (the secondary E-field) where they can flow into the
 positive terminal (`anode`) of the diode.
 
@@ -143,7 +143,7 @@ and is an important consideration in the design of circuits using transistors:
 
 $$ I_{c} = \beta I_{B} $$
 
-Both transistor `current` paths have an associated voltage drop/potential
+Both transistor `current` paths have an associated `voltage` drop/potential
 difference across them.
 
 For the `current` flow from base to emitter, there is the `base-emitter` `voltage`
@@ -231,7 +231,7 @@ with in order to ensure we drive the transistor into saturation. This gives a
 value of around `1mA` for $$I_{B}$$.
 
 Given $$I_{B}$$, calculating $$R_{B}$$ becomes trivial as we know the
-voltage across $$R_{B}$$ as: $$V_{CC} - V_{BE}$$ (think of
+`voltage` across $$R_{B}$$ as: $$V_{CC} - V_{BE}$$ (think of
 $$V_{BE}$$ as a `0.7v` diode) and so we apply ohms law once again:
 
 $$ R_{B} = \frac{V_{CC} - V_{BE}}{I_{B}} = \frac{5-0.7}{1 \cdot 10^{-3}} = 4.3k\Omega $$
