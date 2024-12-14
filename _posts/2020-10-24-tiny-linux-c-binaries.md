@@ -18,11 +18,11 @@ author_url: https://linkedin.com/in/dylanmuller
 
 # ELF Binaries
 
-The standard file format for executable object code on Linux is ELF (Executable
-and Linkable Format), it is the successor to the older COFF UNIX file format.
+The standard file format for executable object code on Linux is `ELF` (Executable
+and Linkable Format), it is the successor to the older `COFF` `UNIX` file format.
 
-ELF Binaries consist of two sections, the ELF header and file data (object
-code). The ELF header format for 64-bit binaries is shown in the table below:
+`ELF` Binaries consist of two sections, the `ELF` header and file data (object
+code). The `ELF` header format for `64-bit` binaries is shown in the table below:
 
 <div class="overflow-auto" markdown="1">
 
@@ -52,11 +52,11 @@ code). The ELF header format for 64-bit binaries is shown in the table below:
 
 </div>
 
-These data fields are used by the Linux PL (program loader) to resolve the entry
-point for code execution along with various fields such as the ABI version, ISA
+These data fields are used by the Linux `PL` (program loader) to resolve the entry
+point for code execution along with various fields such as the `ABI` version, `ISA`
 type, as well as section listings.
 
-A sample hello world program is shown below and was compiled with GCC using `gcc
+A sample hello world program is shown below and was compiled with `GCC` using `gcc
 main.c -o example`.
 
 ```
@@ -72,7 +72,7 @@ This produced an output executable of almost **~17 KB** ! If you've ever
 programmed in assembly you might be surprised at the rather large file size for
 such a simple program.
 
-GNU-binutils `objdump` allows us to inspect the full list of ELF sections with
+`GNU-binutils` `objdump` allows us to inspect the full list of `ELF` sections with
 the `-h` flag.
 
 After running `objdump -h example` on our sample binary we see that there are a
@@ -83,14 +83,14 @@ redundant data.
 
 ![enter image description here](https://lunarjournal.github.io/images/2/01.png)
 
-GNU-binutils comes with a handy utility called `strip`, which attempts to remove
+`GNU-binutils` comes with a handy utility called `strip`, which attempts to remove
 unused ELF sections from a binary. Running `strip -s example` results only in a
 slightly reduced file of around **~14.5 KB**. Clearly, we need to strip much
 more! :open_mouth:
 
 # Size Optimisation
 
-GCC contains a large number of optimisation flags, these include the common :
+`GCC` contains a large number of optimisation flags, these include the common :
 `-O2 -O3 -Os` flags as well as many more less widely used compile time options,
 which we will explore further. However, since we have not yet compiled with any
 optimisation thus far, and as a first step we recompile the above example with
@@ -124,7 +124,7 @@ of parameters for linux system calls is as follows:
 | 7 | arg 6          | r9       |
 
 
-Arguments at user mode level (cdecl calling convention), however, are parsed in
+Arguments at user mode level (`cdecl` calling convention), however, are parsed in
 the following order:
 
 | # | description | register (64-bit)    |
@@ -136,8 +136,8 @@ the following order:
 | 5 | arg 5       | r8  |
 | 6 | arg 6       | r9  |
 
-To call through to the linux kernel from C, an assembly wrapper was required to
-translate user mode arguments (C formal parameters) into kernel syscall
+To call through to the linux kernel from `C`, an assembly wrapper was required to
+translate user mode arguments (`C` formal parameters) into kernel `syscall`
 arguments:
 
 ```
@@ -152,8 +152,8 @@ syscall:
 	ret
 ```
 
-We may then make a call to this assembly routine from C using the following
-function  signature:
+We may then make a call to this assembly routine from `C` using the following
+function signature:
 
 ```
 void* syscall(
@@ -173,7 +173,7 @@ Syscall `0x1` takes three arguments and has the following signature:
 
 `sys_write( unsigned int fd, const char *buf, size_t count)`
 
-A file called base.c was created, implementing both syscall and print wrappers:
+A file called `base.c` was created, implementing both `syscall` and print wrappers:
 
 ```
 // base.c
@@ -208,7 +208,7 @@ int main(int agrc, char *argv[]){
 }
 ```
 
-In order to instruct GCC to prevent linking in standard library object code, the
+In order to instruct `GCC` to prevent linking in standard library object code, the
 `-nostdlib` flag should be passed at compile time. There is one caveat however,
 in that certain symbols, such as `_start` , which handle program startup and the
 parsing of the command line arguments to `main` , will be left up to us to
@@ -263,20 +263,20 @@ Finally gcc was invoked with `gcc base.c boot.s -nostdlib -o base`.
 
 Wait what!? We still get a ~14kb executable after all that work? Yep, and
 although we have optimised the main object code for our example, we have not yet
-stripped out redundant ELF code sections which contribute a majority of the file
+stripped out redundant `ELF` code sections which contribute a majority of the file
 size.
 
 # Custom Linker Script
 
-Although it is possible to strip some redundant sections from an ELF binary
+Although it is possible to strip some redundant sections from an `ELF` binary
 using `strip`, it is much more efficient to use a custom linker script.
 
-A linker script specifies precisely which ELF sections to include in the output
+A linker script specifies precisely which `ELF` sections to include in the output
 binary, which means we can eliminate *almost* all redundancy. Care, however,
 must be taken to ensure that essential segments such as `.text`, `.data`,
 `.rodata*` are not discarded during linking to avoid a segmentation fault.
 
-The linker script that I came up with is shown below (x86_64.ld):
+The linker script that I came up with is shown below (`x86_64.ld`):
 
 ```
 OUTPUT_FORMAT("elf64-x86-64", "elf64-x86-64",
@@ -291,7 +291,7 @@ SECTIONS
 }
 ```
 
-The linker script sets the virtual base address of the output binary to 0x400000
+The linker script sets the virtual base address of the output binary to `0x400000`
 and retains only the essential code segments.
 
 Custom linker scripts are parsed to GCC with the `-T` switch and the resulting
@@ -308,7 +308,7 @@ We have thus far managed to shrink our executable size down to **~2.7 KB** from 
 initial file size of **~17 KB** by stripping redundant section data using a custom
 linker script and removing standard library object code.
 
-However, GCC has several compile time flags that can further help in removing
+However, `GCC` has several compile time flags that can further help in removing
 unwanted code sections, these include:
 
 | flag                 | description                           |
@@ -335,7 +335,7 @@ This results in an output executable of **~640 bytes**.
 # SSTRIP
 
 Despite all our optimisation thus far, there are still a few redundant code and
-data sections in our dynamically linked output executable. Enter sstrip...
+data sections in our dynamically linked output executable. Enter `sstrip`...
 
 [sstrip](https://github.com/aunali1/super-strip) is a useful utility that
 attempts to identify which sections of an ELF binary are to be loaded into
@@ -348,13 +348,13 @@ bytes** !
 
 At this point it would probably be best to switch to assembly to get smaller
 file sizes, however the goal of this journal was to create small executables
-written in C and I think we've done quite well to reduce in size from **~17 KB**
+written in `C` and I think we've done quite well to reduce in size from **~17 KB**
 down to **~830 bytes**!
 
 ![enter image description here](https://lunarjournal.github.io/images/2/08.png)
 
 As a final comment you might be wondering if we could have simply run `sstrip`
-from our 17kb executable in the first place and the answer would be, no.
+from our **17 KB** executable in the first place and the answer would be, no.
 
 I tried doing this and ended up with a binary image of around ~12 KB so it seems
 the sstrip needs a bit of additional assistance in the form our our manual
