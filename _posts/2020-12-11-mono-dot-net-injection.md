@@ -225,7 +225,7 @@ For `Unity3D` this is typically achieved using the following pattern:
 
 It is also worth keeping track of the `mono/.NET` assembly versions used in the
 original application. Ideally you would want to use an identical `.NET` version as
-compiling your `C#` exploit with the wrong .NET version can cause your exploit to
+compiling your `C#` exploit with the wrong `.NET` version can cause your exploit to
 fail.
 
 For Robocraft `.NET` `v2.0` was required. Finding support for an older version of
