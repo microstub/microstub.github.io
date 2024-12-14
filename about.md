@@ -13,7 +13,7 @@ permalink: /about/
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
 
-This journal started as a project to document various technical efforts that
+This `journal` started as a project to document various technical efforts that
 other engineers might find helpful or interesting.
 
 # Authors
