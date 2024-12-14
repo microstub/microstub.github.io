@@ -98,7 +98,7 @@ optimisation thus far, and as a first step we recompile the above example with
 
 And we see no decrease in size! This is expected behaviour however, since the
 `-Os` flag does not consider all redundant section data for removal, on the
-contrary the additional section information placed by GCC in the output binary
+contrary the additional section information placed by `GCC` in the output binary
 is considered useful at this level of optimisation.
 
 In addition, the use of `printf` binds object code from the standard library
@@ -261,7 +261,7 @@ Finally gcc was invoked with `gcc base.c boot.s -nostdlib -o base`.
 
 ![enter image description here](https://lunarjournal.github.io/images/2/05.png)
 
-Wait what!? We still get a ~14kb executable after all that work? Yep, and
+Wait what!? We still get a **~14 KB** executable after all that work? Yep, and
 although we have optimised the main object code for our example, we have not yet
 stripped out redundant `ELF` code sections which contribute a majority of the file
 size.
