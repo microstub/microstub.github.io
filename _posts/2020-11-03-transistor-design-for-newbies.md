@@ -70,10 +70,10 @@ smaller current through the base (through the application of a base voltage) ,
 this is one of the useful properties of transistors.
 
 Bipolar Junction Transistors (`BJTs`) usually consists of three semiconductor
-layers which can be of two types: `n` or `p`. The individual silicon layers are
+layers which can be of two types: `n` or `p`. The individual `silicon` layers are
 crystalline structures that have what are known as dopants added to them. These
-are individual elements (phosphorus, boron) added to neutral silicon (and
-replace the corresponding silicon atoms) in order to change the electrical
+are individual elements (`phosphorus`, `boron`) added to neutral `silicon` (and
+replace the corresponding `silicon` atoms) in order to change the electrical
 properties of the layer.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/10.png)
@@ -82,11 +82,11 @@ For example, `boron` `[B]` dopant has a valency (number of outer electrons) of `
 while `silicon` has a valency of `4`. This means that when `boron` and `silicon` bond
 covalently (sharing of each others electrons) there is a mismatch (`3` < `4`)
 between their valence electrons, leaving a 'hole', which needs to be filled with
-an electron in order to match silicon's valency. This results in a crystal
+an electron in order to match `silicon's` valency. This results in a crystal
 structure with a net positive charge, the `p` type layer.
 
-In contrast phosphorus `[P]` dopant has a valency of `5`, again there is a mismatch
-(`5` > `4`) with silicon's valency (`4`), allowing for the extra electron of
+In contrast `phosphorus` `[P]` dopant has a valency of `5`, again there is a mismatch
+(`5` > `4`) with `silicon's` valency (`4`), allowing for the extra electron of
 `phosphorus` to move freely through the crystal structure and giving the overall
 crystal layer a negative polarity, the `n` type layer.
 
