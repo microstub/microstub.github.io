@@ -401,7 +401,7 @@ into the base of the transistor.
 $$ \frac{1}{100} \cdot I_{R_{1}} = 4.57uA $$
 
 We can therefore assume that $$I_{R1} \approx I_{R2}$$ and solving the
-above expression yields $$I_{R2}$$ = 0.456mA. Since we know the voltage
+above expression yields $$I_{R2}$$ = `0.456mA`. Since we know the voltage
 across  $$R_{2}$$ (given by $$V_{B}$$) we can calculate the resistance
 value:
 
