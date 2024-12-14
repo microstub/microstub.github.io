@@ -78,14 +78,14 @@ properties of the layer.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/10.png)
 
-For example, boron [B] dopant has a valency (number of outer electrons) of 3,
+For example, boron `[B]` dopant has a valency (number of outer electrons) of 3,
 while silicon has a valency of 4. This means that when boron and silicon bond
 covalently (sharing of each others electrons) there is a mismatch (3 < 4)
 between their valence electrons, leaving a 'hole', which needs to be filled with
 an electron in order to match silicon's valency. This results in a crystal
 structure with a net positive charge, the p type layer.
 
-In contrast phosphorus [P] dopant has a valency of 5, again there is a mismatch
+In contrast phosphorus `[P]` dopant has a valency of 5, again there is a mismatch
 (5 > 4) with silicon's valency (4), allowing for the extra electron of
 phosphorus to move freely through the crystal structure and giving the overall
 crystal layer a negative polarity, the `n` type layer.
