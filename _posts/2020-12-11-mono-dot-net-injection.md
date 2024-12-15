@@ -41,7 +41,7 @@ example of an application we wish to tamper with.
 
 ![enter image description here](https://lunarjournal.github.io/images/4/01.jpg)
 
-Robocraft uses the [Unity3D](https://unity3d.com/get-unity/download) engine,
+`Robocraft` uses the [Unity3D](https://unity3d.com/get-unity/download) engine,
 which is a high level `C#` component based game engine.
 
 World entities in `Unity3D` derive from class `UnityEngine::GameObject` and may
@@ -228,7 +228,7 @@ original application. Ideally you would want to use an identical `.NET` version 
 compiling your `C#` exploit with the wrong `.NET` version can cause your exploit to
 fail.
 
-For Robocraft `.NET` `v2.0` was required. Finding support for an older version of
+For `Robocraft` `.NET` `v2.0` was required. Finding support for an older version of
 `.NET` can be difficult as most modern `C#` `IDE's` do not support such an old target.
 A simple solution to this problem is to download an older version of `mono`.
 
