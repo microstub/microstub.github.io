@@ -6,7 +6,7 @@ author_url: https://linkedin.com/in/dylanmuller
 ---
 
 > Function detouring is a powerful hooking technique that allows for the
-> interception of `C/C++` functions. `cdl86` aims to be a compact `C` detours
+> interception of `C/C++` functions. `cdl86` aims to be a tiny `C` detours
 > library for `x86_64` Linux.
 
 1. [Overview](#overview)
