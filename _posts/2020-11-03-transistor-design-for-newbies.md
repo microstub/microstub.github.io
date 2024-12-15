@@ -111,7 +111,7 @@ field at the np layer boundary in opposition to the primary `E-field` (between `
 and `n`).
 
 This is the amount of `voltage` (`pressure`) required to force `n` layer electrons
-through the `np` barrier (the secondary E-field) where they can flow into the
+through the `np` barrier (the secondary `E-field`) where they can flow into the
 positive terminal (`anode`) of the diode.
 
 It is equivalent to having a water valve initially shut tight and requiring a
