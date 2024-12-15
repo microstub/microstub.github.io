@@ -66,7 +66,7 @@ directories that seemed interesting:
 ![enter image description here](https://lunarjournal.github.io/images/4/02.png)
 
 Upon further inspection of the `Robocraft_Data` directory, we find the folders
-containing the managed (`C#/Mono`) portion of the application. In particular, the
+containing the managed (`C#/mono`) portion of the application. In particular, the
 Managed folder contains the `C#` libraries in `DLL` form of the `Unity3D` Engine as well
 as other proprietary modules from the game developer.
 
