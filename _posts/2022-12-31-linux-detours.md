@@ -49,7 +49,7 @@ HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
 }
 ```
 
-In order to disable the Z buffer in this example we need access to a valid
+In order to disable the `Z-buffer` in this example we need access to a valid
 `LPDIRECT3DDEVICE9` context within the running process. This is where detours
 comes in handy. Generally, the procedure to hook a specific function is as
 follows:
