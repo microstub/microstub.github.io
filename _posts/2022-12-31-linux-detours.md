@@ -128,7 +128,7 @@ and then debug with `GDB`:
 gdb main
 ```
 
-To list all the functions in the binary, supply `info functions` to the gdb
+To list all the functions in the binary, supply `info functions` to the `gdb`
 command prompt.
 
 ```
@@ -203,7 +203,7 @@ Immediate values are stored in little endian (LE) encoding.
 So we can therefore conclude that we need to patch **at least** `12` bytes in
 memory at the location of our target function. These `12` bytes however are
 important and we cannot simply discard them. It turns out that we actually place
-these bytes at the start of what i will call a 'trampoline function', it's
+these bytes at the start of what I will call a 'trampoline function', it's
 layout is as follows:
 
 ```
