@@ -24,7 +24,7 @@ links:
   linkedin: 'lunarjournal'
   linktree: 'lunarjournal'
 
-url: https://journal.lunar.sh
+url: 'https://journal.lunar.sh'
 baseurl: ""
 
 permalink: /:year/:title.html
