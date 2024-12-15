@@ -12,6 +12,7 @@ permalink: /about/
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
+4. [Cryptocurrency](#cryptocurrency)
 
 This `journal` started as a project to document various technical efforts that
 other engineers might find helpful or interesting.
@@ -65,3 +66,11 @@ Workbench Lamp:           Duratool 15W LED
 ```
 
 ![Lab Status](https://lunarjournal.github.io/images/personal/lab_latest.JPG)
+
+# Cryptocurrency
+
+Please consider supporting the `Lunar Journal`. 
+
+Your support helps us create educational content for engineers and researchers.
+
+* Bitcoin: `34UiJn9VKiEG1etxeLWUt3xQHxwJBR8cL9`
