@@ -10,6 +10,7 @@ Source code is a heavily modified version of [`jekyll-now`](https://github.com/b
 
 The `Lunar Journal` is designed to be:
 - minimalist.
+- lightweight.
 - `ASCII` efficient.
 - easy to read.
 
