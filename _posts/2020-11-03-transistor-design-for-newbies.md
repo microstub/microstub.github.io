@@ -215,7 +215,7 @@ a `5v` or `9v` supply would be adequate to drive the transistor into saturation 
 long as $$V_{CC}$$ >> `0.7v` (due to the base emitter `voltage` drop) and Vcc >>
 `2v` (for the led).
 
-Assume $$V_{CC}$$ = `5v`, then $$R_{LIM}$$ = 186.7 $$\Omega$$
+Assume $$V_{CC}$$ = `5v`, then $$R_{LIM}$$ = `186.7` $$\Omega$$
 
 In calculating the required base `current`, we use the transistor's $$\beta$$ value. This
 can be found on the transistors datasheet and typically varies from anywhere
