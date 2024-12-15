@@ -73,4 +73,4 @@ Please consider supporting the `Lunar Journal`.
 
 Your support helps us create educational content for engineers and researchers.
 
-* Bitcoin: `34UiJn9VKiEG1etxeLWUt3xQHxwJBR8cL9`
+* Bitcoin: `{{site.btc_wallet}}`
