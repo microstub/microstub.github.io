@@ -315,9 +315,9 @@ unwanted code sections, these include:
 |----------------------|---------------------------------------|
 | -ffunction-sections  | place each function into own section  |
 | -fdata-sections      | place each data item into own section |
-| -Wl,--gc-sections   | strip unused sections (linker)                 |
+| -Wl,\--gc-sections   | strip unused sections (linker)                 |
 | -fno-unwind-tables   | remove unwind tables       |
-| -Wl,--build-id=none | remove build-id section               |
+| -Wl,\--build-id=none | remove build-id section               |
 | -Qn                  | remove .ident directives              |
 | -Os                  | optimize code for size                |
 | -s                   | strip all sections                    |
