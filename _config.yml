@@ -29,6 +29,8 @@ baseurl: ""
 permalink: /:year/:title.html
 version: v1.2.0
 
+btc_wallet: 34UiJn9VKiEG1etxeLWUt3xQHxwJBR8cL9
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
