@@ -16,12 +16,12 @@ github_raw: https://raw.githubusercontent.com/lunarjournal/lunarjournal.github.i
 avatar: /images/logo_space.jpg
 
 links:
-  email: root@lunar.sh
-  github: lunarjournal
-  twitter: dmuller
-  youtube: lunarjournal
-  linkedin: lunarjournal
-  linktree: lunarjournal
+  email: 'root@lunar.sh'
+  github: 'lunarjournal'
+  twitter: 'dmuller'
+  youtube: 'lunarjournal'
+  linkedin: 'lunarjournal'
+  linktree: 'lunarjournal'
 
 url: https://journal.lunar.sh
 baseurl: ""
