@@ -294,7 +294,7 @@ SECTIONS
 The linker script sets the virtual base address of the output binary to `0x400000`
 and retains only the essential code segments.
 
-Custom linker scripts are parsed to GCC with the `-T` switch and the resulting
+Custom linker scripts are parsed to `GCC` with the `-T` switch and the resulting
 binary was compiled with: `gcc -T x86_64.ld base.c boot.s -nostdlib -o base`.
 
 This produced an output executable of around **~2.7 KB**.
