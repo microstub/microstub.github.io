@@ -29,20 +29,20 @@ code). The `ELF` header format for `64-bit` binaries is shown in the table below
 | Offset | Field                  | Description                            | Value                                                                                 |
 |--------|------------------------|----------------------------------------|---------------------------------------------------------------------------------------|
 | 0x00   | e_ident[EI_MAG0]       | magic number                           | 0x7F                                                                                  |
-| 0x04   | e_ident[EI_CLASS]      | 32/64 bit                              | 0x2=64bit                                                                             |
-| 0x05   | e_ident[EI_DATA]       | endianness                             | 0x1=little<br>0x2=big                                                                 |
-| 0x06   | e_ident[EI_VERSION]    | elf version                            | 0x1=original                                                                          |
-| 0x07   | e_ident[EI_OSABI]      | system ABI                             | 0x00= System V<br>0x02= NetBSD<br>0x03= Linux<br>0x09= FreeBSD<br>                    |
+| 0x04   | e_ident[EI_CLASS]      | 32/64-bit                              | 0x2 = 64-bit                                                                          |
+| 0x05   | e_ident[EI_DATA]       | endianness                             | 0x1 = little<br>0x2 = big                                                             |
+| 0x06   | e_ident[EI_VERSION]    | elf version                            | 0x1 = original                                                                        |
+| 0x07   | e_ident[EI_OSABI]      | system ABI                             | 0x00 = System V<br>0x02 = NetBSD<br>0x03 = Linux<br>0x09 = FreeBSD<br>                |
 | 0x08   | e_ident[EI_ABIVERSION] | ABI Version                            | * ignored for static-linked binaries<br>* vendor specific for dynamic-linked binaries |
 | 0x09   | e_ident[EI_PAD]        | undefined                              | * padded with zeros                                                                   |
-| 0x10   | e_type                 | object type                            | 0x00= ET_NONE<br>0x01= ET_REL<br>0x02= ET_EXEC<br>0x03= ET_DYN<br>0x04= ET_CORE       |
-| 0x12   | e_machine              | system ISA                             | 0x3E= amd64<br>0xB7= ARM (v8/64)                                                      |
-| 0x14   | e_version              | elf version                            | 0x1=original                                                                          |
+| 0x10   | e_type                 | object type                            | 0x00 = ET_NONE<br>0x01 = ET_REL<br>0x02 = ET_EXEC<br>0x03 = ET_DYN<br>0x04 = ET_CORE  |
+| 0x12   | e_machine              | system ISA                             | 0x3E = amd64<br>0xB7 = ARM (v8/64)                                                    |
+| 0x14   | e_version              | elf version                            | 0x1 = original                                                                        |
 | 0x18   | e_entry                | entry point                            | 64-bit entry point address                                                            |
 | 0x20   | e_phoff                | header table offset                    | 64-bit program header table offset                                                    |
 | 0x28   | e_shoff                | section table offset                   | 64-bit section header table offset                                                    |
 | 0x30   | e_flags                | undefined                              | vendor specific or pad with zeros                                                     |
-| 0x34   | e_ehsize               | elf header size                        | 0x40= 64bits, 0x20= 32bits                                                            |
+| 0x34   | e_ehsize               | elf header size                        | 0x40 = 64bits, 0x20 = 32bits                                                          |
 | 0x36   | e_phentsize            | header table size                      | -                                                                                     |
 | 0x38   | e_phnum                | #(num) entries in header table         | -                                                                                     |
 | 0x3A   | e_shentsize            | section table size                     | -                                                                                     |
