@@ -124,7 +124,7 @@ of parameters for linux system calls is as follows:
 | 7 | arg 6          | r9       |
 
 
-Arguments at user mode level (`cdecl` calling convention), however, are parsed in
+Arguments at user mode level (`__cdecl` calling convention), however, are parsed in
 the following order:
 
 | # | description | register (64-bit)    |
