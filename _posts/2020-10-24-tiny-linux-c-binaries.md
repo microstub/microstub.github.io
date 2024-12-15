@@ -84,7 +84,7 @@ redundant data.
 ![enter image description here](https://lunarjournal.github.io/images/2/01.png)
 
 `GNU-binutils` comes with a handy utility called `strip`, which attempts to remove
-unused ELF sections from a binary. Running `strip -s example` results only in a
+unused `ELF` sections from a binary. Running `strip -s example` results only in a
 slightly reduced file of around **~14.5 KB**. Clearly, we need to strip much
 more! :open_mouth:
 
