@@ -108,7 +108,7 @@ Linux kernel directly to print to the standard output stream.
 <a name="linux-syscalls"/>
 # Linux syscalls
 System calls on Linux are invoked with the `x86_64` `syscall` opcode and syscall
-parameters follow a very specific order on 64-bit architectures. For `x86_64`
+parameters follow a very specific order on `64-bit` architectures. For `x86_64`
 ([System V ABI  - Section
 A.2.1](https://refspecs.linuxfoundation.org/elf/x86_64-abi-0.99.pdf)), the order
 of parameters for linux system calls is as follows:
@@ -219,7 +219,7 @@ defined by -- [System V ABI - Section
 3.4](https://refspecs.linuxfoundation.org/elf/x86_64-abi-0.99.pdf).
 
 Initially it is specified that register `rsp` hold the argument count, while the
-address given by `rsp+0x8` hold an array of 64-bit pointers to the argument
+address given by `rsp+0x8` hold an array of `64-bit` pointers to the argument
 strings.
 
 From here the argument count and string pointer array index can be passed to
