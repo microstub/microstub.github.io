@@ -58,10 +58,10 @@ from an external context (our `C#` script).
 Browsing the `Robocraft` root directory (installed via steam) revealed a few
 directories that seemed interesting:
 
- - `Robocraft_Data`.
- - `lib64`.
- - `lib32`.
- - `EasyAntiCheat`.
+ - `Robocraft_Data`
+ - `lib64`
+ - `lib32`
+ - `EasyAntiCheat`
 
 ![enter image description here](https://lunarjournal.github.io/images/4/02.png)
 
