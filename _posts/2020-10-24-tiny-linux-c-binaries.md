@@ -105,8 +105,8 @@ In addition, the use of `printf` binds object code from the standard library
 into the final output executable and so we will instead call through to the
 Linux kernel directly to print to the standard output stream.
 
-<a name="linux-syscalls"/>
 # Linux syscalls
+
 System calls on Linux are invoked with the `x86_64` `syscall` opcode and syscall
 parameters follow a very specific order on `64-bit` architectures. For `x86_64`
 ([System V ABI  - Section
