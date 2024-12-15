@@ -444,7 +444,7 @@ x/10i 0x7ffff7ffb000
    0x7ffff7ffb01e:	add    %al,(%rax)
 ```
 
-You can see that our trampoline contains the first 4 instructions that were
+You can see that our trampoline contains the first `4` instructions that were
 replaced when the `JMP` patch was placed in our target function. You can see a
 jmp back to address `0x555555561395` which was disassembled earlier. This should
 give you an idea of how the control flow modification is achieved.
