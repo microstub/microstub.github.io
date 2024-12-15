@@ -71,7 +71,7 @@ Workbench Lamp:           Duratool 15W LED
 
 Please consider supporting the `Lunar Journal`. 
 
-Your support helps us create new educational content for engineers and researchers.
+Your support helps us publish new educational content for engineers and researchers.
 
 * Bitcoin: `{{ site.wallet.btc }}`
 * Ethereum: `{{ site.wallet.ethereum }}`
