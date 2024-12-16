@@ -76,7 +76,7 @@ such a simple program.
 the `-h` flag.
 
 After running `objdump -h example` on our sample binary we see that there are a
-large number of GCC derived sections: `.gnu.version` and `.note.gnu.property`
+large number of `GCC` derived sections: `.gnu.version` and `.note.gnu.property`
 attached to the binary image. The question becomes how much data these
 additional sections are consuming and to what degree can we 'strip' out
 redundant data.
