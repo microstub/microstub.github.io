@@ -19,7 +19,7 @@ Authors:<br>
 
 # Build info
 
-Install (`Debian`) dependencies with:
+Install dependencies for (`Debian`) with:
 
 ```
 sudo apt install ruby-rubygems
