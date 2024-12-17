@@ -212,7 +212,7 @@ $$ R_{LIM} = \frac{V_{CC} - 2 - 0.2}{15 \cdot 10^{-3}} $$
 
 Choosing $$V_{CC}$$ is just a matter of what you have at hand. For example,
 a `5v` or `9v` supply would be adequate to drive the transistor into saturation as
-long as $$V_{CC} > $$ `0.7v` (due to the base emitter voltage drop) and Vcc $$>$$
+long as $$V_{CC} > $$ `0.7v` (due to the base emitter voltage drop) and $$V_{CC} >$$
 `2v` (for the led).
 
 Assume $$V_{CC}$$ = `5v`, then $$R_{LIM}$$ = `186.7` $$\Omega$$
