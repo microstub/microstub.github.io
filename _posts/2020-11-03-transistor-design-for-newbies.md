@@ -23,7 +23,7 @@ controlled water valve.
 
 ![enter image description here](https://lunarjournal.github.io/images/3/07.png){:width="500px"}
 
-Here it is important to reference the water analogy of `current` and `voltage`. In
+Here it is important to reference the water analogy of current and voltage. In
 the water analogy we picture a column of water moving through a pipe.
 
 We define current as the movement of water (`charge`) through the pipe (wire), or
@@ -32,23 +32,23 @@ respect to time:
 
 $$ i=\frac{dC}{dt} $$
 
-`Voltage` is analogous to the pressure differential between two points. For
+Voltage is analogous to the pressure differential between two points. For
 example, suppose we suspend water in a pipe and then apply a high pressure at
 the top and a lower pressure at the bottom. We have just set up a 'water
 potential difference' between two points and this tends to move water (`charge`)
-from the higher pressure region (`voltage`) to the lower pressure region. 
+from the higher pressure region (voltage) to the lower pressure region. 
 
 The higher the water potential, the faster the column of water (`charge`) moves
 through the pipe when it has the chance.
 
-In reality, `voltage` arises due to the presence of electric fields. For a given
+In reality, voltage arises due to the presence of electric fields. For a given
 electric field between two points, a positive test charge may be placed at any
 distance along the electric field lines, that is, its 'field potential' varies
 and a positive charge placed closer to the positive end of the electric field
 feels more repulsion (and therefore has a higher potential to do work) than at
 the negative end of the field.
 
-Potential difference (`voltage`) is just a differential measure of this electric
+Potential difference (voltage\) is just a differential measure of this electric
 'field potential' or put differently, the capacity of charge to do work in the
 presence of an `electric` field:
 
@@ -59,15 +59,15 @@ of three ports, one attached to one end of the pipe, the other port to the end
 section of the pipe and then the valve itself, sitting in the middle and
 regulating the flow of water between both ends.
 
-By rotating the valve we adjust the water flow rate (`current`) through the pipe.
+By rotating the valve we adjust the water flow rate (current) through the pipe.
 This is the basic principle of operation of a transistor. However rather than
 applying a mechanical torque, we apply a potential difference at the base to
-regulate `current` flow.
+regulate current flow.
 
 You may think of the degree to which the mechanical valve is open or closed as
-proportional to the `voltage` applied at the base of the transistor. This means
-that we can control a potentially larger `current` through the transistor using a
-smaller `current` through the base (through the application of a base `voltage`),
+proportional to the voltage applied at the base of the transistor. This means
+that we can control a potentially larger current through the transistor using a
+smaller current through the base (through the application of a base voltage),
 this is one of the useful properties of transistors.
 
 Bipolar Junction Transistors (`BJTs`) usually consists of three semiconductor
@@ -110,7 +110,7 @@ boundary sets up what is known as a barrier potential, a secondary electric
 field at the np layer boundary in opposition to the primary `E-field` (between `p`
 and `n`).
 
-This is the amount of `voltage` (`pressure`) required to force `n` layer electrons
+This is the amount of voltage (`pressure`) required to force `n` layer electrons
 through the `np` barrier (the secondary `E-field`) where they can flow into the
 positive terminal (`anode`) of the diode.
 
@@ -125,30 +125,30 @@ A bipolar junction transistor (`BJT`) may be viewed as a combination of two diod
 
 ![enter image description here](https://lunarjournal.github.io/images/3/05.gif)
 
-An `NPN` `BJT` transistor has two `current` paths, one from the collector to emitter
-and the other from the base to emitter. The `current` flow from collector to
+An `NPN` `BJT` transistor has two current paths, one from the collector to emitter
+and the other from the base to emitter. The current flow from collector to
 emitter represents the water flow in the pipe containing the valve, while the
-`current` flow from base to emitter represents the degree to which the valve is
+current flow from base to emitter represents the degree to which the valve is
 open or closed.
 
 You might be wondering why conventional (positive) current flows backwards
 through the `base-collector` diode (from collector to emitter) for an `NPN`
-transistor. As it turns out, `current` can actually flow in multiple directions
-through a diode. However it takes much more `voltage` to 'push' charge through a
+transistor. As it turns out, current can actually flow in multiple directions
+through a diode. However it takes much more voltage to 'push' charge through a
 diode in the direction it's meant to block than in the direction it is meant to
 flow.
 
-The ratio of `base-emitter` `current` to `collector-emitter` `current` is known as ($$\beta$$)
+The ratio of `base-emitter` current to `collector-emitter` current is known as ($$\beta$$)
 and is an important consideration in the design of circuits using transistors:
 
 $$ I_{c} = \beta I_{B} $$
 
-Both transistor `current` paths have an associated `voltage` drop/potential
+Both transistor current paths have an associated voltage drop/potential
 difference across them.
 
-For the `current` flow from base to emitter, there is the `base-emitter` `voltage`
+For the current flow from base to emitter, there is the `base-emitter` voltage
 drop $$V_{BE}$$ and from collector to emitter there is the `collector-emitter`
-`voltage` drop $$V_{CE}$$ :
+voltage drop $$V_{CE}$$ :
 
 ![enter image description here](https://lunarjournal.github.io/images/3/07.gif){:height="200px"}
 
@@ -173,19 +173,19 @@ together with an `LED`):
 ![enter image description here](https://lunarjournal.github.io/images/3/12.jpg){:height="300px"}
 
 
-The circuit is seen consisting of a base `current` limiting resistor $$R_{B}$$
-as well as a `collector-emitter` `current` limiting resistor $$R_{LIM}$$.
+The circuit is seen consisting of a base current limiting resistor $$R_{B}$$
+as well as a `collector-emitter` current limiting resistor $$R_{LIM}$$.
 
 $$R_{B}$$ serves to set up the correct base current, while $$R_{LIM}$$
-serves to limit the maximum `current` through the `LED` (shown in red) when the
+serves to limit the maximum current through the `LED` (shown in red) when the
 transistor is switched fully on (driven into saturation).
 
 To calculate the values for resistors $$R_{B}$$ and $$R_{LIM}$$ we use
-the equation relating base `current` to collector `current` defined earlier:
+the equation relating base current to collector current defined earlier:
 
 $$ I_{c} = \beta I_{B} $$
 
-The first question becomes what collector `current` $$I_{C}$$ we desire. This
+The first question becomes what collector current $$I_{C}$$ we desire. This
 value depends on the device/load you are trying to switch on/off. It is worth
 noting that when a transistor is switched fully on (is in saturation mode) the
 equivalent circuit (simplified) is as follows (shown without the `LED`, you can
@@ -194,30 +194,30 @@ assume the `LED` follows resistor $$R_{C}$$):
 ![enter image description here](https://lunarjournal.github.io/images/3/08.jpg){:width="450px"}
 
 Thus at the collector a direct connection to ground is made. However this
-connection is not perfect and there is an associated `voltage` drop from collector
+connection is not perfect and there is an associated voltage drop from collector
 to emitter of typically around `0.2v` ($$V_{CE}$$) rather than `0v`. Determining
-the relevant value for $$I_{C}$$ is then just a matter how much `current` your
+the relevant value for $$I_{C}$$ is then just a matter how much current your
 load (`LED`in our case) requires.
 
-For example, a typical green led requires around `15mA` of `current` to light up
+For example, a typical green led requires around `15mA` of current to light up
 brightly so we set $$I_{C}$$ = `15mA`. A green `LED` also typically has a `2v`
 drop across it. To calculate $$R_{LIM}$$ we use ohms law:
 
 $$ R_{LIM} = \frac{V_{CC} - V_{LED} - V_{CE}}{I_{DESIRED}} $$
 
-Given the `LED` and collector to emitter `voltage` drops of `2v` and `0.2v`
+Given the `LED` and collector to emitter voltage drops of `2v` and `0.2v`
 respectively, we can further reduce the above expression above to:
 
 $$ R_{LIM} = \frac{V_{CC} - 2 - 0.2}{15 \cdot 10^{-3}} $$
 
 Choosing $$V_{CC}$$ is just a matter of what you have at hand. For example,
 a `5v` or `9v` supply would be adequate to drive the transistor into saturation as
-long as $$V_{CC}$$ >> `0.7v` (due to the base emitter `voltage` drop) and Vcc >>
+long as $$V_{CC}$$ >> `0.7v` (due to the base emitter voltage drop) and Vcc >>
 `2v` (for the led).
 
 Assume $$V_{CC}$$ = `5v`, then $$R_{LIM}$$ = `186.7` $$\Omega$$
 
-In calculating the required base `current`, we use the transistor's $$\beta$$ value. This
+In calculating the required base current, we use the transistor's $$\beta$$ value. This
 can be found on the transistors datasheet and typically varies from anywhere
 between `20` to `200`. The rule of thumb is to use the minimum value of $$\beta$$ for a
 specific transistor type. For the standard garden variety `2N2222` transistor, the
@@ -231,7 +231,7 @@ with in order to ensure we drive the transistor into saturation. This gives a
 value of around `1mA` for $$I_{B}$$.
 
 Given $$I_{B}$$, calculating $$R_{B}$$ becomes trivial as we know the
-`voltage` across $$R_{B}$$ as: $$V_{CC} - V_{BE}$$ (think of
+voltage across $$R_{B}$$ as: $$V_{CC} - V_{BE}$$ (think of
 $$V_{BE}$$ as a `0.7v` diode) and so we apply ohms law once again:
 
 $$ R_{B} = \frac{V_{CC} - V_{BE}}{I_{B}} = \frac{5-0.7}{1 \cdot 10^{-3}} = 4.3k\Omega $$
@@ -239,18 +239,18 @@ $$ R_{B} = \frac{V_{CC} - V_{BE}}{I_{B}} = \frac{5-0.7}{1 \cdot 10^{-3}} = 4.3k\
 Now you can connect a switch between the base resistor and Vcc or connect the
 base resistor directly to the output of a `5V-TTL` micro-controller in order to
 turn the `LED` on and off! The benefit of using a transistor to do that is that we
-require a relatively small `current` (`< 1mA`) in order to switch a much larger
-`current` through the `LED` (`15mA`)!
+require a relatively small current (`< 1mA`) in order to switch a much larger
+current through the `LED` (`15mA`)!
 
 In conclusion:
-1. Determine required collector `current` $$I_{C}$$.
+1. Determine required collector current $$I_{C}$$.
 2. Calculate $$R_{LIM}$$ (ohms law).
 3. Calculate $$I_{B}$$ using lowest value for $$\beta$$.
 4. Multiply $$I_{B}$$ by safety factor `5-10`.
 5. Calculate $$R_{B}$$ (ohms law).
 
 The simple `LED` transistor circuit was modelled in `LTSpice`, with the `LED`
-represented as a series `voltage` source (representing the `2v` `voltage` drop).:
+represented as a series voltage source (representing the `2v` voltage drop).:
 
 ![enter image description here](https://lunarjournal.github.io/images/3/18.png){:width="400px"}
 
@@ -258,8 +258,8 @@ represented as a series `voltage` source (representing the `2v` `voltage` drop).
 
 ![enter image description here](https://lunarjournal.github.io/images/3/19.png){:height="200px"}
 
-Here we can see the `~1mA` base `current` ($$I_{b}$$) driving `~15mA` collector
-($$I_{C}$$) `current`. All `current` values are shown in `S.I` units of amperes
+Here we can see the `~1mA` base current ($$I_{b}$$) driving `~15mA` collector
+($$I_{C}$$) current. All current values are shown in `S.I` units of amperes
 (`A`).
 
 # Transistor as an amplifier
@@ -346,7 +346,7 @@ ratios of $$V_{CC}(R_{e})$$ to $$V_{CC}(R_{c})$$ might lead to higher `AC` gain 
 could sacrifice operational stability as a result.
 
 Given $$V_{CC}$$ = `5V`, we get $$A_{v}$$ = `70`. This is the highest
-expected `voltage` gain for this amplifier.
+expected voltage gain for this amplifier.
 
 We know that:
 
@@ -376,34 +376,34 @@ $$ R_{base} = `75` \cdot \frac{25}{0.35} $$
 
 Thus $$R_{base}$$ = `5.4` $$k\Omega$$
 
-Returning to our `DC` analysis, we calculate the expected `voltage` at the
+Returning to our `DC` analysis, we calculate the expected voltage at the
 transistor base:
 
 $$ V_{B} = V_{Re} + 0.7 $$
 
 We know that $$V_{Re}$$ is `30%` of $$\frac{V_{CC}}{2}$$, which gives $$V_{B}$$ = `1.45V`.
 Now given $$I_{E}$$ = `0.35mA` we can again use our minimum value for $$\beta$$ to
-calculate our required base `current`:
+calculate our required base current:
 
 $$ I_{B} = \frac{0.35 mA}{75} $$
 
 Thus $$I_{B}$$ = `4.57uA`
 
-At this point we need to ensure that small changes in the value of base `current`
+At this point we need to ensure that small changes in the value of base current
 (which occur due to variations in $$\beta$$) do not significantly effect the `DC`
 operating point of the amplifier circuit.
 
-In order to ensure a stable operating point we 'stiffen' the `voltage` divider by
-ensuring the only a small fraction of the total resistor divider `current` flows
+In order to ensure a stable operating point we 'stiffen' the voltage divider by
+ensuring the only a small fraction of the total resistor divider current flows
 into the base of transistor `Q1`.
 
-A good rule of thumb is to allow for `1%` of the total divider `current` to pass
+A good rule of thumb is to allow for `1%` of the total divider current to pass
 into the base of the transistor.
 
 $$ \frac{1}{100} \cdot I_{R_{1}} = 4.57uA $$
 
 We can therefore assume that $$I_{R1} \approx I_{R2}$$ and solving the
-above expression yields $$I_{R2}$$ = `0.456mA`. Since we know the `voltage`
+above expression yields $$I_{R2}$$ = `0.456mA`. Since we know the voltage
 across  $$R_{2}$$ (given by $$V_{B}$$) we can calculate the resistance
 value:
 
@@ -432,14 +432,14 @@ A simulation of the `DC` operating point was performed:
 ![enter image description here](https://lunarjournal.github.io/images/3/40.png){:width="500px"}
 
 Here we can see our expected $$V_{base}$$ of around `1.45V` and an emitter
-`current` of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
-`voltage` gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
+current of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
+voltage gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
 load attached):
 
 ![enter image description here](https://lunarjournal.github.io/images/3/43.png){:width="500px"}
 
 Our output across our load is seen reaching an amplitude of `70mV` and so we have
-a `voltage` gain of `~70`.
+a voltage gain of `~70`.
 
 # LTSpice
 
