@@ -315,9 +315,9 @@ load resistance, $$R_{L}$$ (connected to `C2`).
 $$ z_{out} = \frac{R_{c} \cdot R_{L}}{R_{c} + R_{L}} $$
 
 From an `AC` perspective:
-* Capacitors become short circuits
-* Inductors become open circuits
-* Voltage sources become grounds
+* Capacitors become short circuits.
+* Inductors become open circuits.
+* Voltage sources become grounds.
 
 The term $$r'e$$ is known as the transistor's `AC` base-emitter junction resistance
 and is given by:
