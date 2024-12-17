@@ -88,6 +88,8 @@ unused `ELF` sections from a binary. Running `strip -s example` results only in 
 slightly reduced file of around **~14.5 KB**. Clearly, we need to strip much
 more! :open_mouth:
 
+![meme](https://lunarjournal.github.io/images/memes/meme_00.png)
+
 # Size Optimisation
 
 `GCC` contains a large number of optimisation flags, these include the common :
