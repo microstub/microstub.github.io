@@ -21,7 +21,7 @@ other engineers might find helpful or interesting.
 
 [Dylan Müller](https://www.linkedin.com/in/dylanmuller/)
 
-`Dylan Müller` is an electrical engineer and Lead Scientist of `Lunar RF Labs`. 
+`Dylan Müller` is an electrical engineer and Lead `R&D` Scientist of `Lunar RF Labs`. 
 
 In 2021 he graduated from the
 [University of Cape Town](https://www.uct.ac.za/)
