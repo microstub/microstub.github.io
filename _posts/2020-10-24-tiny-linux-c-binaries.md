@@ -88,8 +88,6 @@ unused `ELF` sections from a binary. Running `strip -s example` results only in 
 slightly reduced file of around **~14.5 KB**. Clearly, we need to strip much
 more! :open_mouth:
 
-![meme](https://lunarjournal.github.io/images/memes/meme_00.png)
-
 # Size Optimisation
 
 `GCC` contains a large number of optimisation flags, these include the common :
@@ -97,6 +95,8 @@ more! :open_mouth:
 which we will explore further. However, since we have not yet compiled with any
 optimisation thus far, and as a first step we recompile the above example with
 `-Os`, to optimise for size.
+
+![meme](https://lunarjournal.github.io/images/memes/meme_00.png)
 
 And we see no decrease in size! This is expected behaviour however, since the
 `-Os` flag does not consider all redundant section data for removal, on the
