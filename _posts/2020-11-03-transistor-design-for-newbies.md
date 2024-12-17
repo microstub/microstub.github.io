@@ -157,10 +157,10 @@ values for the three modes of operation of a transistor, these are:
 
 * **Cut-off** (The transistor acts as an open circuit; valve closed).
   $$V_{BE}$$ < `0.7V`
-* **Saturation** (The transistor acts as a short circuit; valve completely open)
+* **Saturation** (The transistor acts as a short circuit; valve completely open).
   $$V_{BE}$$ >= `0.7V`
 * **Active** (The transistor acts as an amplifier; valve varies between closed
-  and completely open)
+  and completely open).
 
 # Transistor as a switch
 
@@ -243,11 +243,11 @@ require a relatively small `current` (`< 1mA`) in order to switch a much larger
 `current` through the `LED` (`15mA`)!
 
 In conclusion:
-1. Determine required collector `current` $$I_{C}$$
-2. Calculate $$R_{LIM}$$ (ohms law)
-3. Calculate $$I_{B}$$ using lowest value for $$\beta$$
-4. Multiply $$I_{B}$$ by safety factor `5-10`
-5. Calculate $$R_{B}$$ (ohms law)
+1. Determine required collector `current` $$I_{C}$$.
+2. Calculate $$R_{LIM}$$ (ohms law).
+3. Calculate $$I_{B}$$ using lowest value for $$\beta$$.
+4. Multiply $$I_{B}$$ by safety factor `5-10`.
+5. Calculate $$R_{B}$$ (ohms law).
 
 The simple `LED` transistor circuit was modelled in `LTSpice`, with the `LED`
 represented as a series `voltage` source (representing the `2v` `voltage` drop).:
