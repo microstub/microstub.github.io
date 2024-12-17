@@ -302,6 +302,8 @@ In order to find the names of the game objects for the main player as well as
 network players you can simply iterate through all the global game objects and
 dump the corresponding names to a text file.
 
+![meme](https://lunarjournal.github.io/images/memes/meme_06.jpeg)
+
 # Source Code
 
 All source code for this `journal` is hosted at
