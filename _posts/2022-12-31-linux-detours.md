@@ -559,6 +559,8 @@ void* dl_handle = dlopen(NULL, RTLD_LAZY);
 void* add_ptr = dlsym(dl_handle, "add");
 ```
 
+![meme](https://lunarjournal.github.io/images/memes/meme_04.jpeg)
+
 # API
 The API for the `cdl86` library is shown below:
 
