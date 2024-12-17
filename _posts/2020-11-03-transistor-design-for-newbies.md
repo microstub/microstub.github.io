@@ -418,6 +418,7 @@ $$ R_{1} \approx $$ `7.8` $$ k\Omega $$
 
 The values of capacitors `C3`, `C2` and `C1` are chosen such that the capacitive
 reactance (resistance at `AC`) at the desired signal frequency is minimal.
+
 Capacitive reactance is given by:
 
 $$ X_{C} = \frac{1}{2\pi fC} $$
