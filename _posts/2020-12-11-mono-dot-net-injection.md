@@ -235,7 +235,7 @@ A simple solution to this problem is to download an older version of `mono`.
 At this point the second stage payload (our `C#` exploit) can be developed. I
 chose to implement three simple functionalities:
 
- - Increase/decrease game speed
+ - Increase/decrease game speed.
 
 ```
 if(Input.GetKeyDown(KeyCode.F2)){
@@ -248,7 +248,7 @@ if(Input.GetKeyDown(KeyCode.F2)){
         }
 ```
 
- - Clip through walls/obstacles
+ - Clip through walls/obstacles.
 
 ```
 if(Input.GetKeyDown(KeyCode.F3)){
@@ -266,7 +266,7 @@ if(Input.GetKeyDown(KeyCode.F3)){
 ![enter image description here](https://lunarjournal.github.io/images/4/05.png)
 ![enter image description here](https://lunarjournal.github.io/images/4/06.png)
 
-- Place all network entites near player
+- Place all network entites near player.
 
 ```
 if(Input.GetKeyDown(KeyCode.F1))
