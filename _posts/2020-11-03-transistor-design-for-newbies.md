@@ -70,6 +70,8 @@ that we can control a potentially larger current through the transistor using a
 smaller current through the base (through the application of a base voltage),
 this is one of the useful properties of transistors.
 
+![meme](https://lunarjournal.github.io/images/memes/meme_01.jpg)
+
 Bipolar Junction Transistors (`BJTs`) usually consists of three semiconductor
 layers which can be of two types: `n` or `p`. The individual `silicon` layers are
 crystalline structures that have what are known as dopants added to them. These
