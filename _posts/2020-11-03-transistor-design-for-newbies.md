@@ -282,8 +282,8 @@ It should be noted that there are two electrical 'components' of the above
 circuit, these are `AC` (the fluctuating component) and `DC` (the static component).
 
 When analysing a circuit from a `DC` perspective there are a few rules to follow:
-* Capacitors become open circuits
-*  Inductors become closed circuits
+* Capacitors become open circuits.
+*  Inductors become closed circuits.
 
 This means that at the base of `Q1`, `C3` becomes an open connection, i.e the base
 of the transistor cannot see signal source `V2` or the `50` $$\Omega$$. resistor.
