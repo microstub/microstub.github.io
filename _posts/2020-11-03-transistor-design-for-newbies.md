@@ -334,8 +334,8 @@ The first step in the design of the amplifier is choosing $$R_{c}$$ such that
 $$z_{out}$$ isn't affected by changes in $$R_{L}$$. For example, for a
 large value of $$R_{L}$$ choose $$R_{c} \ll R_{L}$$.
 
-For the purposes of our example we assume $$R_{L} = 100k\Omega$$. We then choose
-$$R_{c} = 5k\Omega$$
+For the purposes of our example we assume $$R_{L}$$ = `100` $$k\Omega$$. We then choose
+$$R_{c}$$ = `5` $$k\Omega$$
 
 Next we determine the maximum `AC` gain possible given a fixed $$z_{out}$$ :
 
@@ -352,12 +352,12 @@ We know that:
 
 $$ I_{E} \approx I_{C} \approx \frac{0.025 A_{v}}{z_{out}} $$
 
-Thus, given $$A_{v}$$ = `70`, $$z_{out} = 5k\Omega$$ we have $$I_{E}$$ =
+Thus, given $$A_{v}$$ = `70`, $$z_{out}$$ = `5` $$k\Omega$$ we have $$I_{E}$$ =
 `0.35mA`. We are now able to calculate $$R_{e}$$ :
 
 $$ R_{e} = \frac{0.3(\frac{V_{CC}}{2})}{I_{E}} $$
 
-For $$V_{CC}$$ = `5V`, $$I_{E}$$ = `0.35mA` we get  $$R_{e} \approx 2.1k\Omega$$.
+For $$V_{CC}$$ = `5V`, $$I_{E}$$ = `0.35mA` we get  $$R_{e} \approx$$ `2.1` $$k\Omega$$.
 
 A useful parameter for common emitter configuration is the `AC` input impedance
 (looking in from `C3`) and is given by:
@@ -374,7 +374,7 @@ for `2N2222`) to calculate $$R_{base}$$ :
 
 $$ R_{base} = `75` \cdot \frac{25}{0.35} $$
 
-Thus $$R_{base} = 5.4k\Omega$$
+Thus $$R_{base}$$ = `5.4` $$k\Omega$$
 
 Returning to our `DC` analysis, we calculate the expected `voltage` at the
 transistor base:
@@ -409,12 +409,12 @@ value:
 
 $$ R_{2} = \frac{1.45}{0.99(0.456 \cdot 10^{-3})} $$
 
-This gives $$ R_{2} \approx 3.2 k\Omega $$. Finally we calculate the value of
+This gives $$ R_{2} \approx$$ `3.2` $$k\Omega $$. Finally we calculate the value of
 $$R_{1}$$ :
 
 $$ R_{1} = \frac{5-1.45}{0.456 \cdot 10^{-3}} $$
 
-$$ R_{1} \approx 7.8k\Omega $$
+$$ R_{1} \approx $$ `7.8` $$ k\Omega $$
 
 The values of capacitors `C3`, `C2` and `C1` are chosen such that the capacitive
 reactance (resistance at `AC`) at the desired signal frequency is minimal.
