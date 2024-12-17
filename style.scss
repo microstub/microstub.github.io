@@ -144,6 +144,10 @@ div ol:first-of-type {
   font-size: 14.5px;
 }
 
+ol li::marker {
+  font-size: 14px;
+}
+
 ol ul,
 ul ol,
 ul ul,
