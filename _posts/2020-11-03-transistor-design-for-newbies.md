@@ -435,7 +435,7 @@ A simulation of the `DC` operating point was performed:
 Here we can see our expected $$V_{base}$$ of around `1.45V` and an emitter
 current of around `0.38mA` (instead of `0.35mA`), not too bad! Let's measure the
 voltage gain (with the signal source set to a peak amplitude of `1mV` and a `100K`
-load attached):
+$$\Omega$$ load attached):
 
 ![enter image description here](https://lunarjournal.github.io/images/3/43.png){:width="500px"}
 
