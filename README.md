@@ -12,7 +12,6 @@ The `Lunar Journal` is designed to be:
 - minimalist.
 - lightweight.
 - `ASCII` / `space` efficient.
-- easy to read.
 
 Authors:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
