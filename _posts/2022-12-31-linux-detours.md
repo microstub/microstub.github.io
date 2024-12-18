@@ -54,13 +54,13 @@ In order to disable the `Z-buffer` in this example we need access to a valid
 comes in handy. Generally, the procedure to hook a specific function is as
 follows:
 
-- Declare a function pointer with target function signature.
+- Declare a function pointer with target function signature:
 
 ```
 typedef HRESULT (WINAPI* tDrawIndexedPrimitive)(LPDIRECT3DDEVICE9 pDevice, ...args);
 ```
 
-- Define detour function with same function signature.
+- Define detour function with same function signature:
 
 ```
 HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
@@ -74,7 +74,7 @@ HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
 tDrawIndexedPrimitive oDrawIndexedPrimitive = (oDrawIndexedPrimitive)SomeVTable[DIP];
 ```
 
-- Call DetourFunction
+- Call DetourFunction:
 
 ```
 DetourFunction((void**)&oDrawIndexedPrimitive, &hkhkDrawIndexedPrimitive)
