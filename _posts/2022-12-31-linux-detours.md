@@ -60,7 +60,7 @@ follows:
 typedef HRESULT (WINAPI* tDrawIndexedPrimitive)(LPDIRECT3DDEVICE9 pDevice, ...args);
 ```
 
-- Define detour function with same function signature
+- Define detour function with same function signature.
 
 ```
 HRESULT WINAPI hkDrawIndexedPrimitive(LPDIRECT3DDEVICE9 pDevice, ...args)
