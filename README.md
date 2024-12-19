@@ -20,7 +20,7 @@ The `Lunar Journal` is designed to be:
 - `ASCII` / `space` efficient.
 - markdown based.
 
-> Note: Any high level, fancy JS/TS code/framework will not be entertained.
+> Note: Any high level, fancy `JS/TS` code/framework will not be entertained.
 
 Authors:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
