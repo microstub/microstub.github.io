@@ -6,6 +6,10 @@
 
 The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted with [`GitHub Pages`](https://pages.github.com/).
 
+`RSS/Atom` : [`journal.lunar.sh/feed.xml`](https://journal.lunar.sh/feed.xml)
+
+# Source
+
 Source code is a heavily modified version of [`jekyll-now`](https://github.com/barryclark/jekyll-now). <br>
 
 The `Lunar Journal` is designed to be:
