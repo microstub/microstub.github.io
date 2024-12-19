@@ -19,8 +19,6 @@ There are various analogies that you will most likely come across when first
 learning about transistors, a useful analogy is that of a mechanically
 controlled water valve.
 
-![\[insert image\]](https://lunarjournal.github.io/images/3/valve2.png){:height="200px"}
-
 ![enter image description here](https://lunarjournal.github.io/images/3/07.png){:width="500px"}
 
 Here it is important to reference the water analogy of current and voltage. In
