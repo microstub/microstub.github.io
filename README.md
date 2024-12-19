@@ -6,7 +6,7 @@
 
 The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted with [`GitHub Pages`](https://pages.github.com/).
 
-# RSS
+# RSS Feed
 
 `RSS/Atom` : [`journal.lunar.sh/feed.xml`](https://journal.lunar.sh/feed.xml)
 
