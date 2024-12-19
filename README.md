@@ -6,6 +6,9 @@
 
 The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted with [`GitHub Pages`](https://pages.github.com/).
 
+Authors:<br>
+- [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
+
 # RSS Feed
 
 `RSS/Atom` : [`journal.lunar.sh/feed.xml`](https://journal.lunar.sh/feed.xml)
@@ -21,9 +24,6 @@ The `Lunar Journal` is designed to be:
 - markdown based.
 
 > Note: Fancy `JS/TS` frameworks/bloat will not be entertained in this repo.
-
-Authors:<br>
-- [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
 
 # Build info
 
