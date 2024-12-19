@@ -22,8 +22,6 @@ The `mono` build chain compiles `C#` source code (`.cs` files) down to `IL` (imm
 language) spec'd byte code which is then executed by the `CLR` (Common Language
 Runtime) layer provided by `mono`.
 
-![enter image description here](https://lunarjournal.github.io/images/4/04.png)
-
 Due to the translation down to `IL`, module decompilation as well as
 modification/reverse engineering is relatively straightforward and a variety of
 `C#` `IL` decompilers/recompilers already exist
