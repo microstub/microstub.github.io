@@ -23,7 +23,7 @@ The `Lunar Journal` is designed to be:
 - `ASCII` / `space` efficient.
 - markdown based.
 
-> Note: Fancy `JS/TS` frameworks/bloat will not be entertained in this repo.
+> Note: Fancy `JS/TS` frameworks/bloat will never be entertained in this repo.
 
 # Build info
 
