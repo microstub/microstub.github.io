@@ -11,7 +11,7 @@ Authors:<br>
 
 # RSS Feed
 
-`RSS/Atom` : [`journal.lunar.sh/feed.xml`](https://journal.lunar.sh/feed.xml)
+`RSS / Atom` : [`journal.lunar.sh/feed.xml`](https://journal.lunar.sh/feed.xml)
 
 # Source
 
