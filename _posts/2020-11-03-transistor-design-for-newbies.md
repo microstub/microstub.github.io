@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Transistor Design For Newbies
+title: Transistor Circuit Design For Newbies
 author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
