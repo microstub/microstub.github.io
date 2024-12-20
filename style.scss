@@ -236,16 +236,16 @@ nav {
 }
 
 .caret {
-  display: inline-block; /* Ensures proper spacing */
+  display: inline-block;
   animation: blink 1s steps(1, start) infinite;
 }
 
 @keyframes blink {
   0%, 100% {
-    opacity: 1; /* Visible */
+    opacity: 1;
   }
   50% {
-    opacity: 0; /* Invisible */
+    opacity: 0;
   }
 }
 
