@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About the Lunar Journal
-permalink: /about/
+permalink: /nfo.html
 ---
 
 <meta name="robots" content="noindex">
