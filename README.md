@@ -40,3 +40,28 @@ Then run: `jekyll serve` in root directory.
 # License
 
 This source code is licensed under [`MIT`](https://opensource.org/license/mit/).
+
+# Signature
+
+```
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+```
