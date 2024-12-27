@@ -182,7 +182,7 @@ article > header div {
     font-size: 15px;
 }
 
-div a:hover:not(:has(img)) {
+div a:hover:not(:has(img)):not(:has(code)) {
     color: #fafafa;
     background: #000;
 }
