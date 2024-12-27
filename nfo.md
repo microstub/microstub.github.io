@@ -77,9 +77,7 @@ Your support helps us publish new technical content for engineers and researcher
 * Bitcoin: `{{ site.wallet.btc }}`
 * Ethereum: `{{ site.wallet.ethereum }}`
 
-[`0xc0ffee`](https://buymeacoffee.com/lunarjournal)
-
-![](https://github.com/lunarjournal/lunarjournal.github.io/blob/main/images/c0ffee.gif?raw=true)
+[0xc0ffee](https://buymeacoffee.com/lunarjournal)
 
 ```
 +---------------------------------------+
