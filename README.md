@@ -6,8 +6,6 @@
 
 `email`: [`root@lunar.sh`](mailto:root@lunar.sh)
 
-The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) base which is evolving.
-
 `Authors`:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
 
@@ -16,6 +14,8 @@ The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) bas
 `RSS / Atom` : [`journal.lunar.sh/feed.xml`](https://journal.lunar.sh/feed.xml)
 
 # Source
+
+The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) base which is evolving.
 
 The `Lunar Journal` is designed to be:
 - minimalist.
