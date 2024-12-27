@@ -16,7 +16,6 @@
 # Source
 
 The `Lunar Journal` is designed to be:
-- minimalist.
 - lightweight.
 - `ASCII` / `space` efficient.
 - markdown based.
