@@ -100,7 +100,7 @@ follows is a brief explanation on how the library was designed.
 # Detour methods
 
 Two different approaches to method detouring were investigated and implemented
-in the cdl86 `C` library. First let's have a look at a typical function call for a
+in the `cdl86` `C` library. First let's have a look at a typical function call for a
 simple `C` program. We will be using `GDB` to inspect the resulting disassembly.
 
 ```
