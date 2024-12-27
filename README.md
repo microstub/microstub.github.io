@@ -6,7 +6,7 @@
 
 The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) base which is evolving.
 
-Authors:<br>
+`Authors`:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
 
 # RSS Feed
