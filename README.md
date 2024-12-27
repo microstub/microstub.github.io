@@ -4,7 +4,7 @@
 
 > Technical journal for engineers, hobbyists and makers.
 
-The `Lunar Journal` is built with [`Jekyll`](https://jekyllrb.com/) and hosted with [`GitHub Pages`](https://pages.github.com/).
+The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) base which is evolving.
 
 Authors:<br>
 - [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
