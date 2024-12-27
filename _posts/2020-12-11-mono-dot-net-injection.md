@@ -129,7 +129,7 @@ Next the assembly class and class method to execute may be found by name using
 Finally the class method may be executed using `mono_runtime_invoke`. It should
 be noted that the class method to execute should be declared as static.
 
-The resulting starger payload is shown below:
+The resulting stager payload is shown below:
 
 ```
 #include <iostream>
