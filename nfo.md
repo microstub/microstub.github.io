@@ -6,9 +6,6 @@ permalink: /nfo.html
 
 <meta name="robots" content="noindex">
 
-> Technical `journal` for engineers, researchers and hobbyists with a focus on
-> software and electronics engineering. 
-
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
