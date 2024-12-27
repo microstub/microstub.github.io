@@ -41,6 +41,15 @@ Then run: `jekyll serve` in root directory.
 
 This source code is licensed under [`MIT`](https://opensource.org/license/mit/).
 
+# Cryptocurrency
+
+Please consider supporting the `Lunar Journal`. 
+
+Your support helps us publish new technical content for engineers and researchers.
+
+* Bitcoin: `34UiJn9VKiEG1etxeLWUt3xQHxwJBR8cL9`
+* Ethereum: `0x700a7E64627f86478fA312F96983D06f39A38681`
+
 # Signature
 
 ```
