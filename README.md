@@ -50,7 +50,9 @@ Your support helps us publish new technical content for engineers and researcher
 * Bitcoin: `34UiJn9VKiEG1etxeLWUt3xQHxwJBR8cL9`
 * Ethereum: `0x700a7E64627f86478fA312F96983D06f39A38681`
 
-[0xc0ffee](https://buymeacoffee.com/lunarjournal)
+[`0xc0ffee`](https://buymeacoffee.com/lunarjournal)
+
+![](https://github.com/lunarjournal/lunarjournal.github.io/blob/main/images/c0ffee.gif?raw=true)
 
 # Signature
 
