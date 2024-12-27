@@ -15,8 +15,6 @@
 
 # Source
 
-The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) base which is evolving.
-
 The `Lunar Journal` is designed to be:
 - minimalist.
 - lightweight.
