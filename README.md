@@ -52,8 +52,6 @@ Your support helps us publish new technical content for engineers and researcher
 
 [0xc0ffee](https://buymeacoffee.com/lunarjournal)
 
-![](https://github.com/lunarjournal/lunarjournal.github.io/blob/main/images/c0ffee.gif?raw=true)
-
 # Signature
 
 ```
