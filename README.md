@@ -4,6 +4,8 @@
 
 > Technical journal for engineers, hobbyists and makers.
 
+`email`: [`root@lunar.sh`](mailto:root@lunar.sh)
+
 The `Lunar Journal` is built with a custom [`Jekyll`](https://jekyllrb.com/) base which is evolving.
 
 `Authors`:<br>
