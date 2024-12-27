@@ -15,8 +15,6 @@ Authors:<br>
 
 # Source
 
-Source is a heavily modified version of [`jekyll-now`](https://github.com/barryclark/jekyll-now). <br>
-
 The `Lunar Journal` is designed to be:
 - minimalist.
 - lightweight.
