@@ -9,29 +9,6 @@ author_url: https://linkedin.com/in/dylanmuller
 > interception of `C/C++` functions. `cdl86` aims to be a tiny `C` detours
 > library for `x86_64` binaries.
 
-<!--
-+---------------------------------------+
-|   .-.         .-.         .-.         |
-|  /   \       /   \       /   \        |
-| /     \     /     \     /     \     / |
-|        \   /       \   /       \   /  |
-|         "_"         "_"         "_"   |
-|                                       |
-|  _   _   _ _  _   _   ___   ___ _  _  |
-| | | | | | | \| | /_\ | _ \ / __| || | |
-| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
-| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
-|                                       |
-|                                       |
-| Lunar RF Labs                         |
-| https://lunar.sh                      |
-|                                       |
-| RF Research Laboratories              |
-| Copyright (C) 2022-2024               |
-|                                       |
-+---------------------------------------+
--->
-
 1. [Overview](#overview)
 2. [JMP Patching](#jmp-patching)
 3. [INT3 Patching](#int3-patching)
@@ -601,3 +578,29 @@ You can find the `cdl86` source code
 [here](https://github.com/lunarjournal/cdl86).<br>
 This project was inspired by some reverse engineering research I did for my
 `ECE` [research project](https://github.com/lunarjournal/research).
+
+# Signature
+
+```
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+```
+
