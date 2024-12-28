@@ -1,3 +1,10 @@
+---
+layout: post
+title: Tiny C Binaries
+author: Dylan Müller
+author_url: https://linkedin.com/in/dylanmuller
+---
+
 <!-- 
 +---------------------------------------+
 |   .-.         .-.         .-.         |
@@ -20,13 +27,6 @@
 |                                       |
 +---------------------------------------+
 -->
-
----
-layout: post
-title: Tiny C Binaries
-author: Dylan Müller
-author_url: https://linkedin.com/in/dylanmuller
----
 
 > By default, following the linking stage, `GCC` generates `ELF` binaries that contain
 > redundant section data that increase executable size.
