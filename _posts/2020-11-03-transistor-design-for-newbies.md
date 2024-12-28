@@ -5,7 +5,10 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
-{% comment %}
+> `BJTs` are important electronic devices that find use in a wide range of
+> applications. Learn how to design circuits with them.
+
+<!--
 +---------------------------------------+
 |   .-.         .-.         .-.         |
 |  /   \       /   \       /   \        |
@@ -26,10 +29,7 @@ author_url: https://linkedin.com/in/dylanmuller
 | Copyright (C) 2022-2024               |
 |                                       |
 +---------------------------------------+
-{% endcomment %}
-
-> `BJTs` are important electronic devices that find use in a wide range of
-> applications. Learn how to design circuits with them.
+-->
 
 1. [Principle of operation](#principle-of-operation)
 3. [Transistor as a switch](#transistor-as-a-switch)
