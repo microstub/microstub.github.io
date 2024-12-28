@@ -6,6 +6,8 @@ permalink: /nfo.html
 
 <meta name="robots" content="noindex">
 
+`email` : [`root@lunar.sh`](mailto:root@lunar.sh)
+
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
