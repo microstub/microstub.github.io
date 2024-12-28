@@ -5,7 +5,10 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
-{% comment %}
+> By default, following the linking stage, `GCC` generates `ELF` binaries that contain
+> redundant section data that increase executable size.
+
+<!--
 +---------------------------------------+
 |   .-.         .-.         .-.         |
 |  /   \       /   \       /   \        |
@@ -26,10 +29,7 @@ author_url: https://linkedin.com/in/dylanmuller
 | Copyright (C) 2022-2024               |
 |                                       |
 +---------------------------------------+
-{% endcomment %}
-
-> By default, following the linking stage, `GCC` generates `ELF` binaries that contain
-> redundant section data that increase executable size.
+-->
 
 1. [ELF Binaries](#elf-binaries)
 2. [Size Optimisation](#size-optimisation)
