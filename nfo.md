@@ -14,7 +14,7 @@ permalink: /nfo.html
 4. [Cryptocurrency](#cryptocurrency)
 
 This `journal` started as a project to document various technical efforts that
-other engineers might find helpful or interesting.
+other engineers or researchers might find helpful or interesting.
 
 # Authors
 
