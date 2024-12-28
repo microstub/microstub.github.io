@@ -5,7 +5,7 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
-<!-- 
+{% comment %}
 +---------------------------------------+
 |   .-.         .-.         .-.         |
 |  /   \       /   \       /   \        |
@@ -26,7 +26,7 @@ author_url: https://linkedin.com/in/dylanmuller
 | Copyright (C) 2022-2024               |
 |                                       |
 +---------------------------------------+
--->
+{% endcomment %}
 
 > Learning `mono` or `C#` library injection through a [Robocraft](https://robocraftgame.com/) exploit. The method used in
 > this publication can be used to modify a wide range of Unity games.
