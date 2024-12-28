@@ -99,3 +99,8 @@ Your support helps us publish new technical content for engineers and researcher
 
 [`0xc0ffee`](https://buymeacoffee.com/lunarjournal)
 
+{% capture signature_bin %}
+  {% include signature.md %}
+{% endcapture %}
+{{ signature_bin | markdownify }}
+
