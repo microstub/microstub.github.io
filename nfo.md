@@ -4,29 +4,6 @@ title: About the Lunar Journal
 permalink: /nfo.html
 ---
 
-<!-- 
-+---------------------------------------+
-|   .-.         .-.         .-.         |
-|  /   \       /   \       /   \        |
-| /     \     /     \     /     \     / |
-|        \   /       \   /       \   /  |
-|         "_"         "_"         "_"   |
-|                                       |
-|  _   _   _ _  _   _   ___   ___ _  _  |
-| | | | | | | \| | /_\ | _ \ / __| || | |
-| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
-| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
-|                                       |
-|                                       |
-| Lunar RF Labs                         |
-| https://lunar.sh                      |
-|                                       |
-| RF Research Laboratories              |
-| Copyright (C) 2022-2024               |
-|                                       |
-+---------------------------------------+
--->
-
 <meta name="robots" content="noindex">
 
 1. [Authors](#authors)
@@ -99,3 +76,27 @@ Your support helps us publish new technical content for engineers and researcher
 
 [`0xc0ffee`](https://buymeacoffee.com/lunarjournal)
 
+# Signature
+
+```
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+```
