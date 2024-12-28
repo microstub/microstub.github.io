@@ -8,29 +8,6 @@ author_url: https://linkedin.com/in/dylanmuller
 > `BJTs` are important electronic devices that find use in a wide range of
 > applications. Learn how to design circuits with them.
 
-<!--
-+---------------------------------------+
-|   .-.         .-.         .-.         |
-|  /   \       /   \       /   \        |
-| /     \     /     \     /     \     / |
-|        \   /       \   /       \   /  |
-|         "_"         "_"         "_"   |
-|                                       |
-|  _   _   _ _  _   _   ___   ___ _  _  |
-| | | | | | | \| | /_\ | _ \ / __| || | |
-| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
-| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
-|                                       |
-|                                       |
-| Lunar RF Labs                         |
-| https://lunar.sh                      |
-|                                       |
-| RF Research Laboratories              |
-| Copyright (C) 2022-2024               |
-|                                       |
-+---------------------------------------+
--->
-
 1. [Principle of operation](#principle-of-operation)
 3. [Transistor as a switch](#transistor-as-a-switch)
 4. [Transistor as an amplifier](#transistor-as-an-amplifier)
@@ -469,3 +446,28 @@ a voltage gain of `~70`.
 
 You can download `LTSpice` from
 [https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+
+# Signature
+
+```
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+```
