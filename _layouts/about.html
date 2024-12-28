@@ -13,10 +13,7 @@ layout: default
     <div class="entry">
       {{ content }}
     </div>
-    {% capture signature_bin %}
-      {% include signature.md %}
-    {% endcapture %}
-    {{ signature_bin | newline_to_br | markdownify }}
+    "{% include signature.md %}" | markdownify
   </article>
   <hr>
   <p class="muted">
