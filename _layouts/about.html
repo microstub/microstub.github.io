@@ -16,7 +16,7 @@ layout: default
     {% capture signature_bin %}
       {% include signature.md %}
     {% endcapture %}
-    {{ signature_bin | markdownify }}
+    {{ signature_bin | newline_to_br | markdownify }}
   </article>
   <hr>
   <p class="muted">
