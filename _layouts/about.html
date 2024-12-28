@@ -13,8 +13,11 @@ layout: default
     <div class="entry">
       {{ content }}
     </div>
+    {% capture signature_bin %}
+      {% include signature.md %}
+    {% endcapture %}
+    {{ signature_bin | markdownify }}
   </article>
-
   <hr>
   <p class="muted">
     Questions, comments? Please send a plain-text email to <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
