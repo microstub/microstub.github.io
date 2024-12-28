@@ -8,29 +8,6 @@ author_url: https://linkedin.com/in/dylanmuller
 > Learning `mono` or `C#` library injection through a [Robocraft](https://robocraftgame.com/) exploit. The method used in
 > this publication can be used to modify a wide range of Unity games.
 
-<!--
-+---------------------------------------+
-|   .-.         .-.         .-.         |
-|  /   \       /   \       /   \        |
-| /     \     /     \     /     \     / |
-|        \   /       \   /       \   /  |
-|         "_"         "_"         "_"   |
-|                                       |
-|  _   _   _ _  _   _   ___   ___ _  _  |
-| | | | | | | \| | /_\ | _ \ / __| || | |
-| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
-| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
-|                                       |
-|                                       |
-| Lunar RF Labs                         |
-| https://lunar.sh                      |
-|                                       |
-| RF Research Laboratories              |
-| Copyright (C) 2022-2024               |
-|                                       |
-+---------------------------------------+
--->
-
 1. [Mono Overview](#mono-overview)
 2. [Exploiting Robocraft](#exploiting-robocraft)
 3. [Source Code](#source-code)
@@ -329,3 +306,29 @@ dump the corresponding names to a text file.
 
 All source code for this `journal` is hosted at
 [https://github.com/lunarjournal/robocraft](https://github.com/lunarjournal/robocraft)
+
+# Signature
+
+```
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+```
+
