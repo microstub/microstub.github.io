@@ -8,29 +8,6 @@ author_url: https://linkedin.com/in/dylanmuller
 > By default, following the linking stage, `GCC` generates `ELF` binaries that contain
 > redundant section data that increase executable size.
 
-<!--
-+---------------------------------------+
-|   .-.         .-.         .-.         |
-|  /   \       /   \       /   \        |
-| /     \     /     \     /     \     / |
-|        \   /       \   /       \   /  |
-|         "_"         "_"         "_"   |
-|                                       |
-|  _   _   _ _  _   _   ___   ___ _  _  |
-| | | | | | | \| | /_\ | _ \ / __| || | |
-| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
-| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
-|                                       |
-|                                       |
-| Lunar RF Labs                         |
-| https://lunar.sh                      |
-|                                       |
-| RF Research Laboratories              |
-| Copyright (C) 2022-2024               |
-|                                       |
-+---------------------------------------+
--->
-
 1. [ELF Binaries](#elf-binaries)
 2. [Size Optimisation](#size-optimisation)
 3. [Linux Syscalls](#linux-syscalls)
@@ -389,3 +366,29 @@ optimisations to get really `tiny` binaries!
 
 Source code used in this `journal` is available at:
 [https://github.com/lunarjournal/tinybase](https://github.com/lunarjournal/tinybase)
+
+# Signature
+
+```
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+```
+
