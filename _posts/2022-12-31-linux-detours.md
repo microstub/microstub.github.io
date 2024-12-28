@@ -5,6 +5,29 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
+<!-- 
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+-->
+
 > Function detouring is a powerful hooking technique that allows for the
 > interception of `C/C++` functions. `cdl86` aims to be a tiny `C` detours
 > library for `x86_64` binaries.
