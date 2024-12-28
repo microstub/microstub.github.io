@@ -5,6 +5,29 @@ author: Dylan Müller
 author_url: https://linkedin.com/in/dylanmuller
 ---
 
+<!-- 
++---------------------------------------+
+|   .-.         .-.         .-.         |
+|  /   \       /   \       /   \        |
+| /     \     /     \     /     \     / |
+|        \   /       \   /       \   /  |
+|         "_"         "_"         "_"   |
+|                                       |
+|  _   _   _ _  _   _   ___   ___ _  _  |
+| | | | | | | \| | /_\ | _ \ / __| || | |
+| | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+| |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+|                                       |
+|                                       |
+| Lunar RF Labs                         |
+| https://lunar.sh                      |
+|                                       |
+| RF Research Laboratories              |
+| Copyright (C) 2022-2024               |
+|                                       |
++---------------------------------------+
+-->
+
 > Learning `mono` or `C#` library injection through a [Robocraft](https://robocraftgame.com/) exploit. The method used in
 > this publication can be used to modify a wide range of Unity games.
 
