@@ -7,6 +7,7 @@ permalink: /nfo.html
 <meta name="robots" content="noindex">
 
 `email` : [root@lunar.sh](mailto:root@lunar.sh)
+
 `github` : [lunarjournal](https://github.com/lunarjournal)
 
 1. [Authors](#authors)
