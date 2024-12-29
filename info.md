@@ -6,7 +6,7 @@ permalink: /info.html
 
 <meta name="robots" content="noindex">
 
-**email**: [root@lunar.sh](mailto:root@lunar.sh) <br/>
+`email`: [root@lunar.sh](mailto:root@lunar.sh) <br/>
 
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
