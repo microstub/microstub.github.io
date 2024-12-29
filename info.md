@@ -6,12 +6,12 @@ permalink: /info.html
 
 <meta name="robots" content="noindex">
 
-`email`: [root@lunar.sh](mailto:root@lunar.sh) <br/>
-
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
 4. [Cryptocurrency](#cryptocurrency)
+
+`email`: [root@lunar.sh](mailto:root@lunar.sh) <br/>
 
 This `journal` started as a project to document various technical efforts that
 other engineers or researchers might find helpful or interesting.
