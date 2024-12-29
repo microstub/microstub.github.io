@@ -11,6 +11,8 @@ permalink: /info.html
 3. [Lab Status](#lab-status)
 4. [Cryptocurrency](#cryptocurrency)
 
+# Info
+
 `email`: [root@lunar.sh](mailto:root@lunar.sh) <br/>
 
 This `journal` started as a project to document various technical efforts that
