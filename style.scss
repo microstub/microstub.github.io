@@ -33,11 +33,6 @@ html {
     background-color: #949494;
 }
 
-::selection {
-  outline: none;
-  background: #e9d2fd;
-}
-
 body {
   background: $white;
   font: 15px $inter;
