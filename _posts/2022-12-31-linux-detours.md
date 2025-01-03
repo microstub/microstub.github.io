@@ -31,7 +31,7 @@ space of a process.
 
 This might be useful in certain situations such as if you are writing a `D3D9`
 (`DirectX`) hook and you need to intercept cetain graphics routines. This is
-commonly done for `ESP` and `wallhacks` where the Z depth buffer needs to be
+commonly done for `ESP` and wallhacks where the `Z-depth` buffer needs to be
 disabled for certain character models, for `D3D9` this might involve hooking
 `DrawIndexedPrimitive`.
 
