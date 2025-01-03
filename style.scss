@@ -421,14 +421,14 @@ img {
 .title {
   margin-top: 20px;
   margin-bottom: 15px;
-  background: linear-gradient(to right, #0a0b10 45%, white);
+  background: linear-gradient(to right, #0a0b10 45%, #c5c5c5);
   color: white;
   padding-left: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
   
   @include mobile {
-    background: linear-gradient(to right, #272727 80%, white);
+    background: linear-gradient(to right, #272727 80%, #c5c5c5);
   }
 }
 
