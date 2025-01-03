@@ -82,7 +82,7 @@ DetourFunction((void**)&oDrawIndexedPrimitive, &hkhkDrawIndexedPrimitive)
 
 `DetourFunction` then uses the `oDrawIndexedPrimitive` function pointer and
 modifies the instructions at the target function in order to transfer control
-flow to the detour function function.
+flow to the detour function.
 
 At this point any calls to `DrawIndexedPrimitive` within the `LPDIRECT3DDEVICE9`
 class will be rerouted to `hkDrawIndexedPrimitive`. You can see that this is a
