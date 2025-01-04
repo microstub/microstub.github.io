@@ -682,4 +682,9 @@ code table tr {
   font-size: 1.1em !important;
 }
 
+.greyscale
+{
+    filter: grayscale(1);
+}
+
 @import "highlights";
