@@ -6,7 +6,7 @@ permalink: /info.html
 
 <meta name="robots" content="noindex">
 <style>
-img:not(:has(copy-code)) {
+img:not(.copy-code) {
   filter: grayscale(1);
 }
 </style>
