@@ -5,6 +5,11 @@ permalink: /info.html
 ---
 
 <meta name="robots" content="noindex">
+<style>
+img {
+  filter: grayscale(1);
+}
+</style>
 
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
