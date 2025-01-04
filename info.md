@@ -13,8 +13,6 @@ permalink: /info.html
 
 # Info
 
-`email`: [`root@lunar.sh`](mailto:root@lunar.sh)
-
 This `journal` started as a project to document various technical efforts that
 other engineers or researchers might find helpful or interesting.
 
