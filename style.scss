@@ -410,6 +410,13 @@ img {
   border: 0;
 }
 
+.ascii {
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sticky {
   background-color: #0a0b10;
   /* position: sticky; */
