@@ -7,7 +7,7 @@ permalink: /info.html
 <meta name="robots" content="noindex">
 <style>
 img:not(.copy-code) {
-  filter: grayscale(0.8);
+  filter: grayscale(1);
 }
 </style>
 
