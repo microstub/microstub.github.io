@@ -7,7 +7,7 @@ layout: default
   {% for post in site.posts %}
   <article class="post">
     <header>
-      <span>{{ post.date | date: "%Y-%m-%d" }} - Lunar Journal</span>
+      <span>{{ post.date | date: "%Y-%m-%d" }} · Lunar Journal</span>
       <div>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
       <div class="excerpt">{{ post.excerpt }}</div>
