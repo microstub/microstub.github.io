@@ -420,6 +420,10 @@ img {
   user-select: none;
 }
 
+.ascii pre {
+  white-space: pre-wrap;
+}
+
 .sticky {
   background-color: #0a0b10;
   /* position: sticky; */
