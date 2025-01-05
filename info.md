@@ -6,19 +6,6 @@ permalink: /info.html
 
 <meta name="robots" content="noindex">
 
-<div class="ascii">
-  <pre>
-    _                              _   _                            _     
-   (_)                            | | | |                          | |    
-    _  ___  _   _ _ __ _ __   __ _| | | |_   _ _ __   __ _ _ __ ___| |__  
-   | |/ _ \| | | | '__| '_ \ / _` | | | | | | | '_ \ / _` | '__/ __| '_ \ 
-   | | (_) | |_| | |  | | | | (_| | |_| | |_| | | | | (_| | |_ \__ \ | | |
-   | |\___/ \__,_|_|  |_| |_|\__,_|_(_)_|\__,_|_| |_|\__,_|_(_)|___/_| |_|
-  _/ |                                                                    
- |__/              
-  </pre>
-</div>
-
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
 3. [Lab Status](#lab-status)
