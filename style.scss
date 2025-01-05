@@ -684,7 +684,7 @@ code table tr {
 
 .greyscale
 {
-  filter: grayscale(1);
+  filter: grayscale(0.5);
 }
 
 @import "highlights";
