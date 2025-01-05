@@ -6,11 +6,6 @@ permalink: /info.html
 
 <meta name="robots" content="noindex">
 
-1. [Authors](#authors)
-2. [Lunar RF Labs](#lunar-rf-labs)
-3. [Lab Status](#lab-status)
-4. [Cryptocurrency](#cryptocurrency)
-
 <div class="ascii">
   <pre>
     _                              _   _                            _     
@@ -23,6 +18,11 @@ permalink: /info.html
  |__/              
   </pre>
 </div>
+
+1. [Authors](#authors)
+2. [Lunar RF Labs](#lunar-rf-labs)
+3. [Lab Status](#lab-status)
+4. [Cryptocurrency](#cryptocurrency)
 
 # Info
 
