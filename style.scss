@@ -418,6 +418,10 @@ img {
   font-family: monospace;
   font-size: 14px;
   user-select: none;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .ascii pre {
