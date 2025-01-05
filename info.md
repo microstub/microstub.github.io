@@ -18,7 +18,6 @@ permalink: /info.html
  |__/              
   </pre>
 </div>
-<br>
 
 1. [Authors](#authors)
 2. [Lunar RF Labs](#lunar-rf-labs)
