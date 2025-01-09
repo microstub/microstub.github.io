@@ -446,7 +446,7 @@ img {
   padding-top: 2px;
   
   @include mobile {
-    background: linear-gradient(to right, #272727 80%, #c5c5c5);
+    background: linear-gradient(to right, #272727 80%, #272727);
   }
 }
 
