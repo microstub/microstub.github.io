@@ -18,7 +18,7 @@
 `email`: [`root@lunar.sh`](mailto:root@lunar.sh)
 
 `Authors`:<br>
-- [`Dylan Müller`](https://linkedin.com/in/dylanmuller) [[`rsa8`](https://github.com/lunarjournal/rsa8)]
+- [`Dylan Müller`](https://linkedin.com/in/dylanmuller)
 
 # RSS Feed
 
