@@ -76,8 +76,6 @@ Your support helps us publish new technical content for engineers and researcher
 * Bitcoin: `{{ site.wallet.btc }}`
 * Ethereum: `{{ site.wallet.ethereum }}`
 
-[`0xc0ffee`](https://buymeacoffee.com/lunarjournal)?
-
 # Signature
 
 ```
