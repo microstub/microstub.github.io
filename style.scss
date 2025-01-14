@@ -224,7 +224,6 @@ nav {
     padding-left: 0px;
     height: auto;
     padding: 0px;
-    border: 0px;
     display: block;
     background: #fafafa;
   }
@@ -661,7 +660,6 @@ code table tr {
   @include mobile {
     padding: 15px;
     margin-top: 20px;
-    border: 1px solid;
     width: 100%;
   }
 
