@@ -499,7 +499,6 @@ img {
   @include mobile {
     margin: 3px 0;
     width: auto;
-    text-align: center;
   }
 }
 
@@ -660,6 +659,7 @@ code table tr {
   @include mobile {
     margin-top: 20px;
     width: 100%;
+    text-align: center;
   }
 
   line-height: 1.5;
