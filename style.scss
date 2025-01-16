@@ -195,11 +195,18 @@ nav {
   @include mobile {
     float: none;
     margin-top: 20px;
-    display: block;
+    display: flex;
     font-size: 15px;
+    flex-direction: column;
   }
 
   a {
+
+  @include mobile {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
     text-align: right;
     font-weight: 500;
     padding: 6px;
