@@ -115,28 +115,28 @@ parameters follow a very specific order on `64-bit` architectures. For `x86_64`
 A.2.1](https://refspecs.linuxfoundation.org/elf/x86_64-abi-0.99.pdf)), the order
 of parameters for linux system calls is as follows:
 
-| # | description    | register (64-bit) |
-|---|----------------|----------|
-| 1 | syscall number | rax      |
-| 2 | arg 1          | rdi      |
-| 3 | arg 2          | rsi      |
-| 4 | arg 3          | rdx      |
-| 5 | arg 4          | r10      |
-| 6 | arg 5          | r8       |
-| 7 | arg 6          | r9       |
+| description   | register (64-bit) |
+|----------------|----------|
+| syscall number | rax      |
+| arg 1          | rdi      |
+| arg 2          | rsi      |
+| arg 3          | rdx      |
+| arg 4          | r10      |
+| arg 5          | r8       |
+| arg 6          | r9       |
 
 
 Arguments at user mode level (`__cdecl` calling convention), however, are parsed in
 the following order:
 
-| # | description | register (64-bit)    |
-|---|-------------|-----|
-| 1 | arg 1       | rdi |
-| 2 | arg 2       | rsi |
-| 3 | arg 3       | rdx |
-| 4 | arg 4       | rcx |
-| 5 | arg 5       | r8  |
-| 6 | arg 6       | r9  |
+| description | register (64-bit)    |
+|-------------|-----|
+| arg 1       | rdi |
+| arg 2       | rsi |
+| arg 3       | rdx |
+| arg 4       | rcx |
+| arg 5       | r8  |
+| arg 6       | r9  |
 
 To call through to the linux kernel from `C`, an assembly wrapper was required to
 translate user mode arguments (`C` formal parameters) into kernel `syscall`
