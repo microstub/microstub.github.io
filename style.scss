@@ -552,6 +552,10 @@ table {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
 }
 
 table tr {
