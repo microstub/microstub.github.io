@@ -550,6 +550,8 @@ img {
 table {
   background: #e3e6e8;
   padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 table tr {
@@ -622,7 +624,7 @@ table tr td :last-child {
 
 .info table {
   background: #fafafa;
-  padding-bottom: 0;
+  padding: 0;
   border: 0;
 }
 
