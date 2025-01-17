@@ -547,7 +547,7 @@ img {
   color: $black;
 }
 
-table:not(.info > table) {
+table {
   background: #e3e6e8;
   padding: 5px;
 }
@@ -617,6 +617,7 @@ table tr td :last-child {
 }
 
 .info table {
+  background: #fafafa;
   padding-bottom: 0;
   border: 0;
 }
