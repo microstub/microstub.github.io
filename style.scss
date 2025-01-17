@@ -547,7 +547,7 @@ img {
   color: $black;
 }
 
-table {
+table:not(.info > table) {
   background: #e3e6e8;
   padding: 5px;
 }
