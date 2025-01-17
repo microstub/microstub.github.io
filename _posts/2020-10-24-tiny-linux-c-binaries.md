@@ -24,8 +24,6 @@ and Linkable Format), it is the successor to the older `COFF` `UNIX` file format
 `ELF` Binaries consist of two sections, the `ELF` header and file data (object
 code). The `ELF` header format for `64-bit` binaries is shown in the table below:
 
-<div class="overflow-auto" markdown="1">
-
 | Offset | Field                  | Description                            | Value                                                                                 |
 |--------|------------------------|----------------------------------------|---------------------------------------------------------------------------------------|
 | 0x00   | e_ident[EI_MAG0]       | magic number                           | 0x7F                                                                                  |
@@ -49,8 +47,6 @@ code). The `ELF` header format for `64-bit` binaries is shown in the table below
 | 0x3C   | e_shnum                | #(num) entries in section table        | -                                                                                     |
 | 0x3E   | e_shstrndx             | section names index into section table | -                                                                                     |
 | 0x40   |                        |                                        | End of 64-bit ELF                                                                     |
-
-</div>
 
 These data fields are used by the Linux `PL` (program loader) to resolve the entry
 point for code execution along with various fields such as the `ABI` version, `ISA`
