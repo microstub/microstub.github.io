@@ -26,8 +26,6 @@ In 2021 he graduated from the
 [University of Cape Town](https://www.uct.ac.za/)
 with a bachelor's (`BScEng`) degree in electrical and computer engineering.
 
-[[CV](https://lunarjournal.github.io/data/CV.pdf)]
-
 ![Dylan Müller](https://lunarjournal.github.io/images/personal/me_bw.jpeg)
 
 Education:
