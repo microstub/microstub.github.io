@@ -372,7 +372,7 @@ $$ R_{base} = \beta \cdot r'e $$
 We know how to calculate `r'e` from earlier and we use the minimum value of $$\beta$$ (`75`
 for `2N2222`) to calculate $$R_{base}$$ :
 
-$$ R_{base} = `75` \cdot \frac{25}{0.35} $$
+$$ R_{base} = 75 \cdot \frac{25}{0.35} $$
 
 Thus $$R_{base}$$ = `5.4` $$k\Omega$$
 
