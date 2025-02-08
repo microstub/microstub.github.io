@@ -17,7 +17,20 @@ For inquiries, contact root@lunar.sh.
   <meta charset="UTF-8">
   <meta name="author" content="Dylan Müller" />
   <meta name="copyright" content="Dylan Müller" />
-  
+
+<style>
+html {
+  visibility: hidden;
+  opacity: 0;
+}
+</style>
+<script>
+  document.fonts.ready.then(() => {
+    document.documentElement.style.visibility = "visible";
+    document.documentElement.style.opacity = "1";
+  });
+</script>
+
   <script>
   console.log("Lunar Journal (c) 2022-2024");
   console.log("https://journal.lunar.sh");
