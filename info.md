@@ -22,19 +22,7 @@ other engineers or researchers might find helpful or interesting.
 
 `Dylan Müller` is an electrical engineer and lead `R&D` scientist of `Lunar RF Labs`. 
 
-In 2021 he graduated from the
-[University of Cape Town](https://www.uct.ac.za/)
-with a bachelor's degree in electrical and computer engineering.
-
 ![Dylan Müller](https://lunarjournal.github.io/images/personal/me_bw.jpeg)
-
-Education:
-
-```
-University of Cape Town
-BSc(Eng) Electrical and Computer Engineering
-SAQA ID: 66518
-```
 
 # Lunar RF Labs
 
