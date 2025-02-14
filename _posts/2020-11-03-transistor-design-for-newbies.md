@@ -96,7 +96,7 @@ crystal layer a negative polarity, the `n` type layer.
 If we were to place an `n` region and `p` region together we would form an
 electronic device known as a diode. A diode is a `2` terminal device (with the `n`
 side connected to the negative terminal (`cathode`) and `p` side connected to the
-positive terminal (`anode`)) that only allows current flow in one direction. 
+positive terminal (`anode`) that only allows current flow in one direction. 
 
 It is also worth nothing that by placing an `n` and `p` region next to one another
 there is a localised effect at their layer boundary that results in a small
