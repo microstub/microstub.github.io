@@ -18,11 +18,9 @@ other engineers or researchers might find helpful or interesting.
 
 # Authors
 
-`Dylan Müller` 
+[Dylan Müller](https://www.linkedin.com/in/dylanmuller/)
 
 Dylan is an electrical engineer and lead `R&D` scientist of `Lunar RF Labs`. 
-
-![Dylan Müller](https://lunarjournal.github.io/images/personal/me_bw.jpeg)
 
 # Lunar RF Labs
 
